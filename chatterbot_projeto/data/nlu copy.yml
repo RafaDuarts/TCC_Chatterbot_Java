@@ -1,0 +1,93 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - ei
+    - olá
+    - oi
+    - olá
+    - bom dia
+    - boa noite
+    - mais
+    - ei
+    - vamos
+    - ei cara
+    - bom dia
+    - boa noite
+    - boa tarde
+
+- intent: goodbye
+  examples: |
+    - te vejo mais tarde
+    - boa noite
+    - tchau
+    - adeus
+    - tenha um bom dia
+    - Vejo você por aí
+    - Bye Bye
+    - até mais
+
+- intent: affirm
+  examples: |
+    - sim
+    - de fato
+    - claro
+    - Isso soa bem
+    - correto
+
+- intent: deny
+  examples: |
+    - não
+    - nunca
+    - Eu não acho
+    - não gosto disso
+    - sem chance
+    - na verdadey
+
+- intent: mood_great
+  examples: |
+    - perfeito
+    - ótimo
+    - incrível
+    - me sentindo um rei
+    - maravilhoso
+    - Estou me sentindo muito bem
+    - Estou estou ótimo
+    - Eu sou incrível
+    - Eu vou salvar o mundo
+    - super feliz
+    - extremamente bom
+    - tão bom
+    - perfeito
+
+- intent: mood_unhappy
+  examples: |
+    - meu dia foi horrível
+    - Estou triste
+    - Não me sinto muito bem
+    - Estou desapontado
+    - super triste
+    - Eu estou tão triste
+    - triste
+    - muito triste
+    - infeliz
+    - não é bom
+    - não muito bom
+    - extremamente triste
+    - tão triste
+
+- intent: bot_challenge
+  examples: |
+    - Você é um robô?
+    - Você é um humano?
+    - estou falando com um bot?
+    - estou falando com um humano?
+
+- intent: O_que_é_Java?
+  examples: |
+    - O que e Java?
+
+- intent: Por_que_usar_Java?
+  examples: |
+    - Por que usar Java?

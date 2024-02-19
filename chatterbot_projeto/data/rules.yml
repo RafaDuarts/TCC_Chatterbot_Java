@@ -1,0 +1,1029 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say "I am a bot" anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+
+- rule: O que é Java?
+  steps:
+  - intent: O_que_é_Java?
+  - action: utter_O_que_é_Java?
+
+- rule: Por que usar Java?
+  steps:
+  - intent: Por_que_usar_Java?
+  - action: utter_Por_que_usar_Java?
+
+- rule: Iniciar
+  steps:
+  - intent: Iniciar
+  - action: utter_Iniciar
+
+- rule: Declarar muitas variáveis
+  steps:
+  - intent: Declarar_muitas_variáveis
+  - action: utter_Declarar_muitas_variáveis
+
+- rule: Um valor para várias variáveis
+  steps:
+  - intent: Um_valor_para_várias_variáveis
+  - action: utter_Um_valor_para_várias_variáveis
+
+- rule: Teste -se com exercícios
+  steps:
+  - intent: Teste_-se_com_exercícios
+  - action: utter_Teste_-se_com_exercícios
+
+- rule: Exercício_
+  steps:
+  - intent: Exercício_
+  - action: utter_Exercício_
+
+- rule: Identificadores
+  steps:
+  - intent: Identificadores
+  - action: utter_Identificadores
+
+- rule: Variáveis Java
+  steps:
+  - intent: Variáveis_Java
+  - action: utter_Variáveis_Java
+
+- rule: Declarando (criando) variáveis
+  steps:
+  - intent: Declarando_(criando)_variáveis
+  - action: utter_Declarando_(criando)_variáveis
+
+- rule: Variáveis finais
+  steps:
+  - intent: Variáveis_finais
+  - action: utter_Variáveis_finais
+
+- rule: Outros tipos
+  steps:
+  - intent: Outros_tipos
+  - action: utter_Outros_tipos
+
+- rule: Teste -se com exercícios_2
+  steps:
+  - intent: Teste_-se_com_exercícios_2
+  - action: utter_Teste_-se_com_exercícios_2
+
+- rule: Exercício__2
+  steps:
+  - intent: Exercício__2
+  - action: utter_Exercício__2
+
+- rule: Exibir variáveis
+  steps:
+  - intent: Exibir_variáveis
+  - action: utter_Exibir_variáveis
+
+- rule: Comentários de Java
+  steps:
+  - intent: Comentários_de_Java
+  - action: utter_Comentários_de_Java
+
+- rule: Comentários de linha única
+  steps:
+  - intent: Comentários_de_linha_única
+  - action: utter_Comentários_de_linha_única
+
+- rule: Comentários de várias linhas Java
+  steps:
+  - intent: Comentários_de_várias_linhas_Java
+  - action: utter_Comentários_de_várias_linhas_Java
+
+- rule: Teste -se com exercícios_3
+  steps:
+  - intent: Teste_-se_com_exercícios_3
+  - action: utter_Teste_-se_com_exercícios_3
+
+- rule: Exercício__3
+  steps:
+  - intent: Exercício__3
+  - action: utter_Exercício__3
+
+- rule: Tipos de dados Java
+  steps:
+  - intent: Tipos_de_dados_Java
+  - action: utter_Tipos_de_dados_Java
+
+- rule: Tipos de dados primitivos
+  steps:
+  - intent: Tipos_de_dados_primitivos
+  - action: utter_Tipos_de_dados_primitivos
+
+- rule: Teste -se com exercícios_4
+  steps:
+  - intent: Teste_-se_com_exercícios_4
+  - action: utter_Teste_-se_com_exercícios_4
+
+- rule: Exercício__4
+  steps:
+  - intent: Exercício__4
+  - action: utter_Exercício__4
+
+- rule: Texto de impressão
+  steps:
+  - intent: Texto_de_impressão
+  - action: utter_Texto_de_impressão
+
+- rule: Aspas duplas
+  steps:
+  - intent: Aspas_duplas
+  - action: utter_Aspas_duplas
+
+- rule: O método print ()
+  steps:
+  - intent: O_método_print_()
+  - action: utter_O_método_print_()
+
+- rule: Sintaxe Java
+  steps:
+  - intent: Sintaxe_Java
+  - action: utter_Sintaxe_Java
+
+- rule: O método principal
+  steps:
+  - intent: O_método_principal
+  - action: utter_O_método_principal
+
+- rule: System.out.println ()
+  steps:
+  - intent: System.out.println_()
+  - action: utter_System.out.println_()
+
+- rule: Teste -se com exercícios_5
+  steps:
+  - intent: Teste_-se_com_exercícios_5
+  - action: utter_Teste_-se_com_exercícios_5
+
+- rule: Exercício__5
+  steps:
+  - intent: Exercício__5
+  - action: utter_Exercício__5
+
+- rule: Números de impressão
+  steps:
+  - intent: Números_de_impressão
+  - action: utter_Números_de_impressão
+
+- rule: Tipos booleanos
+  steps:
+  - intent: Tipos_booleanos
+  - action: utter_Tipos_booleanos
+
+- rule: Personagens
+  steps:
+  - intent: Personagens
+  - action: utter_Personagens
+
+- rule: Cordas
+  steps:
+  - intent: Cordas
+  - action: utter_Cordas
+
+- rule: Tipos de dados não primitivos
+  steps:
+  - intent: Tipos_de_dados_não_primitivos
+  - action: utter_Tipos_de_dados_não_primitivos
+
+- rule: Java tipo fundição
+  steps:
+  - intent: Java_tipo_fundição
+  - action: utter_Java_tipo_fundição
+
+- rule: Ampliação de fundição
+  steps:
+  - intent: Ampliação_de_fundição
+  - action: utter_Ampliação_de_fundição
+
+- rule: Estreitando elenco
+  steps:
+  - intent: Estreitando_elenco
+  - action: utter_Estreitando_elenco
+
+- rule: Operadores Java
+  steps:
+  - intent: Operadores_Java
+  - action: utter_Operadores_Java
+
+- rule: Operadores aritméticos
+  steps:
+  - intent: Operadores_aritméticos
+  - action: utter_Operadores_aritméticos
+
+- rule: Operadores de atribuição Java
+  steps:
+  - intent: Operadores_de_atribuição_Java
+  - action: utter_Operadores_de_atribuição_Java
+
+- rule: Operadores de comparação de Java
+  steps:
+  - intent: Operadores_de_comparação_de_Java
+  - action: utter_Operadores_de_comparação_de_Java
+
+- rule: Operadores lógicos Java
+  steps:
+  - intent: Operadores_lógicos_Java
+  - action: utter_Operadores_lógicos_Java
+
+- rule: Teste -se com exercícios_6
+  steps:
+  - intent: Teste_-se_com_exercícios_6
+  - action: utter_Teste_-se_com_exercícios_6
+
+- rule: Exercício__6
+  steps:
+  - intent: Exercício__6
+  - action: utter_Exercício__6
+
+- rule: Concatenação de string
+  steps:
+  - intent: Concatenação_de_string
+  - action: utter_Concatenação_de_string
+
+- rule: Strings Java
+  steps:
+  - intent: Strings_Java
+  - action: utter_Strings_Java
+
+- rule: Comprimento da corda
+  steps:
+  - intent: Comprimento_da_corda
+  - action: utter_Comprimento_da_corda
+
+- rule: Mais métodos de string
+  steps:
+  - intent: Mais_métodos_de_string
+  - action: utter_Mais_métodos_de_string
+
+- rule: Encontrar um personagem em uma corda
+  steps:
+  - intent: Encontrar_um_personagem_em_uma_corda
+  - action: utter_Encontrar_um_personagem_em_uma_corda
+
+- rule: Referência completa da string
+  steps:
+  - intent: Referência_completa_da_string
+  - action: utter_Referência_completa_da_string
+
+- rule: Teste -se com exercícios_7
+  steps:
+  - intent: Teste_-se_com_exercícios_7
+  - action: utter_Teste_-se_com_exercícios_7
+
+- rule: Exercício__7
+  steps:
+  - intent: Exercício__7
+  - action: utter_Exercício__7
+
+- rule: Adicionando números e cordas
+  steps:
+  - intent: Adicionando_números_e_cordas
+  - action: utter_Adicionando_números_e_cordas
+
+- rule: Math.max (x, y)
+  steps:
+  - intent: Math.max_(x,_y)
+  - action: utter_Math.max_(x,_y)
+
+- rule: Math.min (x, y)
+  steps:
+  - intent: Math.min_(x,_y)
+  - action: utter_Math.min_(x,_y)
+
+- rule: Math.sqrt (x)
+  steps:
+  - intent: Math.sqrt_(x)
+  - action: utter_Math.sqrt_(x)
+
+- rule: Math.abs (x)
+  steps:
+  - intent: Math.abs_(x)
+  - action: utter_Math.abs_(x)
+
+- rule: Números aleatórios
+  steps:
+  - intent: Números_aleatórios
+  - action: utter_Números_aleatórios
+
+- rule: Referência de matemática completa
+  steps:
+  - intent: Referência_de_matemática_completa
+  - action: utter_Referência_de_matemática_completa
+
+- rule: Teste -se com exercícios_8
+  steps:
+  - intent: Teste_-se_com_exercícios_8
+  - action: utter_Teste_-se_com_exercícios_8
+
+- rule: Exercício__8
+  steps:
+  - intent: Exercício__8
+  - action: utter_Exercício__8
+
+- rule: Condições de Java e declarações se
+  steps:
+  - intent: Condições_de_Java_e_declarações_se
+  - action: utter_Condições_de_Java_e_declarações_se
+
+- rule: A declaração if
+  steps:
+  - intent: A_declaração_if
+  - action: utter_A_declaração_if
+
+- rule: A declaração else
+  steps:
+  - intent: A_declaração_else
+  - action: utter_A_declaração_else
+
+- rule: O else if declaração
+  steps:
+  - intent: O_else_if_declaração
+  - action: utter_O_else_if_declaração
+
+- rule: Teste -se com exercícios_9
+  steps:
+  - intent: Teste_-se_com_exercícios_9
+  - action: utter_Teste_-se_com_exercícios_9
+
+- rule: Exercício__9
+  steps:
+  - intent: Exercício__9
+  - action: utter_Exercício__9
+
+- rule: Java booleanos
+  steps:
+  - intent: Java_booleanos
+  - action: utter_Java_booleanos
+
+- rule: Valores booleanos
+  steps:
+  - intent: Valores_booleanos
+  - action: utter_Valores_booleanos
+
+- rule: Expressão booleana
+  steps:
+  - intent: Expressão_booleana
+  - action: utter_Expressão_booleana
+
+- rule: Exemplo da vida real
+  steps:
+  - intent: Exemplo_da_vida_real
+  - action: utter_Exemplo_da_vida_real
+
+- rule: Teste -se com exercícios_10
+  steps:
+  - intent: Teste_-se_com_exercícios_10
+  - action: utter_Teste_-se_com_exercícios_10
+
+- rule: Exercício__10
+  steps:
+  - intent: Exercício__10
+  - action: utter_Exercício__10
+
+- rule: Mão curta se ... else
+  steps:
+  - intent: Mão_curta_se_..._else
+  - action: utter_Mão_curta_se_..._else
+
+- rule: Teste -se com exercícios_11
+  steps:
+  - intent: Teste_-se_com_exercícios_11
+  - action: utter_Teste_-se_com_exercícios_11
+
+- rule: Exercício__11
+  steps:
+  - intent: Exercício__11
+  - action: utter_Exercício__11
+
+- rule: Java para loop
+  steps:
+  - intent: Java_para_loop
+  - action: utter_Java_para_loop
+
+- rule: Outro exemplo
+  steps:
+  - intent: Outro_exemplo
+  - action: utter_Outro_exemplo
+
+- rule: Loops aninhados
+  steps:
+  - intent: Loops_aninhados
+  - action: utter_Loops_aninhados
+
+- rule: Teste -se com exercícios_12
+  steps:
+  - intent: Teste_-se_com_exercícios_12
+  - action: utter_Teste_-se_com_exercícios_12
+
+- rule: Exercício__12
+  steps:
+  - intent: Exercício__12
+  - action: utter_Exercício__12
+
+- rule: rotações
+  steps:
+  - intent: rotações
+  - action: utter_rotações
+
+- rule: Java enquanto loop
+  steps:
+  - intent: Java_enquanto_loop
+  - action: utter_Java_enquanto_loop
+
+- rule: O loop do Do/While
+  steps:
+  - intent: O_loop_do_Do/While
+  - action: utter_O_loop_do_Do/While
+
+- rule: Teste -se com exercícios_13
+  steps:
+  - intent: Teste_-se_com_exercícios_13
+  - action: utter_Teste_-se_com_exercícios_13
+
+- rule: Exercício__13
+  steps:
+  - intent: Exercício__13
+  - action: utter_Exercício__13
+
+- rule: Declarações de interruptor Java
+  steps:
+  - intent: Declarações_de_interruptor_Java
+  - action: utter_Declarações_de_interruptor_Java
+
+- rule: A palavra -chave quebrada
+  steps:
+  - intent: A_palavra_-chave_quebrada
+  - action: utter_A_palavra_-chave_quebrada
+
+- rule: A palavra -chave padrão
+  steps:
+  - intent: A_palavra_-chave_padrão
+  - action: utter_A_palavra_-chave_padrão
+
+- rule: Teste -se com exercícios_14
+  steps:
+  - intent: Teste_-se_com_exercícios_14
+  - action: utter_Teste_-se_com_exercícios_14
+
+- rule: Exercício__14
+  steps:
+  - intent: Exercício__14
+  - action: utter_Exercício__14
+
+- rule: Para cada um loop
+  steps:
+  - intent: Para_cada_um_loop
+  - action: utter_Para_cada_um_loop
+
+- rule: Java Break
+  steps:
+  - intent: Java_Break
+  - action: utter_Java_Break
+
+- rule: Java continua
+  steps:
+  - intent: Java_continua
+  - action: utter_Java_continua
+
+- rule: Quebre e continue enquanto loop
+  steps:
+  - intent: Quebre_e_continue_enquanto_loop
+  - action: utter_Quebre_e_continue_enquanto_loop
+
+- rule: Teste -se com exercícios_15
+  steps:
+  - intent: Teste_-se_com_exercícios_15
+  - action: utter_Teste_-se_com_exercícios_15
+
+- rule: Exercício__15
+  steps:
+  - intent: Exercício__15
+  - action: utter_Exercício__15
+
+- rule: Loop através de uma matriz
+  steps:
+  - intent: Loop_através_de_uma_matriz
+  - action: utter_Loop_através_de_uma_matriz
+
+- rule: Faça um loop através de uma matriz com o for-ECH
+  steps:
+  - intent: Faça_um_loop_através_de_uma_matriz_com_o_for-ECH
+  - action: utter_Faça_um_loop_através_de_uma_matriz_com_o_for-ECH
+
+- rule: Teste -se com exercícios_16
+  steps:
+  - intent: Teste_-se_com_exercícios_16
+  - action: utter_Teste_-se_com_exercícios_16
+
+- rule: Exercício__16
+  steps:
+  - intent: Exercício__16
+  - action: utter_Exercício__16
+
+- rule: Matrizes multidimensionais
+  steps:
+  - intent: Matrizes_multidimensionais
+  - action: utter_Matrizes_multidimensionais
+
+- rule: Elementos de acesso
+  steps:
+  - intent: Elementos_de_acesso
+  - action: utter_Elementos_de_acesso
+
+- rule: Alterar valores do elemento
+  steps:
+  - intent: Alterar_valores_do_elemento
+  - action: utter_Alterar_valores_do_elemento
+
+- rule: Loop através de uma matriz multidimensional
+  steps:
+  - intent: Loop_através_de_uma_matriz_multidimensional
+  - action: utter_Loop_através_de_uma_matriz_multidimensional
+
+- rule: Teste -se com exercícios_17
+  steps:
+  - intent: Teste_-se_com_exercícios_17
+  - action: utter_Teste_-se_com_exercícios_17
+
+- rule: Exercício__17
+  steps:
+  - intent: Exercício__17
+  - action: utter_Exercício__17
+
+- rule: Matrizes Java
+  steps:
+  - intent: Matrizes_Java
+  - action: utter_Matrizes_Java
+
+- rule: Acesse os elementos de uma matriz
+  steps:
+  - intent: Acesse_os_elementos_de_uma_matriz
+  - action: utter_Acesse_os_elementos_de_uma_matriz
+
+- rule: Alterar um elemento de matriz
+  steps:
+  - intent: Alterar_um_elemento_de_matriz
+  - action: utter_Alterar_um_elemento_de_matriz
+
+- rule: Comprimento da matriz
+  steps:
+  - intent: Comprimento_da_matriz
+  - action: utter_Comprimento_da_matriz
+
+- rule: Teste -se com exercícios_18
+  steps:
+  - intent: Teste_-se_com_exercícios_18
+  - action: utter_Teste_-se_com_exercícios_18
+
+- rule: Exercício__18
+  steps:
+  - intent: Exercício__18
+  - action: utter_Exercício__18
+
+- rule: Recursão Java
+  steps:
+  - intent: Recursão_Java
+  - action: utter_Recursão_Java
+
+- rule: Exemplo de recursão
+  steps:
+  - intent: Exemplo_de_recursão
+  - action: utter_Exemplo_de_recursão
+
+- rule: Condição de parada
+  steps:
+  - intent: Condição_de_parada
+  - action: utter_Condição_de_parada
+
+- rule: Java - O que é OOP?
+  steps:
+  - intent: Java_-_O_que_é_OOP?
+  - action: utter_Java_-_O_que_é_OOP?
+
+- rule: Java - O que são classes e objetos?
+  steps:
+  - intent: Java_-_O_que_são_classes_e_objetos?
+  - action: utter_Java_-_O_que_são_classes_e_objetos?
+
+- rule: aula
+  steps:
+  - intent: aula
+  - action: utter_aula
+
+- rule: objetos
+  steps:
+  - intent: objetos
+  - action: utter_objetos
+
+- rule: aula_2
+  steps:
+  - intent: aula_2
+  - action: utter_aula_2
+
+- rule: objetos_2
+  steps:
+  - intent: objetos_2
+  - action: utter_objetos_2
+
+- rule: Java Classes/Objetos
+  steps:
+  - intent: Java_Classes/Objetos
+  - action: utter_Java_Classes/Objetos
+
+- rule: Criar uma classe
+  steps:
+  - intent: Criar_uma_classe
+  - action: utter_Criar_uma_classe
+
+- rule: Criar um objeto
+  steps:
+  - intent: Criar_um_objeto
+  - action: utter_Criar_um_objeto
+
+- rule: Múltiplos objetos
+  steps:
+  - intent: Múltiplos_objetos
+  - action: utter_Múltiplos_objetos
+
+- rule: Usando várias classes
+  steps:
+  - intent: Usando_várias_classes
+  - action: utter_Usando_várias_classes
+
+- rule: Teste -se com exercícios_19
+  steps:
+  - intent: Teste_-se_com_exercícios_19
+  - action: utter_Teste_-se_com_exercícios_19
+
+- rule: Exercício__19
+  steps:
+  - intent: Exercício__19
+  - action: utter_Exercício__19
+
+- rule: Atributos da classe Java
+  steps:
+  - intent: Atributos_da_classe_Java
+  - action: utter_Atributos_da_classe_Java
+
+- rule: Acessando atributos
+  steps:
+  - intent: Acessando_atributos
+  - action: utter_Acessando_atributos
+
+- rule: Modificar atributos
+  steps:
+  - intent: Modificar_atributos
+  - action: utter_Modificar_atributos
+
+- rule: Múltiplos objetos_2
+  steps:
+  - intent: Múltiplos_objetos_2
+  - action: utter_Múltiplos_objetos_2
+
+- rule: Atributos múltiplos
+  steps:
+  - intent: Atributos_múltiplos
+  - action: utter_Atributos_múltiplos
+
+- rule: Criar um método
+  steps:
+  - intent: Criar_um_método
+  - action: utter_Criar_um_método
+
+- rule: Chame um método
+  steps:
+  - intent: Chame_um_método
+  - action: utter_Chame_um_método
+
+- rule: Teste -se com exercícios_20
+  steps:
+  - intent: Teste_-se_com_exercícios_20
+  - action: utter_Teste_-se_com_exercícios_20
+
+- rule: Exercício__20
+  steps:
+  - intent: Exercício__20
+  - action: utter_Exercício__20
+
+- rule: Sobrecarga de método
+  steps:
+  - intent: Sobrecarga_de_método
+  - action: utter_Sobrecarga_de_método
+
+- rule: Parâmetros e argumentos
+  steps:
+  - intent: Parâmetros_e_argumentos
+  - action: utter_Parâmetros_e_argumentos
+
+- rule: Vários parâmetros
+  steps:
+  - intent: Vários_parâmetros
+  - action: utter_Vários_parâmetros
+
+- rule: Valores de retorno
+  steps:
+  - intent: Valores_de_retorno
+  - action: utter_Valores_de_retorno
+
+- rule: Um método com se ... else
+  steps:
+  - intent: Um_método_com_se_..._else
+  - action: utter_Um_método_com_se_..._else
+
+- rule: Teste -se com exercícios_21
+  steps:
+  - intent: Teste_-se_com_exercícios_21
+  - action: utter_Teste_-se_com_exercícios_21
+
+- rule: Exercício__21
+  steps:
+  - intent: Exercício__21
+  - action: utter_Exercício__21
+
+- rule: Escopo Java
+  steps:
+  - intent: Escopo_Java
+  - action: utter_Escopo_Java
+
+- rule: Escopo do método
+  steps:
+  - intent: Escopo_do_método
+  - action: utter_Escopo_do_método
+
+- rule: Bloquear o escopo
+  steps:
+  - intent: Bloquear_o_escopo
+  - action: utter_Bloquear_o_escopo
+
+- rule: Métodos de classe Java
+  steps:
+  - intent: Métodos_de_classe_Java
+  - action: utter_Métodos_de_classe_Java
+
+- rule: Estático vs. público
+  steps:
+  - intent: Estático_vs._público
+  - action: utter_Estático_vs._público
+
+- rule: Métodos de acesso com um objeto
+  steps:
+  - intent: Métodos_de_acesso_com_um_objeto
+  - action: utter_Métodos_de_acesso_com_um_objeto
+
+- rule: Usando várias classes_2
+  steps:
+  - intent: Usando_várias_classes_2
+  - action: utter_Usando_várias_classes_2
+
+- rule: Construtores Java
+  steps:
+  - intent: Construtores_Java
+  - action: utter_Construtores_Java
+
+- rule: Parâmetros do construtor
+  steps:
+  - intent: Parâmetros_do_construtor
+  - action: utter_Parâmetros_do_construtor
+
+- rule: Encapsulamento
+  steps:
+  - intent: Encapsulamento
+  - action: utter_Encapsulamento
+
+- rule: Obtenha e defina
+  steps:
+  - intent: Obtenha_e_defina
+  - action: utter_Obtenha_e_defina
+
+- rule: Por que encapsulamento?
+  steps:
+  - intent: Por_que_encapsulamento?
+  - action: utter_Por_que_encapsulamento?
+
+- rule: Pacotes Java e API
+  steps:
+  - intent: Pacotes_Java_e_API
+  - action: utter_Pacotes_Java_e_API
+
+- rule: Pacotes embutidos
+  steps:
+  - intent: Pacotes_embutidos
+  - action: utter_Pacotes_embutidos
+
+- rule: Importar uma classe
+  steps:
+  - intent: Importar_uma_classe
+  - action: utter_Importar_uma_classe
+
+- rule: Importar um pacote
+  steps:
+  - intent: Importar_um_pacote
+  - action: utter_Importar_um_pacote
+
+- rule: Pacotes definidos pelo usuário
+  steps:
+  - intent: Pacotes_definidos_pelo_usuário
+  - action: utter_Pacotes_definidos_pelo_usuário
+
+- rule: HERIDAÇÃO DE JAVA (SUBCLASSE E SUPERCLASSE)
+  steps:
+  - intent: HERIDAÇÃO_DE_JAVA_(SUBCLASSE_E_SUPERCLASSE)
+  - action: utter_HERIDAÇÃO_DE_JAVA_(SUBCLASSE_E_SUPERCLASSE)
+
+- rule: A palavra -chave final
+  steps:
+  - intent: A_palavra_-chave_final
+  - action: utter_A_palavra_-chave_final
+
+- rule: Classes internas de Java
+  steps:
+  - intent: Classes_internas_de_Java
+  - action: utter_Classes_internas_de_Java
+
+- rule: Classe interna privada
+  steps:
+  - intent: Classe_interna_privada
+  - action: utter_Classe_interna_privada
+
+- rule: Classe interna estática
+  steps:
+  - intent: Classe_interna_estática
+  - action: utter_Classe_interna_estática
+
+- rule: Acesse a classe externa da classe interna
+  steps:
+  - intent: Acesse_a_classe_externa_da_classe_interna
+  - action: utter_Acesse_a_classe_externa_da_classe_interna
+
+- rule: Java Polimorfismo
+  steps:
+  - intent: Java_Polimorfismo
+  - action: utter_Java_Polimorfismo
+
+- rule: Classes e métodos abstratos
+  steps:
+  - intent: Classes_e_métodos_abstratos
+  - action: utter_Classes_e_métodos_abstratos
+
+- rule: Interfaces
+  steps:
+  - intent: Interfaces
+  - action: utter_Interfaces
+
+- rule: Várias interfaces
+  steps:
+  - intent: Várias_interfaces
+  - action: utter_Várias_interfaces
+
+- rule: Enums
+  steps:
+  - intent: Enums
+  - action: utter_Enums
+
+- rule: Enumera dentro de uma aula
+  steps:
+  - intent: Enumera_dentro_de_uma_aula
+  - action: utter_Enumera_dentro_de_uma_aula
+
+- rule: Enum em uma declaração de interruptor
+  steps:
+  - intent: Enum_em_uma_declaração_de_interruptor
+  - action: utter_Enum_em_uma_declaração_de_interruptor
+
+- rule: Loop através de uma enumeração
+  steps:
+  - intent: Loop_através_de_uma_enumeração
+  - action: utter_Loop_através_de_uma_enumeração
+
+- rule: Java Arraylist
+  steps:
+  - intent: Java_Arraylist
+  - action: utter_Java_Arraylist
+
+- rule: Adicionar itens
+  steps:
+  - intent: Adicionar_itens
+  - action: utter_Adicionar_itens
+
+- rule: Acesse um item
+  steps:
+  - intent: Acesse_um_item
+  - action: utter_Acesse_um_item
+
+- rule: Mude um item
+  steps:
+  - intent: Mude_um_item
+  - action: utter_Mude_um_item
+
+- rule: Remova um item
+  steps:
+  - intent: Remova_um_item
+  - action: utter_Remova_um_item
+
+- rule: Tamanho da Arraylist
+  steps:
+  - intent: Tamanho_da_Arraylist
+  - action: utter_Tamanho_da_Arraylist
+
+- rule: Loop através de um Arraylist
+  steps:
+  - intent: Loop_através_de_um_Arraylist
+  - action: utter_Loop_através_de_um_Arraylist
+
+- rule: Outros tipos_2
+  steps:
+  - intent: Outros_tipos_2
+  - action: utter_Outros_tipos_2
+
+- rule: Classifique uma Arraylist
+  steps:
+  - intent: Classifique_uma_Arraylist
+  - action: utter_Classifique_uma_Arraylist
+
+- rule: Entrada do usuário Java
+  steps:
+  - intent: Entrada_do_usuário_Java
+  - action: utter_Entrada_do_usuário_Java
+
+- rule: Tipos de entrada
+  steps:
+  - intent: Tipos_de_entrada
+  - action: utter_Tipos_de_entrada
+
+- rule: Java Hashmap
+  steps:
+  - intent: Java_Hashmap
+  - action: utter_Java_Hashmap
+
+- rule: Adicionar itens_2
+  steps:
+  - intent: Adicionar_itens_2
+  - action: utter_Adicionar_itens_2
+
+- rule: Acesse um item_2
+  steps:
+  - intent: Acesse_um_item_2
+  - action: utter_Acesse_um_item_2
+
+- rule: Remova um item_2
+  steps:
+  - intent: Remova_um_item_2
+  - action: utter_Remova_um_item_2
+
+- rule: Tamanho de hashmap
+  steps:
+  - intent: Tamanho_de_hashmap
+  - action: utter_Tamanho_de_hashmap
+
+- rule: Percorrer um hashmap
+  steps:
+  - intent: Percorrer_um_hashmap
+  - action: utter_Percorrer_um_hashmap
+
+- rule: Outros tipos_3
+  steps:
+  - intent: Outros_tipos_3
+  - action: utter_Outros_tipos_3
+
+- rule: Exceções de Java
+  steps:
+  - intent: Exceções_de_Java
+  - action: utter_Exceções_de_Java
+
+- rule: Java Tente e pegue
+  steps:
+  - intent: Java_Tente_e_pegue
+  - action: utter_Java_Tente_e_pegue
+
+- rule: Finalmente
+  steps:
+  - intent: Finalmente
+  - action: utter_Finalmente
+
+- rule: A palavra -chave de arremesso
+  steps:
+  - intent: A_palavra_-chave_de_arremesso
+  - action: utter_A_palavra_-chave_de_arremesso
+
+- rule: Teste -se com exercícios_22
+  steps:
+  - intent: Teste_-se_com_exercícios_22
+  - action: utter_Teste_-se_com_exercícios_22
+
+- rule: Exercício__22
+  steps:
+  - intent: Exercício__22
+  - action: utter_Exercício__22

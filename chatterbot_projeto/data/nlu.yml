@@ -1,0 +1,1094 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - ei
+      - olá
+      - oi
+      - bom dia
+      - boa noite
+      - boa tarde
+
+  - intent: goodbye
+    examples: |
+      - te vejo mais tarde
+      - boa noite
+      - tchau
+      - adeus
+      - tenha um bom dia
+      - Vejo você por aí
+      - Bye Bye
+      - até mais
+
+  - intent: affirm
+    examples: |
+      - sim
+      - de fato
+      - claro
+      - Isso
+      - Correto
+      - Se quiser sim, mano
+
+  - intent: deny
+    examples: |
+      - não
+      - nunca
+      - Eu não acho
+      - não gosto disso
+      - sem chance
+
+  - intent: mood_great
+    examples: |
+      - perfeito
+      - ótimo
+      - incrível
+      - maravilhoso
+      - Estou me sentindo muito bem
+      - Estou estou ótimo
+      - Eu sou incrível
+      - Eu vou salvar o mundo
+      - super feliz
+      - extremamente bom
+      - tão bom
+      - perfeito
+
+  - intent: mood_unhappy
+    examples: |
+      - meu dia foi horrível
+      - Estou triste
+      - Não me sinto muito bem
+      - Estou desapontado
+      - super triste
+      - Eu estou tão triste
+      - triste
+      - muito triste
+      - infeliz
+      - não é bom
+      - não muito bom
+      - extremamente triste
+      - tão triste
+
+  - intent: bot_challenge
+    examples: |
+      - Você é um robô?
+      - Você é um humano?
+      - estou falando com um bot?
+      - estou falando com um humano?
+
+  - intent: O_que_é_Java?
+    examples: | 
+      - O que é Java?
+      - O que é a linguagem de programação Java?
+
+  - intent: Por_que_usar_Java?
+    examples: | 
+      - Por que usar Java?
+      - Pra que usar Java?
+
+  - intent: Iniciar
+    examples: | 
+      - Como iniciar?
+      - Como inicio?
+
+  - intent: Declarar_muitas_variáveis
+    examples: | 
+      - Como declarar muitas variáveis?
+      - Como declaro muitas variáveis?
+
+  - intent: Um_valor_para_várias_variáveis
+    examples: | 
+      - Como coloco um valor para várias variáveis?
+      - Como atribuir um valor para muitas variáveis?
+
+
+  - intent: Teste_-se_com_exercícios
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício_
+    examples: | 
+      - 
+      - 
+
+  - intent: Identificadores
+    examples: | 
+      - O que são identificadores?
+      - Para que serve identificadores?
+
+  - intent: Variáveis_Java
+    examples: | 
+      - Como são as variáveis?
+      - O que as variáveis fazem?
+
+  - intent: Declarando_(criando)_variáveis
+    examples: | 
+      - Como declarar variáveis?
+      - Como criar variáveis?
+
+  - intent: Variáveis_finais
+    examples: | 
+      - O que são variáveis finais?
+      - O que fazem as variáveis finais?
+
+  - intent: Outros_tipos
+    examples: | 
+      - Há outros tipos de variáveis?
+      - Como são outros tipos de variáveis?
+
+  - intent: Teste_-se_com_exercícios_2
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__2
+    examples: | 
+      - 
+      - 
+
+  - intent: Exibir_variáveis
+    examples: | 
+      - Como exibir variáveis?
+      - Como mostrar variáveis?
+
+  - intent: Comentários_de_Java
+    examples: | 
+      - O que são comentários?
+      - Como usar comentários?
+
+  - intent: Comentários_de_linha_única
+    examples: | 
+      - Como usar comentário em uma linha?
+      - Como comentar em linha única?
+
+  - intent: Comentários_de_várias_linhas_Java
+    examples: | 
+      - Como comentar várias linhas?
+      - Como usar comentário em mais de uma linha?
+
+  - intent: Teste_-se_com_exercícios_3
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__3
+    examples: | 
+      - 
+      - 
+
+  - intent: Tipos_de_dados_Java
+    examples: | 
+      - Quais tipos de dados são aceitos?
+      - Que tipo de dados podem ser usados?
+
+  - intent: Tipos_de_dados_primitivos
+    examples: | 
+      - O que são dados primitivos?
+      - Como usar dados primitivos?
+
+  - intent: Teste_-se_com_exercícios_4
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__4
+    examples: | 
+      - 
+      - 
+
+  - intent: Texto_de_impressão
+    examples: | 
+      - 
+      - 
+
+  - intent: Aspas_duplas
+    examples: | 
+      - 
+      - 
+
+  - intent: O_método_print_()
+    examples: | 
+      - 
+      - 
+
+  - intent: Sintaxe_Java
+    examples: | 
+      - 
+      - 
+
+  - intent: O_método_principal
+    examples: | 
+      - 
+      - 
+
+  - intent: System.out.println_()
+    examples: | 
+      - 
+      - 
+
+  - intent: Teste_-se_com_exercícios_5
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__5
+    examples: | 
+      - 
+      - 
+
+  - intent: Números_de_impressão
+    examples: | 
+      - 
+      - 
+
+  - intent: Tipos_booleanos
+    examples: | 
+      - 
+      - 
+
+  - intent: Personagens
+    examples: | 
+      - 
+      - 
+
+  - intent: Cordas
+    examples: | 
+      - 
+      - 
+
+  - intent: Tipos_de_dados_não_primitivos
+    examples: | 
+      - 
+      - 
+
+  - intent: Java_tipo_fundição
+    examples: | 
+      - 
+      - 
+
+  - intent: Ampliação_de_fundição
+    examples: | 
+      - 
+      - 
+
+  - intent: Estreitando_elenco
+    examples: | 
+      - 
+      - 
+
+  - intent: Operadores_Java
+    examples: | 
+      - 
+      - 
+
+  - intent: Operadores_aritméticos
+    examples: | 
+      - 
+      - 
+
+  - intent: Operadores_de_atribuição_Java
+    examples: | 
+      - 
+      - 
+
+  - intent: Operadores_de_comparação_de_Java
+    examples: | 
+      - 
+      - 
+
+  - intent: Operadores_lógicos_Java
+    examples: | 
+      - 
+      - 
+
+  - intent: Teste_-se_com_exercícios_6
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__6
+    examples: | 
+      - 
+      - 
+
+  - intent: Concatenação_de_string
+    examples: | 
+      - 
+      - 
+
+  - intent: Strings_Java
+    examples: | 
+      - 
+      - 
+
+  - intent: Comprimento_da_corda
+    examples: | 
+      - 
+      - 
+
+  - intent: Mais_métodos_de_string
+    examples: | 
+      - 
+      - 
+
+  - intent: Encontrar_um_personagem_em_uma_corda
+    examples: | 
+      - 
+      - 
+
+  - intent: Referência_completa_da_string
+    examples: | 
+      - 
+      - 
+
+  - intent: Teste_-se_com_exercícios_7
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__7
+    examples: | 
+      - 
+      - 
+
+  - intent: Adicionando_números_e_cordas
+    examples: | 
+      - 
+      - 
+
+  - intent: Math.max_(x,_y)
+    examples: | 
+      - 
+      - 
+
+  - intent: Math.min_(x,_y)
+    examples: | 
+      - 
+      - 
+
+  - intent: Math.sqrt_(x)
+    examples: | 
+      - 
+      - 
+
+  - intent: Math.abs_(x)
+    examples: | 
+      - 
+      - 
+
+  - intent: Números_aleatórios
+    examples: | 
+      - 
+      - 
+
+  - intent: Referência_de_matemática_completa
+    examples: | 
+      - 
+      - 
+
+  - intent: Teste_-se_com_exercícios_8
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__8
+    examples: | 
+      - 
+      - 
+
+  - intent: Condições_de_Java_e_declarações_se
+    examples: | 
+      - 
+      - 
+
+  - intent: A_declaração_if
+    examples: | 
+      - 
+      - 
+
+  - intent: A_declaração_else
+    examples: | 
+      - 
+      - 
+
+  - intent: O_else_if_declaração
+    examples: | 
+      - 
+      - 
+
+  - intent: Teste_-se_com_exercícios_9
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__9
+    examples: | 
+      - 
+      - 
+
+  - intent: Java_booleanos
+    examples: | 
+      - 
+      - 
+
+  - intent: Valores_booleanos
+    examples: | 
+      - 
+      - 
+
+  - intent: Expressão_booleana
+    examples: | 
+      - 
+      - 
+
+  - intent: Exemplo_da_vida_real
+    examples: | 
+      - 
+      - 
+
+  - intent: Teste_-se_com_exercícios_10
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__10
+    examples: | 
+      - 
+      - 
+
+  - intent: Mão_curta_se_..._else
+    examples: | 
+      - 
+      - 
+
+  - intent: Teste_-se_com_exercícios_11
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__11
+    examples: | 
+      - 
+      - 
+
+  - intent: Java_para_loop
+    examples: | 
+      - 
+      - 
+
+  - intent: Outro_exemplo
+    examples: | 
+      - 
+      - 
+
+  - intent: Loops_aninhados
+    examples: | 
+      - 
+      - 
+
+  - intent: Teste_-se_com_exercícios_12
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__12
+    examples: | 
+      - 
+      - 
+
+  - intent: rotações
+    examples: | 
+      - 
+      - 
+
+  - intent: Java_enquanto_loop
+    examples: | 
+      - 
+      - 
+
+  - intent: O_loop_do_Do/While
+    examples: | 
+      - 
+      - 
+
+  - intent: Teste_-se_com_exercícios_13
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__13
+    examples: | 
+      - 
+      - 
+
+  - intent: Declarações_de_interruptor_Java
+    examples: | 
+      - 
+      - 
+
+  - intent: A_palavra_-chave_quebrada
+    examples: | 
+      - 
+      - 
+
+  - intent: A_palavra_-chave_padrão
+    examples: | 
+      - 
+      - 
+
+  - intent: Teste_-se_com_exercícios_14
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__14
+    examples: | 
+      - 
+      - 
+
+  - intent: Para_cada_um_loop
+    examples: | 
+      - 
+      - 
+
+  - intent: Java_Break
+    examples: | 
+      - 
+      - 
+
+  - intent: Java_continua
+    examples: | 
+      - 
+      - 
+
+  - intent: Quebre_e_continue_enquanto_loop
+    examples: | 
+      - 
+      - 
+
+  - intent: Teste_-se_com_exercícios_15
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__15
+    examples: | 
+      - 
+      - 
+
+  - intent: Loop_através_de_uma_matriz
+    examples: | 
+      - 
+      - 
+
+  - intent: Faça_um_loop_através_de_uma_matriz_com_o_for-ECH
+    examples: | 
+      - 
+      - 
+
+  - intent: Teste_-se_com_exercícios_16
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__16
+    examples: | 
+      - 
+      - 
+
+  - intent: Matrizes_multidimensionais
+    examples: | 
+      - 
+      - 
+
+  - intent: Elementos_de_acesso
+    examples: | 
+      - 
+      - 
+
+  - intent: Alterar_valores_do_elemento
+    examples: | 
+      - 
+      - 
+
+  - intent: Loop_através_de_uma_matriz_multidimensional
+    examples: | 
+      - 
+      - 
+
+  - intent: Teste_-se_com_exercícios_17
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__17
+    examples: | 
+      - 
+      - 
+
+  - intent: Matrizes_Java
+    examples: | 
+      - 
+      - 
+
+  - intent: Acesse_os_elementos_de_uma_matriz
+    examples: | 
+      - 
+      - 
+
+  - intent: Alterar_um_elemento_de_matriz
+    examples: | 
+      - 
+      - 
+
+  - intent: Comprimento_da_matriz
+    examples: | 
+      - 
+      - 
+
+  - intent: Teste_-se_com_exercícios_18
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__18
+    examples: | 
+      - 
+      - 
+
+  - intent: Recursão_Java
+    examples: | 
+      - 
+      - 
+
+  - intent: Exemplo_de_recursão
+    examples: | 
+      - 
+      - 
+
+  - intent: Condição_de_parada
+    examples: | 
+      - 
+      - 
+
+  - intent: Java_-_O_que_é_OOP?
+    examples: | 
+      - 
+      - 
+
+  - intent: Java_-_O_que_são_classes_e_objetos?
+    examples: | 
+      - 
+      - 
+
+  - intent: aula
+    examples: | 
+      - 
+      - 
+
+  - intent: objetos
+    examples: | 
+      - 
+      - 
+
+  - intent: aula_2
+    examples: | 
+      - 
+      - 
+
+  - intent: objetos_2
+    examples: | 
+      - 
+      - 
+
+  - intent: Java_Classes/Objetos
+    examples: | 
+      - 
+      - 
+
+  - intent: Criar_uma_classe
+    examples: | 
+      - 
+      - 
+
+  - intent: Criar_um_objeto
+    examples: | 
+      - 
+      - 
+
+  - intent: Múltiplos_objetos
+    examples: | 
+      - 
+      - 
+
+  - intent: Usando_várias_classes
+    examples: | 
+      - 
+      - 
+
+  - intent: Teste_-se_com_exercícios_19
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__19
+    examples: | 
+      - 
+      - 
+
+  - intent: Atributos_da_classe_Java
+    examples: | 
+      - 
+      - 
+
+  - intent: Acessando_atributos
+    examples: | 
+      - 
+      - 
+
+  - intent: Modificar_atributos
+    examples: | 
+      - 
+      - 
+
+  - intent: Múltiplos_objetos_2
+    examples: | 
+      - 
+      - 
+
+  - intent: Atributos_múltiplos
+    examples: | 
+      - 
+      - 
+
+  - intent: Criar_um_método
+    examples: | 
+      - 
+      - 
+
+  - intent: Chame_um_método
+    examples: | 
+      - 
+      - 
+
+  - intent: Teste_-se_com_exercícios_20
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__20
+    examples: | 
+      - 
+      - 
+
+  - intent: Sobrecarga_de_método
+    examples: | 
+      - 
+      - 
+
+  - intent: Parâmetros_e_argumentos
+    examples: | 
+      - 
+      - 
+
+  - intent: Vários_parâmetros
+    examples: | 
+      - 
+      - 
+
+  - intent: Valores_de_retorno
+    examples: | 
+      - 
+      - 
+
+  - intent: Um_método_com_se_..._else
+    examples: | 
+      - 
+      - 
+
+  - intent: Teste_-se_com_exercícios_21
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__21
+    examples: | 
+      - 
+      - 
+
+  - intent: Escopo_Java
+    examples: | 
+      - 
+      - 
+
+  - intent: Escopo_do_método
+    examples: | 
+      - 
+      - 
+
+  - intent: Bloquear_o_escopo
+    examples: | 
+      - 
+      - 
+
+  - intent: Métodos_de_classe_Java
+    examples: | 
+      - 
+      - 
+
+  - intent: Estático_vs._público
+    examples: | 
+      - 
+      - 
+
+  - intent: Métodos_de_acesso_com_um_objeto
+    examples: | 
+      - 
+      - 
+
+  - intent: Usando_várias_classes_2
+    examples: | 
+      - 
+      - 
+
+  - intent: Construtores_Java
+    examples: | 
+      - 
+      - 
+
+  - intent: Parâmetros_do_construtor
+    examples: | 
+      - 
+      - 
+
+  - intent: Encapsulamento
+    examples: | 
+      - 
+      - 
+
+  - intent: Obtenha_e_defina
+    examples: | 
+      - 
+      - 
+
+  - intent: Por_que_encapsulamento?
+    examples: | 
+      - 
+      - 
+
+  - intent: Pacotes_Java_e_API
+    examples: | 
+      - 
+      - 
+
+  - intent: Pacotes_embutidos
+    examples: | 
+      - 
+      - 
+
+  - intent: Importar_uma_classe
+    examples: | 
+      - 
+      - 
+
+  - intent: Importar_um_pacote
+    examples: | 
+      - 
+      - 
+
+  - intent: Pacotes_definidos_pelo_usuário
+    examples: | 
+      - 
+      - 
+
+  - intent: HERIDAÇÃO_DE_JAVA_(SUBCLASSE_E_SUPERCLASSE)
+    examples: | 
+      - 
+      - 
+
+  - intent: A_palavra_-chave_final
+    examples: | 
+      - 
+      - 
+
+  - intent: Classes_internas_de_Java
+    examples: | 
+      - 
+      - 
+
+  - intent: Classe_interna_privada
+    examples: | 
+      - 
+      - 
+
+  - intent: Classe_interna_estática
+    examples: | 
+      - 
+      - 
+
+  - intent: Acesse_a_classe_externa_da_classe_interna
+    examples: | 
+      - 
+      - 
+
+  - intent: Java_Polimorfismo
+    examples: | 
+      - 
+      - 
+
+  - intent: Classes_e_métodos_abstratos
+    examples: | 
+      - 
+      - 
+
+  - intent: Interfaces
+    examples: | 
+      - 
+      - 
+
+  - intent: Várias_interfaces
+    examples: | 
+      - 
+      - 
+
+  - intent: Enums
+    examples: | 
+      - 
+      - 
+
+  - intent: Enumera_dentro_de_uma_aula
+    examples: | 
+      - 
+      - 
+
+  - intent: Enum_em_uma_declaração_de_interruptor
+    examples: | 
+      - 
+      - 
+
+  - intent: Loop_através_de_uma_enumeração
+    examples: | 
+      - 
+      - 
+
+  - intent: Java_Arraylist
+    examples: | 
+      - 
+      - 
+
+  - intent: Adicionar_itens
+    examples: | 
+      - 
+      - 
+
+  - intent: Acesse_um_item
+    examples: | 
+      - 
+      - 
+
+  - intent: Mude_um_item
+    examples: | 
+      - 
+      - 
+
+  - intent: Remova_um_item
+    examples: | 
+      - 
+      - 
+
+  - intent: Tamanho_da_Arraylist
+    examples: | 
+      - 
+      - 
+
+  - intent: Loop_através_de_um_Arraylist
+    examples: | 
+      - 
+      - 
+
+  - intent: Outros_tipos_2
+    examples: | 
+      - 
+      - 
+
+  - intent: Classifique_uma_Arraylist
+    examples: | 
+      - 
+      - 
+
+  - intent: Entrada_do_usuário_Java
+    examples: | 
+      - 
+      - 
+
+  - intent: Tipos_de_entrada
+    examples: | 
+      - 
+      - 
+
+  - intent: Java_Hashmap
+    examples: | 
+      - 
+      - 
+
+  - intent: Adicionar_itens_2
+    examples: | 
+      - 
+      - 
+
+  - intent: Acesse_um_item_2
+    examples: | 
+      - 
+      - 
+
+  - intent: Remova_um_item_2
+    examples: | 
+      - 
+      - 
+
+  - intent: Tamanho_de_hashmap
+    examples: | 
+      - 
+      - 
+
+  - intent: Percorrer_um_hashmap
+    examples: | 
+      - 
+      - 
+
+  - intent: Outros_tipos_3
+    examples: | 
+      - 
+      - 
+
+  - intent: Exceções_de_Java
+    examples: | 
+      - 
+      - 
+
+  - intent: Java_Tente_e_pegue
+    examples: | 
+      - 
+      - 
+
+  - intent: Finalmente
+    examples: | 
+      - 
+      - 
+
+  - intent: A_palavra_-chave_de_arremesso
+    examples: | 
+      - 
+      - 
+
+  - intent: Teste_-se_com_exercícios_22
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__22
+    examples: | 
+      - 
+      - 
+

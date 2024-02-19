@@ -1,0 +1,864 @@
+version: "3.1"
+
+intents:
+  - mood_so
+  - cheer_up
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_greet
+  - mood_unhappy
+  - bot_challenge
+  - creator
+  - what_i_do
+  - O_que_é_Java?
+  - Por_que_usar_Java?
+  - Iniciar
+  - Declarar_muitas_variáveis
+  - Um_valor_para_várias_variáveis
+  - Teste_-se_com_exercícios
+  - Exercício_
+  - Identificadores
+  - Variáveis_Java
+  - Declarando_(criando)_variáveis
+  - Variáveis_finais
+  - Outros_tipos
+  - Teste_-se_com_exercícios_2
+  - Exercício__2
+  - Exibir_variáveis
+  - Comentários_de_Java
+  - Comentários_de_linha_única
+  - Comentários_de_várias_linhas_Java
+  - Teste_-se_com_exercícios_3
+  - Exercício__3
+  - Tipos_de_dados_Java
+  - Tipos_de_dados_primitivos
+  - Teste_-se_com_exercícios_4
+  - Exercício__4
+  - Texto_de_impressão
+  - Aspas_duplas
+  - O_método_print_()
+  - Sintaxe_Java
+  - O_método_principal
+  - System.out.println_()
+  - Teste_-se_com_exercícios_5
+  - Exercício__5
+  - Números_de_impressão
+  - Tipos_booleanos
+  - Personagens
+  - Cordas
+  - Tipos_de_dados_não_primitivos
+  - Java_tipo_fundição
+  - Ampliação_de_fundição
+  - Estreitando_elenco
+  - Operadores_Java
+  - Operadores_aritméticos
+  - Operadores_de_atribuição_Java
+  - Operadores_de_comparação_de_Java
+  - Operadores_lógicos_Java
+  - Teste_-se_com_exercícios_6
+  - Exercício__6
+  - Concatenação_de_string
+  - Strings_Java
+  - Comprimento_da_corda
+  - Mais_métodos_de_string
+  - Encontrar_um_personagem_em_uma_corda
+  - Referência_completa_da_string
+  - Teste_-se_com_exercícios_7
+  - Exercício__7
+  - Adicionando_números_e_cordas
+  - Math.max_(x,_y)
+  - Math.min_(x,_y)
+  - Math.sqrt_(x)
+  - Math.abs_(x)
+  - Números_aleatórios
+  - Referência_de_matemática_completa
+  - Teste_-se_com_exercícios_8
+  - Exercício__8
+  - Condições_de_Java_e_declarações_se
+  - A_declaração_if
+  - A_declaração_else
+  - O_else_if_declaração
+  - Teste_-se_com_exercícios_9
+  - Exercício__9
+  - Java_booleanos
+  - Valores_booleanos
+  - Expressão_booleana
+  - Exemplo_da_vida_real
+  - Teste_-se_com_exercícios_10
+  - Exercício__10
+  - Mão_curta_se_..._else
+  - Teste_-se_com_exercícios_11
+  - Exercício__11
+  - Java_para_loop
+  - Outro_exemplo
+  - Loops_aninhados
+  - Teste_-se_com_exercícios_12
+  - Exercício__12
+  - rotações
+  - Java_enquanto_loop
+  - O_loop_do_Do/While
+  - Teste_-se_com_exercícios_13
+  - Exercício__13
+  - Declarações_de_interruptor_Java
+  - A_palavra_-chave_quebrada
+  - A_palavra_-chave_padrão
+  - Teste_-se_com_exercícios_14
+  - Exercício__14
+  - Para_cada_um_loop
+  - Java_Break
+  - Java_continua
+  - Quebre_e_continue_enquanto_loop
+  - Teste_-se_com_exercícios_15
+  - Exercício__15
+  - Loop_através_de_uma_matriz
+  - Faça_um_loop_através_de_uma_matriz_com_o_for-ECH
+  - Teste_-se_com_exercícios_16
+  - Exercício__16
+  - Matrizes_multidimensionais
+  - Elementos_de_acesso
+  - Alterar_valores_do_elemento
+  - Loop_através_de_uma_matriz_multidimensional
+  - Teste_-se_com_exercícios_17
+  - Exercício__17
+  - Matrizes_Java
+  - Acesse_os_elementos_de_uma_matriz
+  - Alterar_um_elemento_de_matriz
+  - Comprimento_da_matriz
+  - Teste_-se_com_exercícios_18
+  - Exercício__18
+  - Recursão_Java
+  - Exemplo_de_recursão
+  - Condição_de_parada
+  - Java_-_O_que_é_OOP?
+  - Java_-_O_que_são_classes_e_objetos?
+  - aula
+  - objetos
+  - aula_2
+  - objetos_2
+  - Java_Classes/Objetos
+  - Criar_uma_classe
+  - Criar_um_objeto
+  - Múltiplos_objetos
+  - Usando_várias_classes
+  - Teste_-se_com_exercícios_19
+  - Exercício__19
+  - Atributos_da_classe_Java
+  - Acessando_atributos
+  - Modificar_atributos
+  - Múltiplos_objetos_2
+  - Atributos_múltiplos
+  - Criar_um_método
+  - Chame_um_método
+  - Teste_-se_com_exercícios_20
+  - Exercício__20
+  - Sobrecarga_de_método
+  - Parâmetros_e_argumentos
+  - Vários_parâmetros
+  - Valores_de_retorno
+  - Um_método_com_se_..._else
+  - Teste_-se_com_exercícios_21
+  - Exercício__21
+  - Escopo_Java
+  - Escopo_do_método
+  - Bloquear_o_escopo
+  - Métodos_de_classe_Java
+  - Estático_vs._público
+  - Métodos_de_acesso_com_um_objeto
+  - Usando_várias_classes_2
+  - Construtores_Java
+  - Parâmetros_do_construtor
+  - Encapsulamento
+  - Obtenha_e_defina
+  - Por_que_encapsulamento?
+  - Pacotes_Java_e_API
+  - Pacotes_embutidos
+  - Importar_uma_classe
+  - Importar_um_pacote
+  - Pacotes_definidos_pelo_usuário
+  - HERIDAÇÃO_DE_JAVA_(SUBCLASSE_E_SUPERCLASSE)
+  - A_palavra_-chave_final
+  - Classes_internas_de_Java
+  - Classe_interna_privada
+  - Classe_interna_estática
+  - Acesse_a_classe_externa_da_classe_interna
+  - Java_Polimorfismo
+  - Classes_e_métodos_abstratos
+  - Interfaces
+  - Várias_interfaces
+  - Enums
+  - Enumera_dentro_de_uma_aula
+  - Enum_em_uma_declaração_de_interruptor
+  - Loop_através_de_uma_enumeração
+  - Java_Arraylist
+  - Adicionar_itens
+  - Acesse_um_item
+  - Mude_um_item
+  - Remova_um_item
+  - Tamanho_da_Arraylist
+  - Loop_através_de_um_Arraylist
+  - Outros_tipos_2
+  - Classifique_uma_Arraylist
+  - Entrada_do_usuário_Java
+  - Tipos_de_entrada
+  - Java_Hashmap
+  - Adicionar_itens_2
+  - Acesse_um_item_2
+  - Remova_um_item_2
+  - Tamanho_de_hashmap
+  - Percorrer_um_hashmap
+  - Outros_tipos_3
+  - Exceções_de_Java
+  - Java_Tente_e_pegue
+  - Finalmente
+  - A_palavra_-chave_de_arremesso
+  - Teste_-se_com_exercícios_22
+  - Exercício__22
+
+responses:
+  utter_mood_so:
+    - text: "Você parece estar indeciso sobre como se sente. Quer conversar sobre isso?"
+    - text: "É normal não saber exatamente como se sente às vezes. Podemos conversar para tentar entender melhor."
+  utter_cheer_up:
+    - text: "Sinto muito em ouvir que você está triste. Aqui está algo para animar seu dia:"
+      image: "https://imgur.com/gallery/42DyXI1"
+  utter_greet:
+    - text: "Olá! Como posso ajudar?"
+    - text: "Oi! Como posso ajudar?"
+  utter_goodbye:
+    - text: "Até mais! Foi um prazer conversar com você."
+    - text: "Tchau, espero que volte outra hora"
+    - text: "Tchau, volte logo"
+  utter_affirm:
+    - text: "Ótimo, vamos continuar então!"
+    - text: "Ok, vamos lá!"
+  utter_deny:
+    - text: "Entendo. Alguma outra coisa que possa ajudar?"
+    - text: "Ok, vamos tentar outra coisa então."
+    - text: "Sem problemas. O que mais posso fazer por você?"
+  utter_mood_greet:
+    - text: "Que bom que está se sentindo ótimo! Em que posso ajudar?"
+    - text: "Fico feliz em saber que está bem. O que posso fazer por você hoje?"
+  utter_happy:
+    - text: "Ótimo, continue!"
+  utter_mood_unhappy:
+    - text: "Sinto muito em ouvir que você está triste. Aqui está algo para animar seu dia:"
+      image: "https://imgur.com/gallery/42DyXI1"
+  utter_iamabot:
+    - text: "Eu sou um bot, criado para lhe ajudar com Java"
+    - text: "Sim, você está falando com um bot. Em que posso ajudar?"
+  utter_did_that_help:
+    - text: "Como posso ajudar você?"
+  utter_O_que_é_Java?:
+    - text: "Java é uma linguagem de programação popular, criada em 1995. É de propriedade da Oracle, e mais de 3 bilhões de dispositivos executam java.it é usado para: aplicativos móveis (especialmente aplicativos Android) Aplicativos de desktop Aplicativos da web servidores da web e servidores de aplicativos Games Database ConnectionE muito, muito mais!"
+
+  utter_Por_que_usar_Java?:
+    - text: "Java funciona em diferentes plataformas (Windows, Mac, Linux, Raspberry Pi, etc.) É uma das linguagens de programação mais populares do mundo que tem uma grande demanda no mercado de trabalho atual, é fácil aprender e simples de usá -loé de código aberto e gratuito, é seguro, rápido e poderoso, possui enorme apoio da comunidade (dezenas de milhões de desenvolvedores) Java é uma linguagem orientada a objetos que fornece uma estrutura clara aos programas e permite que o código seja reutilizado, reduzindo os custos de desenvolvimento como javaestá próximo de C ++ e C#, facilita para os programadores mudarem para Java ou vice -versa"
+
+  utter_Iniciar:
+    - text: "Não é necessário ter nenhuma experiência de programação anterior."
+
+  utter_Declarar_muitas_variáveis:
+    - text: "Para declarar mais de uma variável do mesmo tipo, você pode\nUse uma lista separada por vírgula: Exemplo em vez de escrever: int x = 5;\nint y = 6;\nint z = 50;\nSystem.out.println (x + y + z);Você pode simplesmente escrever: int x = 5, y = 6, z = 50;\nSystem.out.println (x + y + z);Tente você mesmo \""
+
+  utter_Um_valor_para_várias_variáveis:
+    - text: "Você também pode atribuir o mesmo valor a várias variáveis em uma linha: exemplo int x, y, z;\nx = y = z = 50;\nSystem.out.println (x + y + z);Tente você mesmo \""
+
+  utter_Teste_-se_com_exercícios:
+    - text: "Exercício: Preencha as partes ausentes para criar três variáveis do mesmo tipo, usando uma lista separada por vírgula: x = 5 y = 6 z = 50;Envie Resposta »Comece o exercício"
+
+  utter_Exercício_:
+    - text: "Preencha as peças ausentes para criar três variáveis do mesmo tipo, usando uma lista separada por vírgula: x = 5 y = 6 z = 50; envio de resposta »Inicie o exercício"
+
+  utter_Identificadores:
+    - text: "Todas as variáveis Java devem ser identificadas com nomes únicos. Esses nomes únicos são chamados de identificadores. Identificadores podem ser nomes curtos (como x e y) ou nomes mais descritivos (idade, soma, total volume) .Note: é recomendável usar nomes descritivos em nomes emordem para\nCrie código compreensível e sustentável: Exemplo // bom\nint minutehourhour = 60;\n\n// ok, mas não tão fácil de entender o que é realmente\nint m = 60;Experimente você mesmo »As regras gerais para nomear variáveis são: os nomes podem conter letras, dígitos, sublinhados e nomes de sinais de dólares devem começar com nomes de cartas devem começar com uma letra minúscula e não pode conter nomes de espaço em branco também podem começar com $ e _(Mas não o usaremos neste tutorial) Os nomes são sensíveis ao maiúsculas (\"myvar\" e \"myvar\" são variáveis diferentes) palavras reservadas (como palavras-chave Java, como int ou booleano) não podem ser usadas como nomes"
+
+  utter_Variáveis_Java:
+    - text: "Variáveis são contêineres para armazenar valores de dados.in Java, existem diferentes tipos de variáveis, por exemplo: String - armazena texto, como \"Hello\".Os valores de string são\n Rodeado por citações duplas Int - armazena números inteiros (números inteiros), sem decimais, como 123 ou -123 Float - armazena números de ponto flutuante, com decimais, como 19,99 ou -19.99 Char - armazena caracteres únicos, como\n 'a ou B'.Os valores de char são cercados por citações únicas booleanas - armazena valores com dois estados:\n verdadeiro ou falso"
+
+  utter_Declarando_(criando)_variáveis:
+    - text: "Para criar uma variável, você deve especificar o tipo e atribuí -lo um valor: sintaxe tipo variatlebleName = value; onde o tipo é um dos tipos de Java (como int ou string), e o nome do variável é o nome da variável (como x ounome ).O sinal igual é usado para atribuir valores à variável.\";\nSystem.out.println (nome);Experimente você mesmo »Para criar uma variável que deve armazenar um número, veja o seguinte exemplo: Exemplo Crie uma variável chamada mynum of type Int e atribua -lhe o valor 15: int mynum = 15;\nSystem.out.println (mynum);Experimente você mesmo »Você também pode declarar uma variável sem atribuir o valor e atribuir o valor posterior: exemplo int mynum;\nmynum = 15;\nSystem.out.println (mynum);Experimente você mesmo »Observe que, se você atribuir um novo valor a uma variável existente, ele substituirá o valor anterior: Exemplo altere o valor do mynum de 15 para 20: int mynum = 15;\nmynum = 20;// mynum agora tem 20 anos\nSystem.out.println (mynum);Tente você mesmo \""
+
+  utter_Variáveis_finais:
+    - text: "Se você não deseja que os outros (ou a si mesmo) substituam os valores existentes, use a palavra-chave final (isso declarará a variável como \"final\" ou \"constante\", o que significa imutável e somente leitura): exemplo final int mynum = 15;\nmynum = 20;// gerará um erro: não é possível atribuir um valor a uma variável final, tente você mesmo »"
+
+  utter_Outros_tipos:
+    - text: "Uma demonstração de como declarar variáveis de outros tipos: exemplo int mynum = 5;\nflutuar myfloatnum = 5,99f;\nchar myletter = 'd';\nboolean mybool = true;\nString myText = \"Hello\"; você aprenderá mais sobre os tipos de dados na próxima seção."
+
+  utter_Teste_-se_com_exercícios_2:
+    - text: "Exercício: Crie uma variável chamada Carname e atribua o valor a Volvo a ele.=;Envie Resposta »Comece o exercício"
+
+  utter_Exercício__2:
+    - text: "Crie uma variável chamada Carname e atribua o valor Volvo a ele. =; Envie a resposta »Inicie o exercício"
+
+  utter_Exibir_variáveis:
+    - text: "O método println () é frequentemente usado para exibir variáveis.\nSystem.out.println (\"hello\" + nome);Experimente você mesmo »Você também pode usar o caractere + para adicionar uma variável a outra variável: exemplo string primeironame =\" John \";\nString lastName = \"doe\";\nString fullName = primeironame + lastName;\nSystem.out.println (FullName);Experimente você mesmo »Para valores numéricos, o caractere + funciona como um operador matemático (observe que usamos variáveis int (inteiras) aqui): exemplo int x = 5;\nint y = 6;\nSystem.out.println (x + y);// Imprima o valor de x + y Experimente você mesmo »A partir do exemplo acima, você pode esperar: x armazena o valor 5 y armazena o valor 6, então usamos o método println () para exibir o valor de x + y,\n que é 11"
+
+  utter_Comentários_de_Java:
+    - text: "Os comentários podem ser usados para explicar o código Java e torná -lo mais legível.Também pode ser usado para\nEvite a execução ao testar o código alternativo."
+
+  utter_Comentários_de_linha_única:
+    - text: "Os comentários de linha única começam com duas barras para a frente (//). Qualquer texto entre // e o final da linha\né ignorado por Java (não será executado) .Este exemplo usa um comentário de linha única antes de uma linha de código: Exemplo // Este é um comentário\nSystem.out.println (\"Hello World\");Experimente você mesmo »Este exemplo usa um comentário de linha única no final de uma linha de código: exemplo system.out.println (\" hello world \");// Este é um comentário, tente você mesmo »"
+
+  utter_Comentários_de_várias_linhas_Java:
+    - text: "Os comentários de várias linhas começam com /* e termina com* /. Qualquer texto entre /* e* /será ignorado por java.Código abaixo imprimirá as palavras Hello World\npara a tela, e é incrível */\nSystem.out.println (\"Hello World\");Experimente você mesmo »Comentários solteiros ou multides?Cabe a você que você deseja usar.Normalmente, usamos // para comentários curtos e / * * / por mais tempo."
+
+  utter_Teste_-se_com_exercícios_3:
+    - text: "Exercício: Insira a parte que faltava para criar dois tipos de comentários.Este é um comentário de linha única."
+
+  utter_Exercício__3:
+    - text: "Insira a parte que falta para criar dois tipos de comentários. Este é um comentário de linha única, este é uma resposta de comentários de várias linhas »Inicie o exercício"
+
+  utter_Tipos_de_dados_Java:
+    - text: "Conforme explicado no capítulo anterior, uma variável no Java deve ser um tipo de dados especificado: exemplo int mynum = 5;// Inteiro (número inteiro)\nflutuar myfloatnum = 5,99f;// Número do ponto flutuante\nchar myletter = 'd';// Personagem\nboolean mybool = true;// Boleano\nString myText = \"Hello\";// String Try It Yourself »Tipos de dados são divididos em dois grupos: tipos de dados primitivos - inclui byte, curto, int, longa, flutuante, dupla, booleana e char tipos de dados não primitivos - como string, matrizes e classes (vocêaprenderá mais sobre isso em um capítulo posterior)"
+
+  utter_Tipos_de_dados_primitivos:
+    - text: "Um tipo de dados primitivo especifica o tamanho e o tipo de valores variáveis, e não tem\nMétodos adicionais. Existem oito tipos de dados primitivos em Java: Tamanho do tipo de dados Descrição Byte 1 Bytes armazena números inteiros de -128 a 127 curtos 2 bytes armazena números inteiros de -32.768 a 32.767 Int 4 Bytes armazena números inteiros de -2.147.483.648 a 2,147.48777777777777.483.648 a 2,1477.477777777777.8 Bytes armazena números inteiros de -9.223.372.036.854.775.808 para\n9.223.372.036.854.775.807 Float 4 Bytes Stores Números fracionários.Suficiente para\nArmazenamento de 6 a 7 dígitos decimais Double 8 bytes armazenam números fracionários.Suficiente para\nArmazenamento de 15 dígitos decimais booleanos de 1 bits para valores verdadeiros ou falsos char 2 bytes armazena um único caractere/letra ou valores ASCII"
+
+  utter_Teste_-se_com_exercícios_4:
+    - text: "Exercício: Adicione o tipo de dados correto para as seguintes variáveis: mynum = 9;myfloatnum = 8,99f;myLetter = 'a';mybool = false;myText = \"Hello World\";Envie Resposta »Comece o exercício"
+
+  utter_Exercício__4:
+    - text: "Adicione o tipo de dados correto para as seguintes variáveis: mynum = 9;myfloatnum = 8,99f;myLetter = 'a';mybool = false;myText = \"Hello World\"; envie a resposta »Comece o exercício"
+
+  utter_Texto_de_impressão:
+    - text: "Você aprendeu com o capítulo anterior que pode usar o método println () para produzir valores de saída ou imprimir texto em java: exemplo system.out.println (\"hello world!\");Experimente você mesmo »Você pode adicionar quantos métodos println () quiser.Observe que ele adicionará uma nova linha para cada método: exemplo system.out.println (\"Hello World!\");\nSystem.out.println (\"Estou aprendendo java\");\nSystem.out.println (\"É incrível!\");Tente você mesmo \""
+
+  utter_Aspas_duplas:
+    - text: "Quando você está trabalhando com texto, ele deve ser embrulhado em cotações duplas \"\".System.out.println (esta frase produzirá um erro);Tente você mesmo \""
+
+  utter_O_método_print_():
+    - text: "Há também um método print (), que é semelhante ao println (). A única diferença é que ele não insere uma nova linha no final da saída: exemplo system.out.print (\"Hello World!\");\nSystem.out.print (\"Vou imprimir na mesma linha\");Experimente você mesmo »Observe que adicionamos um espaço extra (depois de\" Hello World! \"No exemplo acima),\nPara melhor legibilidade. Neste tutorial, usaremos apenas o println (), pois facilita a leitura da saída do código."
+
+  utter_Sintaxe_Java:
+    - text: "No capítulo anterior, criamos um arquivo java chamado main.java, e usamos o seguinte código para imprimir \"Hello World\" na tela: main.java public classe principal {\npublic static void main (string [] args) {\nSystem.out.println (\"Hello World\");\n}\n} Experimente você mesmo »Exemplo explicou toda a linha de código que é executada em Java deve estar dentro de uma classe.\nEm nosso exemplo, nomeamos a classe principal.Uma aula deve sempre começar com\nUma primeira letra em maiúsculas.\nsignificado diferente. O nome do arquivo java deve corresponder ao nome da classe.\nAo salvar o arquivo, salve -o usando o nome da classe e adicione \".java\" ao final de\no nome do arquivo.Para executar o exemplo acima no seu computador, verifique se Java está\nInstalado corretamente: vá para o capítulo Introdução para instalar o Java.A saída deve ser: Hello World"
+
+  utter_O_método_principal:
+    - text: "O método principal () é necessário e você vai\nVeja em cada java\nPrograma: public static void main (string [] args) qualquer código dentro do método main () será executado.\nNão se preocupe com as palavras -chave antes e depois do principal.Você vai saber\neles pouco a pouco ao ler este tutorial. Para agora, lembre -se de que todo programa Java tem um nome de classe que\ndeve corresponder ao nome do arquivo e que todo programa deve conter o método principal ()."
+
+  utter_System.out.println_():
+    - text: "Dentro do método Main (), podemos usar o método println () para imprimir uma linha de texto na tela: public static void main (string [] args) {System.out.println (\"Hello World\");} Experimente você mesmo »Nota: Os aparelhos encaracolados {} marcam o início e o final de um bloco de código.O sistema é uma classe Java embutida que contém membros úteis, como fora,\n  que é abreviado para \"saída\".O método println (), abrevante para\n  \"Linha de impressão\", é usada para imprimir um valor na tela (ou um arquivo).Não se preocupe muito com o sistema, out e println ().Apenas saiba que você precisa deles\njuntos para imprimir coisas na tela.Você também deve observar que cada instrução Código deve terminar com um ponto e vírgula (;;)."
+
+  utter_Teste_-se_com_exercícios_5:
+    - text: "Exercício: Insira a parte ausente do código abaixo para produzir \"Hello World\".classe pública myclass {\n  public static void main (string [] args) {..(\"Olá Mundo\");\n  }\n} Enviar resposta »Inicie o exercício"
+
+  utter_Exercício__5:
+    - text: "Insira a parte ausente do código abaixo para produzir \"Hello World\" .Public Classe MyClass {\n  public static void main (string [] args) {..(\"Olá Mundo\");\n  }\n} Enviar resposta »Inicie o exercício"
+
+  utter_Números_de_impressão:
+    - text: "Você também pode usar o método println () para\nimprimir números.\nCitações: Exemplo System.out.println (3);\nSystem.out.println (358);\nSystem.out.println (50000);Experimente você mesmo »Você também pode executar cálculos matemáticos dentro do método println (): exemplo system.out.println (3 + 3);Experimente você mesmo »Exemplo de sistema.out.println (2 * 5);Tente você mesmo \""
+
+  utter_Tipos_booleanos:
+    - text: "Muitas vezes, na programação, você precisará de um tipo de dados que possa ter apenas um dos dois valores, como: sim / não ON / OFF TRUE / FALSO PARA ISSO, Java tem um tipo de dados booleano, que só pode levar os valores verdadeiros ou falsos:Exemplo boolean isjavafun = true;\nboolean isfishtasty = false;\nSystem.out.println (isjavafun);// produz true\nSystem.out.println (isfishtasty);// Saídas falsas Experimente você mesmo »Os valores booleanos são usados principalmente para testes condicionais.Você aprenderá muito mais sobre booleanos e condições posteriormente neste tutorial."
+
+  utter_Personagens:
+    - text: "O tipo de dados de char é usado para armazenar um único caractere.O personagem deve ser\ncercado por citações únicas, como 'a' ou 'c': exemplo char mygrade = 'b';\nSystem.out.println (mygrade);Experimente você mesmo »Alternativamente, se você estiver familiarizado com os valores ASCII, poderá usá -los para exibir certos caracteres: Exemplo Char Myvar1 = 65, Myvar2 = 66, Myvar3 = 67;\nSystem.out.println (myvar1);\nSystem.out.println (myvar2);\nSystem.out.println (myvar3);Experimente você mesmo »Dica: uma lista de todos os valores ASCII pode ser encontrada em nossa referência da tabela ASCII."
+
+  utter_Cordas:
+    - text: "O tipo de dados da string é usado para armazenar uma sequência de caracteres (texto).Os valores de string devem ser cercados por cotações duplas: Exemplo de String cumprimentando = \"Hello World\";\nSystem.out.println (saudação);Experimente você mesmo »O tipo de string é tão usado e integrado em Java, que alguns chamam de\" o nono tipo especial \".Uma string em Java é na verdade um tipo de dados não primitivo, porque se refere a\num objeto.O objeto String possui métodos que são usados para executar certos\nOperações em Strings.Não se preocupe se você não entender o termo \"objeto\" ainda.Aprenderemos mais sobre cordas e objetos em um capítulo posterior."
+
+  utter_Tipos_de_dados_não_primitivos:
+    - text: "Tipos de dados não primitivos são chamados de tipos de referência porque\nEles se referem a objetos.Tipos não primitivos são criados pelo programador e\nnão é definido por Java (exceto a string).Tipos não primitivos podem ser usados para chamar métodos para executar determinadas operações, enquanto os tipos primitivos não podem.Um tipo primitivo sempre tem um valor, enquanto os tipos não primitivos podem ser nulos.Um tipo primitivo começa com uma letra minúscula, enquanto os tipos não primitivos começam com uma letra de maiúsculas. Exemplos de tipos não primitivos são strings, matrizes, classes, interface etc. Você aprenderá mais sobre isso em um capítulo posterior."
+
+  utter_Java_tipo_fundição:
+    - text: "Tipo de fundição é quando você atribui um valor de um tipo de dados primitivo a outro tipo. Em java, existem dois tipos de fundição: ampliação da fundição (automaticamente) - convertendo um tipo menor\npara um tamanho de tamanho maior -> curto -> char -> int -> long -> float -> estreitamento duplo fundindo (manualmente) -convertendo um tipo maior\nPara um tamanho menor do tipo duplo -> float -> longo -> int -> char -> curto -> byte"
+
+  utter_Ampliação_de_fundição:
+    - text: "A ampliação da fundição é feita automaticamente ao passar um tipo de tamanho menor para um\nTipo de tamanho maior: exemplo da classe pública principal {\npublic static void main (string [] args) {\nint myint = 9;\nduplo mydouble = myint;// fundição automática: int para dobrar\n\nSystem.out.println (myint);// Saídas 9\nSystem.out.println (mydouble);// Saídas 9.0\n}\n} Tente você mesmo \""
+
+  utter_Estreitando_elenco:
+    - text: "Estreitando o elenco deve ser feito manualmente colocando o tipo entre parênteses\nNa frente do valor: exemplo da classe pública principal {\npublic static void main (string [] args) {\nduplo mydouble = 9,78d;\nint myint = (int) myDouble;// elenco manual: duplo para int\n\nSystem.out.println (mydouble);// Saídas 9,78\nSystem.out.println (myint);// Saídas 9\n}\n} Tente você mesmo \""
+
+  utter_Operadores_Java:
+    - text: "Os operadores são usados para executar operações em variáveis e valores. No exemplo abaixo, usamos o operador + para adicionar dois valores: exemplo int x = 100 + 50;Experimente você mesmo »Embora o operador + seja frequentemente usado para adicionar dois valores, como no exemplo acima, ele também pode ser usado para adicionar uma variável e um valor, ou uma variável e outra variável: exemplo int sum1 = 100 +50;// 150 (100 + 50)\nint sum2 = sum1 + 250;// 400 (150 + 250)\nint sum3 = sum2 + sum2;// 800 (400 + 400) experimente você mesmo »"
+
+  utter_Operadores_aritméticos:
+    - text: "Os operadores aritméticos são usados para executar operações matemáticas comuns. Nome do operador Descrição Exemplo Experim Experimente + A adição adiciona dois valores x + y tente » - subtração subtrai um valor de outro x - y tente» / Divisão divide um valor por outro x / y tente» % módulo retorna o restante do restante da divisão x % y tente »++ incremento aumenta o valor de uma variável por 1 ++ x tente» - diminui o valor do valor do valorde uma variável por 1 --x tente »"
+
+  utter_Operadores_de_atribuição_Java:
+    - text: "Os operadores de atribuição são usados para atribuir valores às variáveis. No exemplo abaixo, usamos o operador de atribuição (=)\nPara atribuir o valor 10 a uma variável chamada x: exemplo int x = 10;Experimente você mesmo »O operador de atribuição de adição ( +=) adiciona um valor a uma variável: exemplo int x = 10;\nx += 5;Experimente você mesmo »Uma lista de todos os operadores de atribuição: Exemplo do operador, o mesmo que tente = x = 5 x = 5 tente» += x += 3 x = x +3 tente » -= x -= 3 x = x- 3 tente » *= x *= 3 x = x *3 tente» /= x /= 3 x = x /3 tente » %= x %= 3 x = x %3 tente» & = x& = 3 x = x & 3 tente »| = x | = 3 x = x |3 tente » ^= x ^= 3 x = x ^3 tente» >> = x >> = 3 x = x >> 3 tente »<< = x << = 3 x = x << 3 tenteisto \""
+
+  utter_Operadores_de_comparação_de_Java:
+    - text: "Os operadores de comparação são usados para comparar dois valores (ou variáveis).Isso é importante na programação, porque nos ajuda a encontrar respostas e tomar decisões. O valor de retorno de uma comparação é verdadeiro ou falso.Esses valores são conhecidos como valores booleanos e você aprenderá mais sobre eles nos booleanos e se ... capítulo. No exemplo a seguir, usamos o maior que o operador (>) para descobrir se 5 é maior que 3: exemploint x = 5;\nint y = 3;\nSystem.out.println (x> y);// retorna true, porque 5 é superior a 3 Experimente você mesmo »Nome do operador Exemplo Experimente == igual a x == y tente»! = Não é igual x! = y tente »> maior que x> y tente»<Menor que x <y tente»> = maior ou igual a x> = y tente »<= menor ou igual a x <= y tente»"
+
+  utter_Operadores_lógicos_Java:
+    - text: "Você também pode testar valores verdadeiros ou falsos com operadores lógicos. Os operadores lógicos são usados para determinar a lógica entre variáveis ou\nValores: Nome do operador Descrição Exemplo Experimente && Lógico e retorna true se ambas as instruções forem verdadeiras x <5 && x <10 tente »||Lógico ou retorna true se uma das declarações for verdadeira x <5 ||x <4 tente »!Lógico não reverter o resultado, retorna false se o resultado for verdadeiro! (X <5 && x <10) Experimente »"
+
+  utter_Teste_-se_com_exercícios_6:
+    - text: "Exercício: Multiplique 10 com 5 e imprima o resultado.System.out.println (10 5);Envie Resposta »Comece o exercício"
+
+  utter_Exercício__6:
+    - text: "Multiplique 10 com 5 e imprima o resultado.system.out.println (10 5); Enviar Resposta »Inicie o exercício"
+
+  utter_Concatenação_de_string:
+    - text: "O operador + pode ser usado entre strings para\nCombine -os.Isso é chamado de concatenação: exemplo string primeironame = \"John\";\nString lastName = \"doe\";\nSystem.out.println (primeironame + \"\" + lastName);Experimente você mesmo »Observe que adicionamos um texto vazio (\" \") para criar um espaço entre o nome FirstName e o LastName no Print.Você também pode usar o método concat () para concatenar duas strings: exemplo string primeironame =\" John \";\nString lastName = \"doe\";\nSystem.out.println (FirstName.Concat (LastName));Tente você mesmo \""
+
+  utter_Strings_Java:
+    - text: "As strings são usadas para armazenar texto. Uma variável de string contém uma coleção de caracteres cercados por citações duplas: Exemplo Crie uma variável de string de tipo e atribua um valor: String cumprimentando = \"hello\";Tente você mesmo \""
+
+  utter_Comprimento_da_corda:
+    - text: "Uma string no Java é na verdade um objeto, que contém métodos que podem executar certas operações em strings.Por exemplo, o comprimento de uma string pode ser encontrado com o método LIMPE (): Exemplo de String txt = \"abcdefghijklmnopqrStuvwxyz\";\nSystem.out.println (\"O comprimento da string txt é:\" + txt.length ());Tente você mesmo \""
+
+  utter_Mais_métodos_de_string:
+    - text: "Existem muitos métodos de string disponíveis, por exemplo, touppercase () e tolowercase (): exemplo string txt = \"hello world\";\nSystem.out.println (txt.ToupPercase ());// produz \"Hello World\"\nSystem.out.println (txt.tolowerCase ());// Saídas \"Hello World\" Experimente você mesmo »"
+
+  utter_Encontrar_um_personagem_em_uma_corda:
+    - text: "O método indexOf () retorna o índice (a posição)\nda primeira ocorrência de um texto especificado em uma string\n(incluindo espaço em branco): Exemplo de string txt = \"Localize onde 'localize' ocorre!\";\nSystem.out.println (txt.indexOF (\"locate\"));// Saídas 7 Experimente você mesmo »Java conta posições de zero.0 é a primeira posição em um\nstring, 1 é o segundo, 2 é o terceiro ..."
+
+  utter_Referência_completa_da_string:
+    - text: "Para uma referência completa dos métodos de string, vá para a referência de métodos de string java .A referência contém descrições e exemplos de todos os métodos de string."
+
+  utter_Teste_-se_com_exercícios_7:
+    - text: "Exercício: Preencha a parte que faltava para criar uma variável de saudação da string do tipo e atribua -lhe o valor olá.Saudação =;Envie Resposta »Comece o exercício"
+
+  utter_Exercício__7:
+    - text: "Preencha a parte que faltava para criar uma variável de saudação da string de tipo e atribua o valor Hello .Greeting =; Enviar Resposta »Inicie o exercício"
+
+  utter_Adicionando_números_e_cordas:
+    - text: "AVISO!O Java usa o operador + para adição e concatenação.Os números são adicionados.Strings são concatenadas. Se você adicionar dois números, o resultado será um número: Exemplo int x = 10;\nint y = 20;\nint z = x + y;// z será 30 (um número inteiro/número) Experimente você mesmo »Se você adicionar duas strings, o resultado será uma concatenação de string: Exemplo de string x =\" 10 \";\nString y = \"20\";\nString z = x + y;// z será 1020 (uma string) Experimente você mesmo »Se você adicionar um número e uma string, o resultado será uma concatenação de string: Exemplo de string x =\" 10 \";\nint y = 20;\nString z = x + y;// z será 1020 (uma string) Experimente você mesmo »"
+
+  utter_Math.max_(x,_y):
+    - text: "O método Math.max (x, y) pode ser usado para encontrar o valor mais alto de x e y: exemplo math.max (5, 10);Tente você mesmo \""
+
+  utter_Math.min_(x,_y):
+    - text: "O método Math.Min (x, y) pode ser usado para encontrar o menor valor de x e y: exemplo math.min (5, 10);Tente você mesmo \""
+
+  utter_Math.sqrt_(x):
+    - text: "O método Math.Sqrt (x) retorna a raiz quadrada de x: exemplo math.sqrt (64);Tente você mesmo \""
+
+  utter_Math.abs_(x):
+    - text: "O método Math.abs (x) retorna o valor absoluto (positivo) de x: exemplo math.abs (-4,7);Tente você mesmo \""
+
+  utter_Números_aleatórios:
+    - text: "Math.Random () retorna um número aleatório entre 0,0 (inclusive) e 1.0 (exclusivo): exemplo math.random ();Experimente você mesmo »Para obter mais controle sobre o número aleatório, por exemplo, se você quiser apenas um aleatório\nNúmero entre 0 e 100, você pode usar a seguinte fórmula: Exemplo int RandomNum = (int) (Math.Random () * 101);// 0 a 100 Experimente você mesmo »"
+
+  utter_Referência_de_matemática_completa:
+    - text: "Para uma referência completa dos métodos matemáticos, acesse nossa referência de métodos de matemática Java."
+
+  utter_Teste_-se_com_exercícios_8:
+    - text: "Exercício: use o método correto para encontrar o valor mais alto de x e y.int x = 5;\nint y = 10;\nMatemática.(x, y);Envie Resposta »Comece o exercício"
+
+  utter_Exercício__8:
+    - text: "Use o método correto para encontrar o valor mais alto de x e y .int x = 5;\nint y = 10;\nMatemática.(x, y); enviar resposta »Inicie o exercício"
+
+  utter_Condições_de_Java_e_declarações_se:
+    - text: "Você já sabe que o Java suporta as condições lógicas usuais da matemática: menor que: a <b menor ou igual a: a <= b maior que: a> b maior ou igual a: a> = b igual a a ==b não igual a: a! = byou pode usar essas condições para executar ações diferentes para diferentes decisões.Um bloco de código a ser executado, se a mesma condição for falsa uso se especificar uma nova condição a ser testada, se a primeira condição for falsa para uso para especificar muitos blocos alternativos de código a serem executados"
+
+  utter_A_declaração_if:
+    - text: "Use a instrução IF para especificar um bloco de código Java a ser executado se uma condição for verdadeira .syntax if (condition) {// bloco de código a ser executado se a condição for verdadeira} Observe que se estiver em letras minúsculas.Letras maiúsculas (se ou se) gerarão um erro. No exemplo abaixo, testamos dois valores para descobrir se 20 é maior que\n18. Se a condição for verdadeira, imprima algum texto: exemplo se (20> 18) {\nSystem.out.println (\"20 é maior que 18\");\n} Experimente você mesmo »Também podemos testar variáveis: exemplo int x = 20;\nint y = 18;\nif (x> y) {\nSystem.out.println (\"x é maior que y\");\n} Experimente você mesmo »Exemplo explicado no exemplo acima, usamos duas variáveis, x e y,\nPara testar se X é maior que Y\n(usando o operador>).Como X é 20 e Y 18, e sabemos que 20 é maior que 18, imprimimos na tela que \"X é maior que Y\"."
+
+  utter_A_declaração_else:
+    - text: "Use a instrução ELS para especificar um bloco de código a ser executado se a condição for falsa .syntax if (condition) {// bloco de código a ser executado se a condição for verdadeira} else {// bloco de código a ser executado sea condição é falsa} exemplo int time = 20;\nif (tempo <18) {\nSystem.out.println (\"Bom dia\");\n} outro {\nSystem.out.println (\"Boa noite\");\n}\n// Os resultados \"Boa noite\".Experimente você mesmo »Exemplo explicado no exemplo acima, o tempo (20) é maior que 18, então a condição é falsa.\nPor causa disso, passamos para a condição else e imprimimos para a tela \"bom\nà noite \". Se a hora fosse menor que 18, o programa imprimiria\" Good Day \"."
+
+  utter_O_else_if_declaração:
+    - text: "Use a instrução IF para especificar uma nova condição se a primeira condição for falsa .syntax if (condition1) {// bloco de código a ser executado se condição1 for verdadeiro} else if (condition2) {// bloco de código a ser executadoSe a condição1 for falsa e a condição2 for verdadeira} else {// bloco de código a ser executado se a condição1 for falsa e condição2 for false} exemplo int time = 22;\nif (tempo <10) {\nSystem.out.println (\"Bom dia\");\n} else if (tempo <18) {\nSystem.out.println (\"Bom dia\");\n} outro {\nSystem.out.println (\"Boa noite\");\n}\n// Os resultados \"Boa noite\".Experimente você mesmo »Exemplo explicado no exemplo acima, o tempo (22) é maior que 10; portanto, a primeira condição é falsa.A próxima condição, na declaração se também é falsa, por isso passamos para a condição else, já que a condição1 e a condição2 é falsa - e imprimir na tela \"bom\nà noite \"."
+
+  utter_Teste_-se_com_exercícios_9:
+    - text: "Exercício: Imprima \"Hello World\" se X for maior que Y.int x = 50;\nint y = 10;(x y) {\n  System.out.println (\"Hello World\");\n} Enviar resposta »Inicie o exercício"
+
+  utter_Exercício__9:
+    - text: "Imprima \"Hello World\" se x for maior que y .int x = 50;\nint y = 10;(x y) {\n  System.out.println (\"Hello World\");\n} Enviar resposta »Inicie o exercício"
+
+  utter_Java_booleanos:
+    - text: "Muitas vezes, na programação, você precisará de um tipo de dados que possa ter apenas um dos dois valores, como: sim / não ON / OFF TRUE / FALSO Para isso, o Java possui um tipo de dados booleano, que pode armazenar valores verdadeiros ou falsos."
+
+  utter_Valores_booleanos:
+    - text: "Um tipo booleano é declarado com a palavra -chave booleana e só pode levar os valores verdadeiros ou falsos: exemplo boolean isjavafun = true;\nboolean isfishtasty = false;\nSystem.out.println (isjavafun);// produz true\nSystem.out.println (isfishtasty);// Saídas falsas Experimente você mesmo »No entanto, é mais comum retornar valores booleanos de expressões booleanas, para testes condicionais\n(Veja abaixo)."
+
+  utter_Expressão_booleana:
+    - text: "Uma expressão booleana retorna um valor booleano: verdadeiro ou falso. Isso é útil para criar lógica e encontrar respostas. Por exemplo, você pode usar um operador de comparação, como o operador maior que (>), para descobrir se uma expressão (ou uma variável) é verdadeira ou falsa: exemplo int x = 10;\nint y = 9;\nSystem.out.println (x> y);// retorna true, porque 10 é superior a 9 Experimente você mesmo »ou até mais fácil: exemplo System.out.println (10> 9);// retorna true, porque 10 é superior a 9 Experimente você mesmo »Nos exemplos abaixo, usamos o operador igual ao (==) para avaliar uma expressão: exemplo int x = 10;\nSystem.out.println (x == 10);// retorna true, porque o valor de x é igual a 10, experimente você mesmo »Exemplo de sistema.out.println (10 == 15);// retorna false, porque 10 não é igual a 15, experimente você mesmo »"
+
+  utter_Exemplo_da_vida_real:
+    - text: "Vamos pensar em um \"real\nExemplo de vida \"onde precisamos descobrir se uma pessoa tem idade suficiente para votar. No exemplo abaixo, usamos o operador de comparação> = para descobrir se a idade (25) é maior ou igual ao limite de idade de votação,que está definido\na 18: exemplo int myage = 25;\nint voto = 18;\nSystem.out.println (myage> = voto);Experimente você mesmo »Legal, certo?Uma abordagem ainda melhor (já que estamos em um rolo agora), seria embrulhar o código acima em uma declaração se ... caso contrário, para que possamos executar\nAções diferentes, dependendo do resultado: Exemplo de saída \"O suficiente para votar!\"Se Myage for maior ou igual a 18.Caso contrário, a saída \"não tem idade suficiente para votar\".: Int myage = 25;\nint voto = 18;\n\nif (myage> = votação) {\n  System.out.println (\"Ante idade para votar!\");\n} outro {\n  System.out.println (\"Não tem idade suficiente para votar\");\n} Experimente você mesmo »Booleanos são a base para todas as comparações e condições de Java.Você aprenderá mais sobre as condições (se ... else) no próximo capítulo."
+
+  utter_Teste_-se_com_exercícios_10:
+    - text: "Exercício: preencha as partes ausentes para imprimir os valores verdadeiros e falsos: isjavafun = true;isfishtasty = false;\nSystem.out.println (isjavafun);\nSystem.out.println (isfishtasty);Envie Resposta »Comece o exercício"
+
+  utter_Exercício__10:
+    - text: "Preencha as partes ausentes para imprimir os valores verdadeiros e falsos: isjavafun = true;isfishtasty = false;\nSystem.out.println (isjavafun);\nSystem.out.println (ISFishtasty); Enviar Resposta »Inicie o exercício"
+
+  utter_Mão_curta_se_..._else:
+    - text: "Há também uma mão curta, que é conhecida como ternário\noperador porque consiste em três operands. pode ser usado para\nsubstitua várias linhas de código por uma única linha e é mais frequentemente usado para substituir\nDeclarações simples se else: sintaxe variável = (condição)?Expressiontrue: ExpressionFalse; em vez de escrever: exemplo int time = 20;\nif (tempo <18) {\nSystem.out.println (\"Bom dia\");\n} outro {\nSystem.out.println (\"Boa noite\");\n} Experimente você mesmo »Você pode simplesmente escrever: exemplo int time = 20;\nResultado da string = (tempo <18)?\"Bom dia.\": \"Boa noite.\";\nSystem.out.println (resultado);Tente você mesmo \""
+
+  utter_Teste_-se_com_exercícios_11:
+    - text: "Exercício: Insira as peças ausentes para completar a seguinte instrução \"Hand Short se ... else\": int time = 20;\nResultado da string = tempo <18 \"Bom dia\".\"Boa noite.\";\nSystem.out.println (resultado);Envie Resposta »Comece o exercício"
+
+  utter_Exercício__11:
+    - text: "Insira as peças ausentes para concluir a seguinte instrução \"Hand Short se ... else\": int time = 20;\nResultado da string = tempo <18 \"Bom dia\".\"Boa noite.\";\nSystem.out.println (resultado); envio de resposta »Inicie o exercício"
+
+  utter_Java_para_loop:
+    - text: "Quando você sabe exatamente quantas vezes você deseja percorrer um bloco de\nCódigo, use o loop for em vez de um loop de tempo: sintaxe para (declaração 1; declaração 2; declaração 3) {// bloco de código a ser executado} A declaração 1 é executada (uma vez) antes da execução do código.2 Define a condição para executar o bloco de código.Statement 3 é executado (toda vez) após a execução do bloco de código. O exemplo abaixo imprimirá os números 0 a 4: Exemplo para (int i = 0; i <5; i ++) {\nSystem.out.println (i);\n} Experimente você mesmo »Exemplo explicado da estatição 1 define uma variável antes do início do loop (int i = 0). A estatura 2 define a condição para a execução do loop (devo ser menor que\n5).Se a condição for verdadeira, o loop começará de novo, se for falso,\no loop acabará.\nfoi executado."
+
+  utter_Outro_exemplo:
+    - text: "Este exemplo apenas imprimirá valores pares entre 0 e 10: Exemplo para (int i = 0; i <= 10; i = i + 2) {\nSystem.out.println (i);\n} Tente você mesmo \""
+
+  utter_Loops_aninhados:
+    - text: "Também é possível colocar um loop dentro de outro loop.Isso é chamado de loop aninhado. O \"loop interno\" será executado uma vez para cada iteração do \"loop externo\": exemplo // loop externo\nfor (int i = 1; i <= 2; i ++) {\n  System.out.println (\"externo:\" + i);// executa 2 vezes\n  \n  // Laço interno\n  for (int j = 1; j <= 3; j ++) {\n    System.out.println (\"Inner:\" + J);// executa 6 vezes (2 * 3)\n  }\n} Experimente você mesmo »Teste -se com exercícios Exercício: use um loop para imprimir\" sim \"5 vezes.(int i = 0; i <5;) {\n  System.out.println ();\n} Enviar resposta »Inicie o exercício"
+
+  utter_Teste_-se_com_exercícios_12:
+    - text: "Exercício: use um loop para imprimir \"sim\" 5 vezes.(int i = 0; i <5;) {\n  System.out.println ();\n} Enviar resposta »Inicie o exercício"
+
+  utter_Exercício__12:
+    - text: "Use um loop para imprimir \"sim\" 5 vezes (int i = 0; i <5;) {\n  System.out.println ();\n} Enviar resposta »Inicie o exercício"
+
+  utter_rotações:
+    - text: "Os loops podem executar um bloco de código enquanto uma condição especificada for alcançada. Os loops são úteis porque economizam tempo, reduzem erros e cometem código\nmais legível."
+
+  utter_Java_enquanto_loop:
+    - text: "O loop while loop através de um bloco de código, desde que uma condição especificada seja verdadeira: sintaxe enquanto (condição) {// bloco de código a ser executado} No exemplo abaixo, o código no loop será executado repetidamente,desde que\nUma variável (i) é menor que 5: exemplo int i = 0;\nenquanto (i <5) {\n  System.out.println (i);\n  i ++;\n} Experimente você mesmo »Nota: Não se esqueça de aumentar a variável usada na condição, caso contrário\nO loop nunca vai acabar!"
+
+  utter_O_loop_do_Do/While:
+    - text: "O loop DO/While é uma variante do loop while.Este loop vai\nexecutar o bloco de código uma vez, antes de verificar se a condição for verdadeira, então será\nRepita o loop, desde que a condição seja verdadeira.Syntax Do {// Bloco de código a ser executado}\nenquanto (condição); o exemplo abaixo usa um loop DO/while.O loop sempre será\nexecutado pelo menos uma vez, mesmo que a condição seja falsa, porque o bloco de código\né executado antes que a condição seja testada: exemplo int i = 0;fazer {\nSystem.out.println (i);\ni ++;\n}\nenquanto (i <5);Experimente você mesmo »Não se esqueça de aumentar a variável usada na condição, caso contrário\nO loop nunca vai acabar!"
+
+  utter_Teste_-se_com_exercícios_13:
+    - text: "Exercício: Impressão i Enquanto eu for menor que 6. int i = 1;(i <6) {\n  System.out.println (i);;\n} Enviar resposta »Inicie o exercício"
+
+  utter_Exercício__13:
+    - text: "Imprima i desde que eu seja menor que 6.Int i = 1;(i <6) {\n  System.out.println (i);;\n} Enviar resposta »Inicie o exercício"
+
+  utter_Declarações_de_interruptor_Java:
+    - text: "Em vez de escrever muitas declarações IF..Else, você pode usar a instrução SWITCH. A instrução SWITCH SELECTE UM DE MUITOS BLOCOS DE CÓDIGOS A SE AO\ncaso x: // interrupção do bloco de código;\ncaso y: // interrupção do bloco de código;\npadrão: // bloco de código} é assim que funciona: a expressão do switch é avaliada uma vez.O valor da expressão é comparado com os valores de cada caso.Se houver uma correspondência, o bloco associado do código será executado.As palavras -chave de quebra e padrão são opcionais e serão descritas posteriormente neste capítulo O exemplo abaixo usa o número do dia da semana para calcular o nome do dia da semana: exemplo int dia = 4;\nSwitch (dia) {\ncaso 1:\nSystem.out.println (\"Segunda -feira\");\nquebrar;\nCaso 2:\nSystem.out.println (\"Terça -feira\");\nquebrar;\nCaso 3:\nSystem.out.println (\"quarta -feira\");\nquebrar;\nCaso 4:\nSystem.out.println (\"Quinta -feira\");\nquebrar;\nCaso 5:\nSystem.out.println (\"Friday\");\nquebrar;\nCaso 6:\nSystem.out.println (\"Sábado\");\nquebrar;\nCaso 7:\nSystem.out.println (\"Sunday\");\nquebrar;\n}\n// Saídas \"Quinta -feira\" (dia 4) Experimente você mesmo »"
+
+  utter_A_palavra_-chave_quebrada:
+    - text: "Quando Java atingir uma palavra -chave quebrada, ela sai do bloco de interruptor. Isso interromperá a execução de mais código e teste de caso dentro\no bloco. Quando uma partida é encontrada e o trabalho é feito, é hora de uma pausa.Não há necessidade de mais testes. Uma quebra pode economizar muito tempo de execução, porque \"ignora\" a execução\nde todo o restante do código no bloco de comutação."
+
+  utter_A_palavra_-chave_padrão:
+    - text: "A palavra -chave padrão especifica algum código a ser executado se não houver\nCaso correspondente: exemplo int dia = 4;\nSwitch (dia) {\nCaso 6:\nSystem.out.println (\"Hoje é sábado\");\nquebrar;\nCaso 7:\nSystem.out.println (\"Hoje é domingo\");\nquebrar;\npadrão:\nSystem.out.println (\"Ansioso pelo fim de semana\");\n}\n// Os resultados \"ansiosos pelo fim de semana\" experimente você mesmo »Observe que se a instrução padrão for usada\nComo a última declaração em um bloco de comutador, ele não precisa de uma pausa."
+
+  utter_Teste_-se_com_exercícios_14:
+    - text: "Exercício: Insira as peças ausentes para concluir a seguinte instrução Switch.int dia = 2;\nswitch () {1:\n    System.out.println (\"Sábado\");\n    quebrar;2:\n    System.out.println (\"Sunday\");;\n} Enviar resposta »Inicie o exercício"
+
+  utter_Exercício__14:
+    - text: "Insira as peças ausentes para concluir a seguinte instrução Switch.Int Day = 2;\nswitch () {1:\n    System.out.println (\"Sábado\");\n    quebrar;2:\n    System.out.println (\"Sunday\");;\n} Enviar resposta »Inicie o exercício"
+
+  utter_Para_cada_um_loop:
+    - text: "Há também um loop \"for-Eacha\", que é usado exclusivamente para dar um loop através dos elementos em uma matriz: sintaxe para (Tipo VariableName: ArrayName) {// Bloco de código a ser executado} O exemplo a seguir produz todos os elementos na matriz de carros, usando um loop \"for-Each\": Exemplo de String [] cars = {\"Volvo\", \"BMW\", \"Ford\", \"Mazda\"};\npara (String I: Cars) {\nSystem.out.println (i);\n} Experimente você mesmo »NOTA: Não se preocupe se você não entender o exemplo acima.Você aprenderá mais sobre as matrizes no capítulo Java Matriz."
+
+  utter_Java_Break:
+    - text: "Você já viu a declaração de quebra usada em um capítulo anterior deste tutorial.Foi usado para \"pular\" de uma declaração de interruptor. A declaração de quebra também pode ser usada para sair de um loop. Este exemplo interrompe o loop quando eu é igual a 4: Exemplo para (int i = 0; i <10; i ++) {\nif (i == 4) {\nquebrar;\n}\nSystem.out.println (i);\n} Tente você mesmo \""
+
+  utter_Java_continua:
+    - text: "A declaração continua quebra uma iteração (no loop), se ocorrer uma condição especificada e continuar com a próxima iteração no loop. Este exemplo pula o valor de 4: exemplo para (int i = 0; i <10; i ++){\nif (i == 4) {\ncontinuar;\n}\nSystem.out.println (i);\n} Tente você mesmo \""
+
+  utter_Quebre_e_continue_enquanto_loop:
+    - text: "Você também pode usar o intervalo e continuar enquanto loops: break Exemplo int i = 0;\nenquanto (i <10) {\nSystem.out.println (i);\ni ++;\nif (i == 4) {\nquebrar;\n}\n} Experimente você mesmo »Continue exemplo int i = 0;\nenquanto (i <10) {\nif (i == 4) {\ni ++;\ncontinuar;\n}\nSystem.out.println (i);\ni ++;\n} Tente você mesmo \""
+
+  utter_Teste_-se_com_exercícios_15:
+    - text: "Exercício: pare o loop se eu for 5. para (int i = 0; i <10; i ++) {\n  if (i == 5) {;\n  }\n  System.out.println (i);\n} Enviar resposta »Inicie o exercício"
+
+  utter_Exercício__15:
+    - text: "Pare o loop se eu for 5. para (int i = 0; i <10; i ++) {\n  if (i == 5) {;\n  }\n  System.out.println (i);\n} Enviar resposta »Inicie o exercício"
+
+  utter_Loop_através_de_uma_matriz:
+    - text: "Você pode percorrer os elementos da matriz com o loop for e usar a propriedade Length para especificar quantas vezes o loop deve ser executado.BMW \",\" Ford \",\" Mazda \"};\nfor (int i = 0; i <cars.length; i ++) {\nSystem.out.println (carros [i]);\n} Tente você mesmo \""
+
+  utter_Faça_um_loop_através_de_uma_matriz_com_o_for-ECH:
+    - text: "Há também um loop \"for-Eacha\", que é usado exclusivamente para dar um loop através de elementos nas matrizes: Sintaxe para (Tipo Variável: ArrayName) {\n...\n} O exemplo a seguir gera todos os elementos da matriz de carros, usando um loop \"for-Each\": Exemplo de String [] cars = {\"Volvo\", \"BMW\", \"Ford\", \"Mazda\"};\npara (String I: Cars) {\nSystem.out.println (i);\n} Experimente você mesmo »O exemplo acima pode ser lido assim: para cada elemento da string (chamado i - como em i ndex) em carros, imprima o valor de i. Se você comparar o loop for e for -cada, vocêverá que o método for-ECH é mais fácil de escrever, ele\nnão requer um contador (usando a propriedade Length) e é mais legível."
+
+  utter_Teste_-se_com_exercícios_16:
+    - text: "Exercício: Vá através dos itens na matriz de carros.String [] cars = {\"Volvo\", \"BMW\", \"Ford\"};(String i :) {\n  System.out.println (i);\n} Enviar resposta »Inicie o exercício"
+
+  utter_Exercício__16:
+    - text: "Faça um loop através dos itens na matriz de carros.String [] cars = {\"Volvo\", \"BMW\", \"Ford\"};(String i :) {\n  System.out.println (i);\n} Enviar resposta »Inicie o exercício"
+
+  utter_Matrizes_multidimensionais:
+    - text: "Uma matriz multidimensional é uma variedade de matrizes. Matrizes multidimensionais são úteis quando você deseja armazenar dados como uma forma tabular, como uma tabela com linhas e colunas.: Exemplo int [] [] mynumbers = {{1, 2, 3, 4}, {5, 6, 7}}; mynumbers agora é uma matriz com duas matrizes como seus elementos."
+
+  utter_Elementos_de_acesso:
+    - text: "Para acessar os elementos da matriz Mynumbers,\nEspecifique dois índices: um para a matriz e outro para o elemento dentro dessa matriz.\nEste exemplo acessa o terceiro elemento (2) na segunda matriz (1) de\nmynumbers: exemplo int [] [] mynumbers = {{1, 2, 3, 4}, {5, 6, 7}};\nSystem.out.println (MyNumbers [1] [2]);// Saídas 7 Experimente você mesmo »Lembre -se de que: os índices de matriz começam com 0: [0] é o primeiro elemento.[1] é o segundo elemento, etc."
+
+  utter_Alterar_valores_do_elemento:
+    - text: "Você também pode alterar o valor de um elemento: exemplo int [] [] mynumbers = {{1, 2, 3, 4}, {5, 6, 7}};\nMyNumbers [1] [2] = 9;\nSystem.out.println (MyNumbers [1] [2]);// produz 9 em vez de 7 Experimente você mesmo »"
+
+  utter_Loop_através_de_uma_matriz_multidimensional:
+    - text: "Também podemos usar um loop para outro para o loop para obter os elementos de uma matriz bidimensional (ainda precisamos apontar para os dois índices): exemplo da classe pública principal {\npublic static void main (string [] args) {\nint [] [] mynumbers = {{1, 2, 3, 4}, {5, 6, 7}};\nfor (int i = 0; i <mynumbers.length; ++ i) {\nfor (int j = 0; j <mynumbers [i] .Length; ++ j) {\nSystem.out.println (mynumbers [i] [j]);\n}}\n}\n} Tente você mesmo \""
+
+  utter_Teste_-se_com_exercícios_17:
+    - text: "Exercício: Insira a parte que faltava para criar uma matriz bidimensional.mynumbers = {{1, 2, 3, 4}, {5, 6, 7}};Envie Resposta »Comece o exercício"
+
+  utter_Exercício__17:
+    - text: "Insira a parte que faltava para criar uma matriz bidimensional.mynumbers = {{1, 2, 3, 4}, {5, 6, 7}}; enviar resposta »Inicie o exercício"
+
+  utter_Matrizes_Java:
+    - text: "Matrizes são usadas para armazenar vários valores em uma única variável, em vez de declarar variáveis separadas para cada\nvalue.Para declarar uma matriz, defina o tipo de variável com colchetes: String [] cars; agora declaramos uma variável que contém uma matriz de strings.Inserir\nvalores para ele, você pode colocar os valores em um\nLista separada por vírgula, Inside Curly Braces: String [] cars = {\"Volvo\", \"BMW\", \"Ford\", \"Mazda\"}; para criar uma matriz de números inteiros, você pode escrever: int [] mynum = {10, 20, 30, 40};"
+
+  utter_Acesse_os_elementos_de_uma_matriz:
+    - text: "Você pode acessar um elemento de matriz referindo -se ao número do índice. Esta instrução acessa o valor do primeiro elemento em carros: Exemplo de String [] cars = {\"Volvo\", \"BMW\", \"Ford\", \"Mazda\"};\nSystem.out.println (carros [0]);\n// Saídas Volvo Experimente você mesmo »Nota: Os índices de matriz começam com 0: [0] é o primeiro elemento.[1] é o segundo\nelemento, etc."
+
+  utter_Alterar_um_elemento_de_matriz:
+    - text: "Para alterar o valor de um elemento específico, consulte o número do índice: Exemplo de carros [0] = \"oppel\"; exemplo string [] cars = {\"Volvo\", \"BMW\", \"Ford\", \"Mazda\"}};\ncarros [0] = \"oppel\";\nSystem.out.println (carros [0]);\n// Agora produz oppel em vez de Volvo Experimente você mesmo »"
+
+  utter_Comprimento_da_matriz:
+    - text: "Para descobrir quantos elementos uma matriz possui, use a propriedade Length: exemplo string [] cars = {\"Volvo\", \"BMW\", \"Ford\", \"Mazda\"};\nSystem.out.println (card.length);\n// saídas 4 Experimente você mesmo »"
+
+  utter_Teste_-se_com_exercícios_18:
+    - text: "Exercício: Crie uma variedade de string de tipo chamada carros.= {\"Volvo\", \"BMW\", \"Ford\"};Envie Resposta »Comece o exercício"
+
+  utter_Exercício__18:
+    - text: "Crie uma matriz de string de tipo chamada cars."
+
+  utter_Recursão_Java:
+    - text: "Recursão é a técnica de fazer uma função chamada em si.Esta técnica fornece uma maneira\nPara divulgar problemas complicados em problemas simples, mais fáceis de resolver. A recursão pode ser um pouco difícil de entender.O\nA melhor maneira de descobrir como funciona é experimentar."
+
+  utter_Exemplo_de_recursão:
+    - text: "Adicionar dois números juntos é fácil de fazer, mas adicionar uma variedade de números é mais\ncomplicado.No exemplo a seguir, a recursão é usada para adicionar uma variedade de números\nJuntos, dividindo -o na simples tarefa de adicionar dois números: exemplo, use recursão para adicionar todos os números até 10. Public Class Main {\n  public static void main (string [] args) {\n    int resultado = soma (10);\n    System.out.println (resultado);} public static int sum (int k) {\n    if (k> 0) {\n      retornar k + soma (k - 1);\n    } outro {\n      retornar 0;}}} Experimente você mesmo »Exemplo explicado quando a função SUM () é chamada, adiciona parâmetro k à soma de todos os números menores\ndo que k e retorna o resultado.Quando K se torna 0, a função retorna 0. quando\nEm execução, o programa segue estas etapas: 10 + soma (9) 10 + (9 + soma (8)) 10 + (9 + (8 + soma (7))) ... 10 + 9 + 8 + 7 + 6+ 5 + 4 + 3 + 2 + 1 + soma (0) 10 + 9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1 + 0, pois a função não se chama quando k é 0, o programa paralá e retorna o\nresultado."
+
+  utter_Condição_de_parada:
+    - text: "Assim como os loops podem enfrentar o problema do loop infinito, as funções recursivas podem se deparar com\nO problema da recursão infinita.Recursão infinita é quando a função nunca para de ligar\nem si.Toda função recursiva deve ter uma condição de parada, que é a condição\nonde a função para de se chamar.No exemplo anterior, a condição de interrupção é\nQuando o parâmetro k se torna 0. É útil ver uma variedade de exemplos diferentes para entender melhor o conceito.Nisso\nPor exemplo, a função adiciona uma variedade de números entre uma partida e um fim.A parada\nCondição para esta função recursiva é quando o fim não é maior que o início: exemplo, use a recursão para adicionar todos os números entre 5 e 10. Classe pública principal {\n  public static void main (string [] args) {\n    int resultado = soma (5, 10);\n    System.out.println (resultado);} public static int sum (int start, int end) {\n    if (end> start) {\n      Retorno final + soma (início, fim - 1);\n    } outro {\n      fim de retorno;\n    }\n  }\n} Experimente você mesmo »O desenvolvedor deve ter muito cuidado com a recursão, pois pode ser muito fácil escorregar uma função que nunca termina, ou uma que usa quantidades excessivas de memória ou potência do processador.No entanto, quando escrito corretamente a recursão pode ser uma abordagem muito eficiente e matematicamente elegante da programação. ❮ Anterior ❯ ❯ ★ +1 W3Schools Pathfinder rastreia seu progresso - é gratuito!Entrar Inscrever-se"
+
+  utter_Java_-_O_que_é_OOP?:
+    - text: "OOP significa programação orientada a objetos. Programação procedida é sobre procedimentos ou métodos de escrita que executam\noperações nos dados, enquanto a programação orientada a objetos é sobre\ncriação de objetos que contêm dados e métodos. A programação orientada a objeto tem várias vantagens sobre o procedimento\nProgramação: OOP é mais rápido e mais fácil de executar o OOP fornece uma estrutura clara para os programas OOP ajuda a manter o código Java seco \"Não se repita\" e faz\n  o\n  Código mais fácil de manter, modificar e depurar OOP torna possível criar reutilizáveis completos\n  Aplicações com menos código de código e cronograma de desenvolvimento mais curto: o princípio \"Não se repete\" (seco) é sobre\nreduzindo a repetição do código.Você deve extrair os códigos que são\ncomum para a aplicação, coloque -os em um único lugar e reutilize -os\nEm vez de repeti -lo."
+
+  utter_Java_-_O_que_são_classes_e_objetos?:
+    - text: "Aulas e objetos são os dois aspectos principais da programação orientada a objetos.\nObjetos: Class Fruit Objects Mangoa de banana AppleanOther Exemplo: Class Car Ofjetos Volvo Audi Toyotaso, uma classe é um modelo para objetos e um objeto é uma instância de uma classe. Quando os objetos individuais são criados, eles herdam toda a\nvariáveis e métodos da classe. Você aprenderá muito mais sobre aulas e objetos no próximo capítulo."
+
+  utter_aula:
+    - text: "Fruta"
+
+  utter_objetos:
+    - text: "Applebananamango"
+
+  utter_aula_2:
+    - text: "Carro"
+
+  utter_objetos_2:
+    - text: "Volvouditoote"
+
+  utter_Java_Classes/Objetos:
+    - text: "Java é uma linguagem de programação orientada a objetos. Tudo em Java está associado a classes e objetos, juntamente com seus atributos e\nmétodos.Por exemplo: Na vida real, um carro é um objeto.O carro possui atributos, como peso e cor, e métodos, como acionamento e freio. Uma aula é como um construtor de objetos ou um \"plano\" para criar objetos."
+
+  utter_Criar_uma_classe:
+    - text: "Para criar uma classe, use a classe de palavra -chave: main.java Crie uma classe chamada \"main\" com um\nvariável x: classe pública principal {\nint x = 5;\n} Lembre -se do capítulo Java Sintaxe de que uma classe deve sempre começar com uma primeira letra em maiúsculas e que o nome do arquivo java deve corresponder ao nome da classe."
+
+  utter_Criar_um_objeto:
+    - text: "Em Java, um objeto é criado a partir de uma classe.Já criamos a classe chamada Main,\nEntão agora podemos usar isso para criar objetos. Para criar um objeto de principal,\nEspecifique o nome da classe, seguido pelo nome do objeto, e use a palavra -chave nova: Exemplo Crie um objeto chamado \"MyObj\" e imprima o valor de x: public class Main {\nint x = 5;\n\npublic static void main (string [] args) {\nPrincipal myobj = new main ();\nSystem.out.println (myobj.x);\n}\n} Tente você mesmo \""
+
+  utter_Múltiplos_objetos:
+    - text: "Você pode criar vários objetos de uma classe: Exemplo Crie dois objetos de Main: Public Class Main {\nint x = 5;\n\npublic static void main (string [] args) {\nPrincipal myobj1 = new main ();// Objeto 1\nPrincipal myobj2 = new main ();// Objeto 2\nSystem.out.println (myobj1.x);\nSystem.out.println (myobj2.x);\n}\n} Tente você mesmo \""
+
+  utter_Usando_várias_classes:
+    - text: "Você também pode criar um objeto de uma classe e acessá -lo em outra classe.Esse\né frequentemente usado para uma melhor organização de classes (uma classe tem todo o\natributos e métodos, enquanto a outra classe possui o método principal () (código para\nser executado)). Lembre -se de que o nome do arquivo java deve corresponder ao nome da classe.Nisso\nPor exemplo, criamos dois arquivos no mesmo diretório/pasta: main.java segundo.javamain.java public class Main {\nint x = 5;\n} Second.java classe Second {\npublic static void main (string [] args) {\nPrincipal myobj = new main ();\nSystem.out.println (myobj.x);\n}\n} Quando os dois arquivos foram compilados: C: \ Usuários \ seu nome> javac main.java c: \ usuários \ seu nome> javac segundo.javarun the Second.java Arquivo: c: \ users \ seu nome> java segundo e a saídaSerá: 5 Experimente você mesmo »Você aprenderá muito mais sobre aulas e objetos nos próximos capítulos."
+
+  utter_Teste_-se_com_exercícios_19:
+    - text: "Exercício: Crie um objeto de myclass chamado myobj.= new ();Envie Resposta »Comece o exercício"
+
+  utter_Exercício__19:
+    - text: "Crie um objeto de myclass chamado myobj. = New (); envia resposta »Inicie o exercício"
+
+  utter_Atributos_da_classe_Java:
+    - text: "No capítulo anterior, usamos o termo \"variável\" para x no exemplo (como mostrado abaixo).Na verdade, é um atributo da classe.Ou você poderia dizer que os atributos de classe são variáveis dentro de uma classe: Exemplo Crie uma classe chamada \"Main\" com dois atributos: X e Y: Public Class Main {\nint x = 5;\nint y = 3;\n} Outro termo para atributos de classe são os campos."
+
+  utter_Acessando_atributos:
+    - text: "Você pode acessar atributos criando um objeto da classe e usando a sintaxe do ponto (.): O exemplo a seguir criará um objeto da classe principal, com o\nnome Myobj.Usamos o atributo x no objeto para imprimir seu valor: Exemplo Crie um objeto chamado \"MyObj\" e imprima o valor de x: public class Main {\nint x = 5;\n\npublic static void main (string [] args) {\nPrincipal myobj = new main ();\nSystem.out.println (myobj.x);\n}\n} Tente você mesmo \""
+
+  utter_Modificar_atributos:
+    - text: "Você também pode modificar os valores do atributo: Exemplo Defina o valor de X a 40: Public Class Main {\nint x;\n\npublic static void main (string [] args) {\nPrincipal myobj = new main ();\nmyobj.x = 40;\nSystem.out.println (myobj.x);\n}\n} Experimente você mesmo »Ou substitua os valores existentes: Exemplo Alterar o valor de x para 25: classe pública principal {\nint x = 10;\n\npublic static void main (string [] args) {\nPrincipal myobj = new main ();\nmyobj.x = 25;// x agora tem 25\nSystem.out.println (myobj.x);\n}\n} Experimente você mesmo »Se você não deseja a capacidade de substituir os valores existentes, declare o atributo como final: exemplo da classe pública principal {final int x = 10;\n\npublic static void main (string [] args) {\nPrincipal myobj = new main ();\nmyobj.x = 25;// gerará um erro: não é possível atribuir um valor a uma variável final\nSystem.out.println (myobj.x);\n}\n} Experimente você mesmo »A palavra -chave final é útil quando você deseja que uma variável sempre armazene o mesmo valor, como o PI (3.14159 ...).A palavra -chave final é chamada de \"modificador\".Você aprenderá mais sobre isso no capítulo Java Modifiers."
+
+  utter_Múltiplos_objetos_2:
+    - text: "Se você criar vários objetos de uma classe, poderá alterar os valores do atributo em um objeto, sem afetar os valores do atributo no outro: Exemplo Alterar o valor de x para 25 em Myobj2 e deixar x em myobj1 inalterado: classe pública principal {\nint x = 5;\n\npublic static void main (string [] args) {\nPrincipal myobj1 = new main ();// Objeto 1\nPrincipal myobj2 = new main ();// Objeto 2\nmyobj2.x = 25;\nSystem.out.println (myobj1.x);// Saídas 5\nSystem.out.println (myobj2.x);// Saídas 25\n}\n} Tente você mesmo \""
+
+  utter_Atributos_múltiplos:
+    - text: "Você pode especificar quantos atributos quiser: Exemplo de classe pública principal {\nString fname = \"John\";\nString lname = \"doe\";\nInt Age = 24;\n\npublic static void main (string [] args) {\nPrincipal myobj = new main ();\nSystem.out.println (\"Nome:\" + myobj.fname + \"\" + myobj.lname);\nSystem.out.println (\"Age:\" + myobj.age);\n}\n} Experimente você mesmo »O próximo capítulo ensinará como criar métodos de classe e como acessá -los com objetos.Entrar Inscrever-se"
+
+  utter_Criar_um_método:
+    - text: "Um método deve ser declarado dentro de uma classe.Está definido\ncom o nome do método, seguido de parênteses ().O Java fornece alguns métodos predefinidos, como o System.out.println (), mas você também pode criar seus próprios métodos para executar determinadas ações: Exemplo Crie um método dentro de principal: Public Class Main {\nestático vazio myMethod () {\n// código a ser executado\n}\n} Exemplo explicadoMyMethod () é o nome do método estático significa que o método pertence ao\nClasse principal e não um objeto da classe principal.Você aprenderá mais sobre objetos e como acessar métodos através de objetos posteriormente neste tutorial.vazio significa que este método não tem um\nvalor de retorno.Você aprenderá mais sobre os valores de retorno mais tarde neste capítulo"
+
+  utter_Chame_um_método:
+    - text: "Para chamar um método em Java, escreva o nome do método seguido por dois\nParênteses () e um ponto de vírgula; No exemplo a seguir, o MyMethod () é usado para imprimir um texto (a ação), quando é chamado: Exemplo dentro do principal, chame o método myMethod (): public class Main {\nestático vazio myMethod () {\nSystem.out.println (\"Acabei de ser executado!\");\n}\n\npublic static void main (string [] args) {\nmyMethod ();\n}\n}\n\n// Saídas \"Acabei de ser executado!\"Experimente você mesmo »Um método também pode ser chamado várias vezes: exemplo da classe pública principal {\nestático vazio myMethod () {\nSystem.out.println (\"Acabei de ser executado!\");\n}\n\npublic static void main (string [] args) {\nmyMethod ();\nmyMethod ();\nmyMethod ();\n}\n}\n\n// Acabei de ser executado!\n// Acabei de ser executado!\n// Acabei de ser executado!Experimente você mesmo »No próximo capítulo, parâmetros do método, você aprenderá como passar dados (parâmetros) para um método."
+
+  utter_Teste_-se_com_exercícios_20:
+    - text: "Exercício: Insira a parte que faltava para chamar MyMethod de Main.estático vazio myMethod () {\n  System.out.println (\"Acabei de ser executado!\");\n}\n\npublic static void main (string [] args) {;\n} Enviar resposta »Inicie o exercício"
+
+  utter_Exercício__20:
+    - text: "Insira a parte que faltava para chamar MyMethod de Main .Static Void MyMethod () {\n  System.out.println (\"Acabei de ser executado!\");\n}\n\npublic static void main (string [] args) {;\n} Enviar resposta »Inicie o exercício"
+
+  utter_Sobrecarga_de_método:
+    - text: "Com a sobrecarga de métodos, vários métodos podem ter o mesmo nome com diferente\nParâmetros: exemplo int mymethod (int x)\nFloat mymethod (flutuação x)\nDouble myMethod (duplo x, duplo y) Considere o exemplo a seguir, que possui dois métodos que adicionam números de tipo diferente: exemplo estático int plusmethodint (int x, int y) {\n  retornar x + y;\n}\n\nestático duplo plusmethoddouble (duplo x, duplo y) {\n  retornar x + y;\n}\n\npublic static void main (string [] args) {\n  int mynum1 = plusmethodint (8, 5);\n  duplo mynum2 = plusmethodDouble (4.3, 6.26);\n  System.out.println (\"int:\" + mynum1);\n  System.out.println (\"Double:\" + Mynum2);\n} Experimente você mesmo »Em vez de definir dois métodos que devem fazer a mesma coisa, é melhor sobrecarregar um. No exemplo abaixo, sobrecarregamos o método PlusMethod para funcionar para INT e Double: Exemplo estático int plusmethod (int x,int y) {\n  retornar x + y;\n}\n\nestático duplo plusmethod (duplo x, duplo y) {\n  retornar x + y;\n}\n\npublic static void main (string [] args) {\n  int mynum1 = plusmethod (8, 5);\n  duplo mynum2 = plusmethod (4.3, 6.26);\n  System.out.println (\"int:\" + mynum1);\n  System.out.println (\"Double:\" + Mynum2);\n} Experimente você mesmo »Nota: Vários métodos podem ter o mesmo nome\n  Enquanto o número e/ou o tipo de parâmetros forem diferentes."
+
+  utter_Parâmetros_e_argumentos:
+    - text: "As informações podem ser passadas para os métodos como parâmetro.Os parâmetros atuam como variáveis dentro do método. Os parâmetros são especificados após o nome do método, dentro dos parênteses.\nVocê pode adicionar quantos parâmetros quiser, basta separá -los com uma vírgula. O exemplo a seguir tem um\nMétodo que leva uma string chamada fname como parâmetro.\nQuando o método é chamado, passamos por um primeiro nome,\nque é usado dentro do método para imprimir o nome completo: exemplo da classe pública principal {\nestático void myMethod (string fname) {\nSystem.out.println (fname + \"refsnes\");\n}\n\npublic static void main (string [] args) {\nMyMethod (\"Liam\");\nMyMethod (\"Jenny\");\nMyMethod (\"Anja\");\n}\n}\n// Liam Refsnes\n// Jenny Refsnes\n// Anja Refsnes Experimente você mesmo »Quando um parâmetro é passado para o método, ele é chamado de argumento.Então, pelo exemplo acima: FNAME é um parâmetro, enquanto Liam, Jenny e Anja são argumentos."
+
+  utter_Vários_parâmetros:
+    - text: "Você pode ter tantos parâmetros quanto quiser: exemplo de classe pública principal {\n  estático vazio mymethod (string fname, int age) {\n    System.out.println (fname + \"is\" + idade);\n  }\n\n  public static void main (string [] args) {\n    MyMethod (\"Liam\", 5);\n    MyMethod (\"Jenny\", 8);\n    MyMethod (\"Anja\", 31);\n  }\n}\n\n// Liam é 5\n// Jenny tem 8\n// anja tem 31 Experimente você mesmo »Observe que quando você está trabalhando com vários parâmetros, a chamada do método deve\nTenha o mesmo número de argumentos que existem parâmetros e os argumentos devem ser passados na mesma ordem."
+
+  utter_Valores_de_retorno:
+    - text: "A palavra -chave void, usada nos exemplos acima, indica que o método não deve retornar um valor.Se você\nDeseja que o método retorne um valor, você pode usar um tipo de dados primitivo (como int, char etc.) em vez de nulo e usar a palavra -chave de retorno dentro do método: exemplo da classe pública principal {\nestático int myMethod (int x) {return 5 + x;\n}\n\npublic static void main (string [] args) {\nSystem.out.println (MyMethod (3));\n}\n}\n// produz 8 (5 + 3) Experimente você mesmo »Este exemplo retorna a soma dos dois parâmetros de um método: Exemplo de classe pública Principal {\nestático int myMethod (int x, int y) {\nretornar x + y;\n}\n\npublic static void main (string [] args) {\nSystem.out.println (MyMethod (5, 3));\n}\n}\n// Saídas 8 (5 + 3) Experimente você mesmo »Você também pode armazenar o resultado em uma variável (recomendada, pois é mais fácil de ler e manter): exemplo da classe pública principal {\nestático int myMethod (int x, int y) {\nretornar x + y;\n}\n\npublic static void main (string [] args) {\nint z = mymethod (5, 3);\nSystem.out.println (z);\n}\n}\n// Saídas 8 (5 + 3) Experimente você mesmo »"
+
+  utter_Um_método_com_se_..._else:
+    - text: "É comum usar se ... else declarações dentro dos métodos: exemplo da classe pública principal {\n\n// Crie um método de verificação () com uma variável inteira chamada Age estática vazio de verificação (int Age) {\n\n// Se a idade for menor que 18, impressão \"Acesso negado\"\nif (idade <18) {\nSystem.out.println (\"Acesso negado - você não tem idade suficiente!\");\n\n// Se a idade for maior que ou igual a 18 anos, imprimir \"acesso concedido\"\n} outro {\nSystem.out.println (\"Acesso concedido - você tem idade suficiente!\");\n}\n\n}\n\npublic static void main (string [] args) {\nverificação (20);// Ligue para o método de verificação e passe ao longo de uma idade de 20\n}\n}\n\n// Saídas \"Acesso concedido - você tem idade suficiente!\"Tente você mesmo \""
+
+  utter_Teste_-se_com_exercícios_21:
+    - text: "Exercício: Adicione um parâmetro fname da string do tipo ao mymethod e saída \"John Doe\": estático void myMethod () {\n  System.out.println ( + \"Doe\");\n}\n\npublic static void main (string [] args) {\n  MyMethod (\"John\");\n} Enviar resposta »Inicie o exercício"
+
+  utter_Exercício__21:
+    - text: "Adicione um parâmetro fname da string do tipo ao myMethod e saia \"John Doe\": estático void myMethod () {\n  System.out.println ( + \"Doe\");\n}\n\npublic static void main (string [] args) {\n  MyMethod (\"John\");\n} Enviar resposta »Inicie o exercício"
+
+  utter_Escopo_Java:
+    - text: "Em Java, as variáveis são acessíveis apenas dentro da região em que são criadas.Isso é chamado de escopo."
+
+  utter_Escopo_do_método:
+    - text: "As variáveis declaradas diretamente dentro de um método estão disponíveis em qualquer lugar do método seguindo a linha de código em que foram declarados: Exemplo de classe pública principal {\n  public static void main (string [] args) {\n\n    // O código aqui não pode usar x\n\n    int x = 100;\n\n    // O código aqui pode usar x\n    System.out.println (x);} } Tente você mesmo \""
+
+  utter_Bloquear_o_escopo:
+    - text: "Um bloco de código refere -se a todo o código entre os aparelhos encaracolados {} .Variables\nDeclarados dentro de blocos de código, são acessíveis apenas pelo código entre os aparelhos encaracolados, que segue a linha em que a variável foi declarada: exemplo da classe pública principal {\n  public static void main (string [] args) {\n\n    // O código aqui não pode usar x\n\n    {// Este é um bloco\n\n      // O código aqui não pode usar x\n\n      int x = 100;\n\n      // O código aqui pode usar x\n      System.out.println (x);\n\n    } // O bloco termina aqui\n\n  // O código aqui não pode usar x\n\n  }\n} Experimente você mesmo »Um bloco de código pode existir em seu\npróprio ou pode pertencer a um se, enquanto ou para declaração.No caso de declarações,\nAs variáveis declaradas na própria declaração também estão disponíveis dentro do escopo do bloco. ❮ Anterior ❯ ❯ ★ +1 W3SCOOLS Pathfinder Rastreie seu progresso - é grátis!Entrar Inscrever-se"
+
+  utter_Métodos_de_classe_Java:
+    - text: "Você aprendeu com o capítulo dos métodos java que os métodos são declarados dentro de um\nclasse, e que eles são usados para executar determinadas ações: exemplo, crie um\nMétodo chamado myMethod () em Main: Public Class Main {\nestático vazio myMethod () {\nSystem.out.println (\"Hello World!\");\n}\n} myMethod () imprime um texto (a ação), quando é chamado.Para\nLigue para um método, escreva o nome do método seguido por dois parênteses () e um ponto e vírgula; exemplo dentro do main, ligue para myMethod (): public class Main {\nestático vazio myMethod () {\nSystem.out.println (\"Hello World!\");\n}\n\npublic static void main (string [] args) {\nmyMethod ();\n}\n}\n\n// produz \"Hello World!\"Tente você mesmo \""
+
+  utter_Estático_vs._público:
+    - text: "Você geralmente verá programas Java que têm atributos e métodos estáticos ou públicos. No exemplo acima, criamos um método estático, o que significa que ele pode ser acessado sem criar um objeto da classe,\nao contrário do público, que só pode ser acessado por\nObjetos: Exemplo Um exemplo para demonstrar as diferenças entre métodos estáticos e públicos: Public Class Main {\n// Método estático\nestático vazio mystaticmethod () {\nSystem.out.println (\"Os métodos estáticos podem ser chamados sem criar objetos\");\n}\n\n// Método público\npublic void mypublicMethod () {\nSystem.out.println (\"Os métodos públicos devem ser chamados criando objetos\");\n}\n\n// Método principal\npublic static void main (string [] args) {\nmystaticmethod ();// Ligue para o método estático\n// mypublicMethod ();Isso compilaria um erro\n\nPrincipal myobj = new main ();// Crie um objeto de principal\nmyobj.mypublicmethod ();// Chame o método público no objeto\n}\n} Experimente você mesmo »NOTA: Você aprenderá mais sobre essas palavras -chave (chamadas modificadores) no capítulo Java Modifiers."
+
+  utter_Métodos_de_acesso_com_um_objeto:
+    - text: "Exemplo Crie um objeto de carro chamado Mycar.Ligue para os métodos de FullHrottle () e Speed () no objeto MyCar e execute o programa: // Crie uma classe principal\nclasse pública principal {\n\n// Crie um método de fullhrottle ()\npublic void FullHrottle () {\nSystem.out.println (\"O carro está indo o mais rápido possível!\");\n}\n\n// Crie um método Speed () e adicione um parâmetro\nPublic Void Speed (int maxspeed) {\nSystem.out.println (\"Max Speed Is:\" + MaxSpeed);\n}\n\n// Inside Main, chame os métodos no objeto MyCar\npublic static void main (string [] args) {\nPrincipal mycar = new main ();// Crie um objeto mycar\nmycar.fullthrottle ();// Ligue para o método FullHrottle ()\nmycar.speed (200);// Ligue para o método Speed ()\n}\n}\n\n// O carro está indo o mais rápido possível!\n// A velocidade máxima é: 200 Experimente você mesmo »Exemplo explicado1) Criamos uma classe principal personalizada com a palavra -chave de classe.2) Criamos os métodos de FullHrottle () e Speed () na classe principal.3) O método FullHrottle ()e o método speed () imprimirá algum texto, quando são chamados.4) O método Speed () aceita um parâmetro int chamado maxspeed - nós\nusará isso em 8) .5) para usar a classe principal e seu\nMétodos, precisamos criar um objeto da classe principal.6) Então, vá para o método Main (), que você sabe que agora é um embutido\nMétodo Java que executa seu programa (qualquer código dentro é executado) .7) usando a nova palavra -chave, criamos um objeto com o nome MyCar .8) Então, chamamos os métodos de FullHrottle () e Speed () no objeto mycare execute o programa usando o nome do objeto (mycar), seguido por um ponto (.), seguido pelo nome do método (FullHrottle (); e Speed (200);).\nObserve que adicionamos um parâmetro int de 200 dentro do método speed (). Lembre -se de que .. o ponto (.) É usado para acessar os atributos e métodos do objeto.Para chamar um método em Java, escreva o nome do método seguido de um conjunto de parênteses (), seguido por um ponto de vírgula (;).Uma aula deve ter um nome de arquivo correspondente (main e main.java)."
+
+  utter_Usando_várias_classes_2:
+    - text: "Como especificamos no capítulo das aulas, é\numa boa prática para criar um objeto de uma classe e acessá -lo em outra classe. Lembre -se de que o nome do arquivo java deve corresponder ao nome da classe.Nisso\nPor exemplo, criamos dois arquivos no mesmo diretório: main.java segundo.javamain.java public class Main {\npublic void FullHrottle () {\nSystem.out.println (\"O carro está indo o mais rápido possível!\");\n}\n\nPublic Void Speed (int maxspeed) {\nSystem.out.println (\"Max Speed Is:\" + MaxSpeed);\n}\n} Second.java classe Second {\npublic static void main (string [] args) {\nPrincipal mycar = new main ();// Crie um objeto mycar\nmycar.fullthrottle ();// Ligue para o método FullHrottle ()\nmycar.speed (200);// Ligue para o método Speed ()\n}\n} Quando os dois arquivos foram compilados: C: \ Usuários \ seu nome> javac main.java c: \ usuários \ seu nome> javac segundo.javarun the Second.java Arquivo: c: \ users \ seu nome> java segundo e a saídaSerá: o carro está indo o mais rápido possível!A velocidade máxima é: 200 Experimente você mesmo »❮ Anterior Próximo ❯ ★ +1 W3Schools Pathfinder Rastreie seu progresso - é grátis!Entrar Inscrever-se"
+
+  utter_Construtores_Java:
+    - text: "Um construtor no Java é um método especial usado para inicializar objetos.\nO construtor é chamado quando um objeto de uma classe é criado.Pode ser usado para\nDefina valores iniciais para atributos de objeto: Exemplo Crie um construtor: // Crie uma classe principal\nclasse pública principal {\nint x;// Crie um atributo de classe\n\n// Crie um construtor de classe para a classe principal\npublic main () {\nx = 5;// Defina o valor inicial para o atributo de classe X\n}\n\npublic static void main (string [] args) {\nPrincipal myobj = new main ();// Crie um objeto de classe principal (isso chamará o construtor)\nSystem.out.println (myobj.x);// imprima o valor de x\n}\n}\n\n// Saídas 5 Experimente você mesmo »Observe que o nome do construtor deve corresponder ao nome da classe e não pode ter um tipo de retorno (como o vazio).Observe também que o construtor é chamado quando o objeto é criado.Todas as classes têm construtores por padrão: se você não criar um construtor de classe\nvocê mesmo, Java cria um para você.No entanto, você não pode definir valores iniciais para atributos de objeto."
+
+  utter_Parâmetros_do_construtor:
+    - text: "Os construtores também podem levar parâmetros, que são usados para inicializar\natributos. O exemplo a seguir adiciona um parâmetro int y\npara o construtor.\nDentro do construtor, definimos x como y (x = y).Quando ligamos\nO construtor, passamos um parâmetro para o construtor (5), que definirá o valor de\nx a 5: Exemplo de classe pública Principal {\nint x;\n\npublic main (int y) {\nx = y;\n}\n\npublic static void main (string [] args) {\nPrincipal myObj = novo principal (5);\nSystem.out.println (myobj.x);\n}\n}\n\n// saídas 5 Experimente você mesmo »Você pode ter quantos parâmetros quiser: Exemplo de classe pública Principal {\nInt Modelyarear;\nString ModelName;\n\npublic main (int ano, nome da string) {\nModemente = ano;\nModelName = nome;\n}\n\npublic static void main (string [] args) {\nPrincipal mycar = new Main (1969, \"Mustang\");\nSystem.out.println (mycar.modelyear + \"\" + mycar.modelname);\n}\n}\n\n// Saídas 1969 Mustang Experimente você mesmo »❮ Anterior Próximo ❯ ★ +1 W3Schools Pathfinder Rastreie seu progresso - é grátis!Entrar Inscrever-se"
+
+  utter_Encapsulamento:
+    - text: "O significado do encapsulamento é garantir que dados \"sensíveis\" estejam ocultos\nde usuários.Para conseguir isso, você deve: declarar variáveis/atributos de classe como privado, forneça métodos públicos de obter e definir para acessar e atualizar o valor de uma variável privada GET e Set que você aprendeu com o capítulo anterior que variáveis privadas só podem ser\nAcessado na mesma classe (uma classe externa não tem acesso a ela).No entanto,\nÉ possível acessá -los se fornecermos métodos públicos de obter e definir.O método GET retorna o valor da variável e o método set define o valor.A sintaxe para ambos é que eles começam com Get ou Set, seguido pelo\nNome da variável, com a primeira letra na capa: exemplo de classe pública Pessoa {\nnome de string privado;// privado = acesso restrito\n\n// getter\npublic String getName () {\nNome de retorno;\n}\n\n// Normatizador\npublic void setName (String newName) {\nthis.name = newName;\n}\n} Exemplo explicou que o método get retorna o valor do nome da variável.O método SET pega um parâmetro (nome do newname) e o atribui à variável de nome.A palavra -chave esta é usada para se referir ao atual\nobjeto.No entanto, como a variável de nome é declarada como privada, não podemos acessá -la de fora desta classe: exemplo da classe pública principal {\npublic static void main (string [] args) {\nPessoa myobj = new pessoa ();\nmyobj.name = \"John\";// erro\nSystem.out.println (myobj.name);// erro\n}\n} Exemplo de execução »Se a variável foi declarada como pública, esperaríamos a seguinte saída: John, no entanto, enquanto tentamos acessar uma variável privada, recebemos um erro: myclass.java:4: erro: o nome tem acesso privado pessoalmente pessoalmentemyobj.name = \"John\";^ Myclass.java:5: Erro: o nome tem acesso privado em System.out.println (myobj.name);^ 2 Erros, em vez disso, usamos os métodos getName () e setName () para acessar e atualizar a variável: exemplo da classe pública principal {\npublic static void main (string [] args) {\nPessoa myobj = new pessoa ();\nmyobj.setName (\"John\");// Defina o valor da variável de nome para \"John\"\nSystem.out.println (myObj.getName ());\n}\n}\n\n// Saídas \"John\" Experimente você mesmo »Por que o encapsulamento?Melhor controle dos atributos e métodos de classe Os atributos de classe podem ser feitos somente leitura (se você usar apenas o método get) ou somente a gravação (se você usar apenas o método de conjunto) flexível: o programador pode alterar uma parte do código semafetando outras peças aumentando a segurança dos dados ❮ Anterior Próximo ❯ ★ +1 W3Schools Pathfinder Rastreie seu progresso - é grátis!Entrar Inscrever-se"
+
+  utter_Obtenha_e_defina:
+    - text: "Você aprendeu com o capítulo anterior que variáveis privadas só podem ser\nAcessado na mesma classe (uma classe externa não tem acesso a ela).No entanto,\nÉ possível acessá -los se fornecermos métodos públicos de obter e definir.\nNome da variável, com a primeira letra na capa: exemplo de classe pública Pessoa {\nnome de string privado;// privado = acesso restrito\n\n// getter\npublic String getName () {\nNome de retorno;\n}\n\n// Normatizador\npublic void setName (String newName) {\nthis.name = newName;\n}\n} Exemplo explicado O método GET Retorna o valor do nome da variável. O método SET pega um parâmetro (nome do newName) e o atribui à variável de nome.A palavra -chave esta é usada para se referir ao atual\nObject.wowever, como a variável de nome é declarada como privada, não podemos acessá -la de fora desta classe: exemplo da classe pública principal {\npublic static void main (string [] args) {\nPessoa myobj = new pessoa ();\nmyobj.name = \"John\";// erro\nSystem.out.println (myobj.name);// erro\n}\n} Exemplo de execução »Se a variável foi declarada como pública, esperaríamos a seguinte saída: JohhoHowever, enquanto tentamos acessar uma variável privada, recebemos um erro: myclass.java: 4: erro: o nome tem acesso privado em pessoa myobj.Name = \"John\";^ Myclass.java:5: Erro: o nome tem acesso privado em System.out.println (myobj.name);^ 2 ErrorSinstead, usamos os métodos getName () e setName () para acessar e atualizar a variável: exemplo da classe pública principal {\npublic static void main (string [] args) {\nPessoa myobj = new pessoa ();\nmyobj.setName (\"John\");// Defina o valor da variável de nome para \"John\"\nSystem.out.println (myObj.getName ());\n}\n}\n\n// Saídas \"John\" Experimente você mesmo »"
+
+  utter_Por_que_encapsulamento?:
+    - text: "Melhor controle dos atributos e métodos de classe Os atributos de classe podem ser feitos somente leitura (se você usar apenas o método get) ou somente a gravação (se você usar apenas o método de conjunto) flexível: o programador pode alterar uma parte do código semAfetando outras partes do aumento da segurança dos dados❮ Anterior ❯ ❯ ★ +1 W3Schools Pathfinder Rastreie seu progresso - é grátis!Entrar Inscrever-se"
+
+  utter_Pacotes_Java_e_API:
+    - text: "Um pacote em Java é usado para agrupar classes relacionadas.Pense nisso como uma pasta em um diretório de arquivos.Usamos pacotes para evitar conflitos de nome e\npara escrever um código melhor sustentável.Os pacotes são divididos em duas categorias: pacotes embutidos (pacotes da API Java) pacotes definidos pelo usuário (crie seus próprios pacotes)"
+
+  utter_Pacotes_embutidos:
+    - text: "A API Java é uma biblioteca de classes pré -escritas, que são livres para usar, incluídas no\nAmbiente de desenvolvimento de java. A biblioteca contém componentes para gerenciar informações, programação de banco de dados e muito\nmais.A lista completa pode ser encontrada no site da Oracle: https://docs.oracle.com/javase/8/docs/api/ .A biblioteca é dividida em pacotes e classes.\nO que significa que você pode importar uma única classe (junto com seus métodos e\natributos), ou um pacote inteiro que contém\nTodas as classes que pertencem ao pacote especificado.nome .Aula ;// importar uma única classe\npacote de importação.nome .*;// importe o pacote inteiro"
+
+  utter_Importar_uma_classe:
+    - text: "Se você encontrar uma aula que deseja usar, por exemplo, a classe do scanner, que é usada para obter\nEntrada do usuário, escreva o seguinte código: Exemplo Importar java.util.scanner; No exemplo acima, java.util é um pacote, enquanto o scanner é uma classe de\nO pacote java.util.Para usar a classe Scanner, crie um objeto da classe e use qualquer um dos métodos disponíveis encontrados na documentação da classe Scanner.\nEm nosso exemplo, usaremos o método NextLine (), que é usado para ler um\nLinha completa: Exemplo usando a classe Scanner para obter entrada do usuário: importar java.util.scanner;\n\nclasse myclass {\npublic static void main (string [] args) {\nScanner myobj = new scanner (system.in);\nSystem.out.println (\"Enter UserName\");\n\nString userName = myObj.NextLine ();\nSystem.out.println (\"Nome de usuário é:\" + nome de usuário);\n}\n} Exemplo de execução »"
+
+  utter_Importar_um_pacote:
+    - text: "Existem muitos pacotes para escolher.No exemplo anterior, usamos a classe Scanner no pacote java.util.Este pacote também contém data e hora\ninstalações, gerador de números aleatórios e outras classes de utilitário. Para importar um pacote inteiro, encerre a frase com um sinal de asterisco ( *).\nO exemplo a seguir\nImportará todas as classes no pacote java.util: exemplo importar java.util.*;Exemplo de execução »"
+
+  utter_Pacotes_definidos_pelo_usuário:
+    - text: "Para criar seu próprio pacote, você precisa entender que o Java usa um diretório do sistema de arquivos para armazená -los.Assim como pastas no seu computador: Exemplo └── raiz\n  └── Mypack\n    └── mypackageclass.javato Crie um pacote, use a palavra -chave do pacote: mypackageclass.java package mypack;\nclasse MyPackageClass {\npublic static void main (string [] args) {\nSystem.out.println (\"Este é o meu pacote!\");\n}\n} Exemplo de execução »Salvar o arquivo como mypackageclass.java e compile: c: \ users \ seu nome> javac mypackageclass.javathen compile o pacote: c: \ users \ seu nome> javac -d.Mypackageclass.javathis força o compilador a criar o pacote \"mypack\".A palavra -chave -d especifica o destino para onde salvar o arquivo de classe.Você\n  pode usar qualquer nome de diretório, como C:/Usuário (Windows) ou, se você quiser manter\n  o pacote dentro do mesmo diretório, você pode usar o sinal de ponto \".\", como em\n  o exemplo acima.Nota: o nome do pacote deve ser escrito em minúsculas para evitar conflitos com nomes de classe. Quando compilamos o pacote no exemplo acima, uma nova pasta foi criada, chamada \"Mypack\" .Para executar o arquivo mypackageclass.java, escreva o seguinte: C: \ Usuários \ Seu nome> java mypack.mypackageclasstH A saída será: este é o meu pacote! ❮ Anterior Próximo ❯ ★ +1 W3Schools Pathfinder Rastrear seu progresso - é grátis!Entrar Inscrever-se"
+
+  utter_HERIDAÇÃO_DE_JAVA_(SUBCLASSE_E_SUPERCLASSE):
+    - text: "Em Java, é possível herdar atributos e métodos de uma classe para outra.Agrupamos o \"conceito de herança\" em duas categorias: Subclasse (Child) - a classe que herda de outra superclasse de classe (pai) - a classe sendo herdada do Herito de uma classe, use a palavra -chave estendida. No exemplo abaixo, o carroaula\n(Subclasse) herda os atributos e métodos da classe de veículos\n(Superclass): Exemplo de classe veículo {\nString protegida Brand = \"Ford\";// Atributo do veículo\npublic void Honk () {// Método do veículo\nSystem.out.println (\"Tuut, Tuut!\");\n}\n}\n\nClass Car estende o veículo {\nPrivate String ModelName = \"Mustang\";// atributo do carro\npublic static void main (string [] args) {\n\n// Crie um objeto mycar\nCarro mycar = novo carro ();\n\n// Chame o método Honk () (da classe de veículo) no objeto MyCar\nmycar.honk ();\n\n// exibe o valor do atributo da marca (da classe do veículo) e o valor do nome do modelo da classe de carro\nSystem.out.println (mycar.brand + \"\" + mycar.modelname);\n}\n} Experimente você mesmo »Você notou o modificador protegido no veículo?Definimos o atributo da marca no veículo para um acesso protegido\nmodificador.Se estivesse definido como privado, a classe de carros não seria capaz de acessar\nisto.Por que e quando usar \"herança\"?- É útil para a reutilização de código: reutilizar atributos e métodos de uma classe existente quando você cria uma nova classe.Dica: também dê uma olhada no próximo capítulo, o polimorfismo, que usa métodos herdados para executar tarefas diferentes."
+
+  utter_A_palavra_-chave_final:
+    - text: "Se você não deseja que outras classes herdem de uma classe, use a palavra -chave final: se você tentar acessar uma classe final, o Java gerará um erro: veículo de classe final {\n  ...\n}\n\nClass Car estende o veículo {\n  ...\n} A saída será algo assim: Main.Java:9: Erro: Não é possível herdar da classe final da classe de veículos.\n  Veículo { ^ 1 erro) Experimente você mesmo »❮ Anterior Próximo ❯ ★ +1 W3schools Pathfinder Rastreie seu progresso - é grátis!Entrar Inscrever-se"
+
+  utter_Classes_internas_de_Java:
+    - text: "Em Java, também é possível aninhar as aulas (uma classe dentro de uma classe).O objetivo\nde classes aninhadas é para classes de grupo que pertencem juntas, o que torna seu código mais legível e sustentável. Acesse o acesso da classe interna, crie um objeto da classe externa e, em seguida, crie um objeto da classe interna: Exemplo de classe Outerclass {\nint x = 10;\n\nclasse Innerclass {\nint y = 5;\n}\n}\n\nclasse pública principal {\npublic static void main (string [] args) {\nOuterClass Myouter = new OutterClass ();\nOuterclass.innerclass myinner = myouter.new inerclass ();\nSystem.out.println (myinner.y + myouter.x);\n}\n}\n\n// Saídas 15 (5 + 10) Experimente você mesmo »"
+
+  utter_Classe_interna_privada:
+    - text: "Ao contrário de uma classe \"regular\", uma classe interna pode ser privada ou protegida.\nSe você não deseja que objetos externos acessem a classe interna, declare\nA classe como privada: classe Exemplo OuterClass {\nint x = 10;classe privada Innerclass {\nint y = 5;\n}\n}\n\nclasse pública principal {\npublic static void main (string [] args) {\nOuterClass Myouter = new OutterClass ();\nOuterclass.innerclass myinner = myouter.new inerclass ();\nSystem.out.println (myinner.y + myouter.x);\n}\n} Se você tentar acessar uma classe interna privada a partir de uma classe externa, ocorre um erro: main.java:13: Erro: OuterClass.innerClass possui acesso privado no OuterClass OuterClass.innerclass myinner = myouter.new inerclass ();^ Experimente você mesmo »"
+
+  utter_Classe_interna_estática:
+    - text: "Uma classe interna também pode ser estática, o que significa que você pode acessá -lo sem\nCriando um objeto da classe externa: Exemplo de classe OuterClass {\nint x = 10;\n\nclasse estática Innerclass {\nint y = 5;\n}\n}\n\nclasse pública principal {\npublic static void main (string [] args) {\nOuterClass.innerclass myinner = new OutterClass.innerClass ();\nSystem.out.println (myinner.y);\n}\n}\n\n// Saídas 5 Experimente você mesmo »Nota: Assim como atributos e métodos estáticos, uma classe interna estática não tem acesso a membros da classe externa."
+
+  utter_Acesse_a_classe_externa_da_classe_interna:
+    - text: "Uma vantagem das classes internas é que eles podem acessar atributos e métodos da classe externa: classe de exemplo Outerclass {\nint x = 10;\n\nclasse Innerclass {\npublic int myinNermethod () {\nretornar x;\n}\n}\n}\n\nclasse pública principal {\npublic static void main (string [] args) {\nOuterClass Myouter = new OutterClass ();\nOuterclass.innerclass myinner = myouter.new inerclass ();\nSystem.out.println (myinner.myinnermethod ());\n}\n}\n\n// Saídas 10 Experimente você mesmo »❮ Anterior Próximo ❯ ★ +1 W3Schools Pathfinder Rastreie seu progresso - é grátis!Entrar Inscrever-se"
+
+  utter_Java_Polimorfismo:
+    - text: "O polimorfismo significa \"muitas formas\" e ocorre quando temos muitas classes relacionadas entre si por herança. Como especificamos no capítulo anterior;A herança nos permite\nHeritar atributos e métodos de outra classe.O polimorfismo usa esses métodos para executar tarefas diferentes.Isso nos permite executar um único\nação de maneiras diferentes. Por exemplo, pense em uma superclasse chamada animal que tem um método chamado AnimalSound ().Subclasses de animais podem ser porcos, gatos, cães, pássaros - e eles também têm sua própria implementação de um som animal (o porco oinks, e os matos de gato, etc.): Exemplo de classe Animal {\npublic void Animalsound () {\nSystem.out.println (\"O animal faz um som\");\n}\n}\n\nClasse Pig estende o animal {\npublic void Animalsound () {\nSystem.out.println (\"O porco diz: pequenino\");\n}\n}\n\nClass Dog estende Animal {\npublic void Animalsound () {\nSystem.out.println (\"O cachorro diz: Bow Wow\");\n}\n} Lembre -se do capítulo de herança de que usamos a palavra -chave Extends para herdar de uma classe. Agora podemos criar objetos de porco e cachorro e chamar o método AnimalSound () em ambos: exemplo de classe animal {\npublic void Animalsound () {\nSystem.out.println (\"O animal faz um som\");\n}\n}\n\nClasse Pig estende o animal {\npublic void Animalsound () {\nSystem.out.println (\"O porco diz: pequenino\");\n}\n}\n\nClass Dog estende Animal {\npublic void Animalsound () {\nSystem.out.println (\"O cachorro diz: Bow Wow\");\n}\n}\n\nclasse principal {\npublic static void main (string [] args) {\nAnimal myanimal = novo animal ();// Crie um objeto animal\nAnimal mypig = novo porco ();// Crie um objeto de porco\nAnimal myDog = new Dog ();// Crie um objeto de cachorro\nmyanimal.animalSound ();\nmypig.animalsound ();\nmydog.animalsound ();\n}\n} Experimente você mesmo »Por que e quando usar\" herança \"e\" polimorfismo \"?- É útil para a reutilização de código: reutilizar atributos e métodos de uma classe existente quando você cria uma nova classe. ❮ Anterior ❯ ❯ ★ +1 W3Schools Pathfinder rastreia seu progresso - é grátis!Entrar Inscrever-se"
+
+  utter_Classes_e_métodos_abstratos:
+    - text: "A abstração de dados é o processo de ocultar certos detalhes e mostrar apenas informações essenciais ao usuário.A abstração pode ser alcançada com classes ou interfaces abstratas (sobre as quais você aprenderá mais no próximo capítulo) .A palavra-chave abstrata é um modificador não acessado, usado para classes e métodos: Classe Resumo: É uma classe restrita que não pode ser usadaPara criar objetos (para acessá -los, ele deve ser herdado de outra classe).Método resumo: só pode ser usado em uma classe abstrata e não possui um corpo.O corpo é fornecido pela subclasse (herdada de).Uma classe abstrata pode ter métodos abstratos e regulares: Classe abstrata Animal {\nPublic Abstract Void Animalsound ();\npublic void Sleep () {\nSystem.out.println (\"zzz\");\n}\n} No exemplo acima, não é possível criar um objeto da classe animal: animal myobj = new animal ();// gerará um erro para acessar a classe abstrata, ele deve ser herdado de outra classe.Vamos converter a classe de animais que usamos no capítulo do polimorfismo em uma classe abstrata: lembre -se do capítulo da herança de que usamos a palavra -chave estende para herdar de uma classe.Exemplo // classe abstrata\nclasse abstrata animal {\n// Método abstrato (não tem um corpo)\nPublic Abstract Void Animalsound ();\n// Método regular\npublic void Sleep () {\nSystem.out.println (\"zzz\");\n}\n}\n\n// subclasse (herdado do animal)\nClasse Pig estende o animal {\npublic void Animalsound () {\n// O corpo de AnimalSound () é fornecido aqui\nSystem.out.println (\"O porco diz: pequenino\");\n}\n}\n\nclasse principal {\npublic static void main (string [] args) {\nPorco mypig = new Pig ();// Crie um objeto de porco\nmypig.animalsound ();\nmypig.sleep ();\n}\n} Experimente você mesmo »Por que e quando usar classes e métodos abstratos?Para alcançar a segurança - ocultar certos detalhes e mostrar apenas o importante\ndetalhes de um objeto.Nota: A abstração também pode ser alcançada com interfaces, sobre as quais você aprenderá mais no próximo capítulo.❮ Anterior Próximo ❯ ★ +1 W3Schools Pathfinder Rastreie seu progresso - é grátis!Entrar Inscrever-se"
+
+  utter_Interfaces:
+    - text: "Outra maneira de alcançar a abstração em Java é com interfaces. Uma interface é uma \"classe abstrata\" completamente \"abstrata\"\nque é usado para agrupar métodos relacionados com corpos vazios: exemplo // interface\ninterface animal {\nPublic Void AnimalSound ();// Método de interface (não tem um corpo)\npublic void run ();// Método de interface (não tem um corpo)\n} Para acessar os métodos de interface, a interface deve ser \"implementada\"\n(meio como herdado) por outra classe com a palavra -chave implementos (em vez de se estender).O corpo do\nO método da interface é fornecido pela classe \"implementar\": exemplo // interface\ninterface animal {\nPublic Void AnimalSound ();// Método de interface (não tem um corpo)\nPublic Void Sleep ();// Método de interface (não tem um corpo)\n}\n\n// Pig \"implementa\" a interface animal\nclasse de porco implementa Animal {\npublic void Animalsound () {\n// O corpo de AnimalSound () é fornecido aqui\nSystem.out.println (\"O porco diz: pequenino\");\n}\npublic void Sleep () {\n// O corpo do sono () é fornecido aqui\nSystem.out.println (\"zzz\");\n}\n}\n\nclasse principal {\npublic static void main (string [] args) {\nPorco mypig = new Pig ();// Crie um objeto de porco\nmypig.animalsound ();\nmypig.sleep ();\n}\n} Experimente você mesmo »Notas sobre interfaces: como classes abstratas, as interfaces não podem ser usadas para criar objetos (no exemplo acima,\nnão é possível criar um objeto \"animal\" na interface MyMaintClass) não possui um corpo - o\nO corpo é fornecido pela classe \"implementar\" sobre a implementação de uma interface, você deve substituir todos os seus métodos de interface de métodos são, por padrão, os atributos de interface pública são, por padrão, público, estático e final, uma interface não pode conter um construtor (como não podeser usado para criar objetos) Por que e quando usar interfaces?1) Para alcançar a segurança - ocultar certos detalhes e mostrar apenas o importante\nDetalhes de um objeto (interface).2) O Java não suporta \"herança múltipla\" (uma classe só pode herdar de uma superclasse).No entanto, pode ser alcançado\n  Com interfaces, porque a classe pode implementar várias interfaces.Nota: Para implementar várias interfaces, separe -as com uma vírgula (veja o exemplo abaixo)."
+
+  utter_Várias_interfaces:
+    - text: "Para implementar várias interfaces, separe -as com uma vírgula: exemplo interface FirstInterface {\npublic void myMethod ();// Método da interface\n}\n\nInterface SecondInterface {\npublic void myothermethod ();// Método da interface\n}\n\nclasse Democlass implementa FirstInterface, SecondInterface {\npublic void myMethod () {\nSystem.out.println (\"Alguns texto ..\");\n}\npublic void myothermethod () {\nSystem.out.println (\"algum outro texto ...\");\n}\n}\n\nclasse principal {\npublic static void main (string [] args) {\nDemoclass myobj = new Democlass ();\nmyobj.mymethod ();\nmyobj.myothermethod ();\n}\n} Experimente você mesmo »❮ Anterior Próximo ❯ ★ +1 W3schools Pathfinder Rastreie seu progresso - é grátis!Entrar Inscrever-se"
+
+  utter_Enums:
+    - text: "Uma enumeração é uma \"classe\" especial que representa um grupo de constantes (variáveis imutáveis, como variáveis finais). Para criar uma enumeração, use a palavra -chave enum (em vez de classe ou interface) e separado\nas constantes com vírgula.Observe que eles deveriam estar em cartas maiúsculas: Exemplo de nível de enum {\nBAIXO,\nMÉDIO,\nALTO\n} Você pode acessar constantes enum com a sintaxe do ponto: nível myvar = nível.medium;Experimente você mesmo »Enum é abreviado para\" enumerações \", o que significa\" especificamente listado \"."
+
+  utter_Enumera_dentro_de_uma_aula:
+    - text: "Você também pode ter uma enumeração dentro de uma classe: exemplo da classe pública principal {\nnível de enumeração {\nBAIXO,\nMÉDIO,\nALTO\n}\n\npublic static void main (string [] args) {\nNível myvar = nível.medium;\nSystem.out.println (myvar);\n}\n} A saída será: Médio Experimente você mesmo »"
+
+  utter_Enum_em_uma_declaração_de_interruptor:
+    - text: "As enumes são frequentemente usadas nas instruções de switch para verificar os valores correspondentes: Exemplo de nível de enumeração {\nBAIXO,\nMÉDIO,\nALTO\n}\n\nclasse pública principal {\npublic static void main (string [] args) {\nNível myvar = nível.medium;\n\nSwitch (myvar) {\nCaso baixo:\nSystem.out.println (\"baixo nível\");\nquebrar;\nCaso médio:\nSystem.out.println (\"nível médio\");\nquebrar;\nCaso alto:\nSystem.out.println (\"alto nível\");\nquebrar;\n}\n}\n} A saída será: Nível médio Experimente você mesmo »"
+
+  utter_Loop_através_de_uma_enumeração:
+    - text: "O tipo enum possui um método de valores (), que retorna uma matriz de todas as constantes enum.Este método é útil quando você deseja percorrer as constantes de uma enumeração: Exemplo para (nível myvar: Level.values ()) {\nSystem.out.println (myvar);\n} A saída será: Baixa média alta Experimente você mesmo »Diferença entre enumes e classes que um enum pode, assim como uma classe, ter atributos e métodos.A única\nA diferença é que as constantes enumes são públicas, estáticas e finais (imutáveis - não podem ser substituídas).Uma enumeração não pode ser usada para criar objetos e não pode estender outras classes (mas pode implementar interfaces).Por que e quando usar enums?Use enums quando você tiver valores que você sabe que não vão mudar, como dias de mês, dias, cores, baralho de cartas etc. ❮ Anterior ❯ ❯ ★ +1 W3Schools Pathfinder Rastrear seu progresso - é gratuito!Entrar Inscrever-se"
+
+  utter_Java_Arraylist:
+    - text: "A classe Arraylist é uma matriz redimensível, que pode ser encontrada no pacote java.util.\nAdicione ou remova os elementos de/para uma matriz, você deve criar um novo).Enquanto os elementos podem ser adicionados e removidos de uma lista de Array sempre que você quiser.A sintaxe também é um pouco diferente: Exemplo Crie um objeto Arraylist chamado carros que armazenarão strings: importar java.util.ArrayList;// importar a classe Arraylist\n\nArrayList <String> cars = new ArrayList <String> ();// Crie um objeto ArrayList Se você não sabe o que é um pacote, leia nosso tutorial de pacotes Java."
+
+  utter_Adicionar_itens:
+    - text: "A classe Arraylist possui muitos métodos úteis.Por exemplo, para adicionar elementos ao ArrayList, use o método add (): exemplo importar java.util.ArrayList;\n\nclasse pública principal {\npublic static void main (string [] args) {\nArrayList <String> cars = new ArrayList <String> ();\ncard.add (\"Volvo\");\ncard.add (\"BMW\");\ncard.add (\"Ford\");\ncard.add (\"mazda\");\nSystem.out.println (cars);\n}\n} Tente você mesmo \""
+
+  utter_Acesse_um_item:
+    - text: "Para acessar um elemento na lista de Arraylist, use o método get () e consulte o número do índice: exemplo cars.get (0);Experimente você mesmo »Lembre -se: os índices de matriz começam com 0: [0] é o primeiro elemento.[1] é o segundo\nelemento, etc."
+
+  utter_Mude_um_item:
+    - text: "Para modificar um elemento, use o método set ()\ne consulte o número do índice: exemplo cars.set (0, \"oppel\");Tente você mesmo \""
+
+  utter_Remova_um_item:
+    - text: "Para remover um elemento, use o método Remover ()\ne consulte o número do índice: exemplo carros.remove (0);Experimente você mesmo »Para remover todos os elementos na lista Arraylist, use o método clear (): exemplo caro.clear ();Tente você mesmo \""
+
+  utter_Tamanho_da_Arraylist:
+    - text: "Para descobrir quantos elementos um Arraylist possui, use o método de tamanho: exemplo carros.size ();Tente você mesmo \""
+
+  utter_Loop_através_de_um_Arraylist:
+    - text: "Loop através dos elementos de um ArrayList com um loop for para e use o método size () para especificar quantas vezes o loop deve ser executado: exemplo da classe pública principal {\npublic static void main (string [] args) {\nArrayList <String> cars = new ArrayList <String> ();\ncard.add (\"Volvo\");\ncard.add (\"BMW\");\ncard.add (\"Ford\");\ncard.add (\"mazda\");\nfor (int i = 0; i <cars.size (); i ++) {\nSystem.out.println (cars.get (i));\n}\n}\n} Experimente você mesmo »Você também pode fazer um loop através de um ArrayList com o loop for-Eacha: Exemplo de classe pública principal {\npublic static void main (string [] args) {\nArrayList <String> cars = new ArrayList <String> ();\ncard.add (\"Volvo\");\ncard.add (\"BMW\");\ncard.add (\"Ford\");\ncard.add (\"mazda\");\npara (String I: Cars) {\nSystem.out.println (i);\n}\n}\n} Tente você mesmo \""
+
+  utter_Outros_tipos_2:
+    - text: "Elementos em um Arraylist são realmente objetos.Nos exemplos acima, criamos elementos\n(objetos) do tipo \"String\".Lembre -se de que uma string em Java é um objeto (não um tipo primitivo).Para usar outros tipos, como o INT, você deve especificar uma classe de wrapper equivalente: Inteiro.Para outros tipos primitivos,\nUso: booleano para booleano, personagem para char, duplo para o dobro,\netc: Exemplo Crie uma lista de Array para armazenar números (adicione elementos do tipo inteiro): importar java.util.ArrayList;\n\nclasse pública principal {\npublic static void main (string [] args) {\nArrayList <Terger> mynumbers = new ArrayList <Teger> ();\nmynumbers.add (10);\nmynumbers.add (15);\nmynumbers.add (20);\nmynumbers.add (25);\npara (int i: mynumbers) {\nSystem.out.println (i);\n}\n}\n} Tente você mesmo \""
+
+  utter_Classifique_uma_Arraylist:
+    - text: "Outra classe útil no pacote java.util é a classe de coleções, que inclui o método Sort () para classificar listas\nAlfabeticamente ou numericamente: Exemplo Classifique uma Arraylist of Strings: importar java.util.ArrayList;\nimportar java.util.Collections;// importar a aula de coleções\n\nclasse pública principal {\npublic static void main (string [] args) {\nArrayList <String> cars = new ArrayList <String> ();\ncard.add (\"Volvo\");\ncard.add (\"BMW\");\ncard.add (\"Ford\");\ncard.add (\"mazda\");\nColeções.sort (carros);// Classificar carros\npara (String I: Cars) {\nSystem.out.println (i);\n}\n}\n} Experimente você mesmo »Exemplo Classifique um ArrayList of Inteiros: importar java.util.ArrayList;\nimportar java.util.Collections;// importar a aula de coleções\n\nclasse pública principal {\npublic static void main (string [] args) {\nArrayList <Terger> mynumbers = new ArrayList <Teger> ();\nmynumbers.add (33);\nmynumbers.add (15);\nmynumbers.add (20);\nmynumbers.add (34);\nmynumbers.add (8);\nmynumbers.add (12);\n\nColeções.sort (MyNumbers);// Classifique mynumbers\n\npara (int i: mynumbers) {\nSystem.out.println (i);\n}\n}\n} Experimente você mesmo »❮ Anterior Próximo ❯ ★ +1 W3schools Pathfinder Rastreie seu progresso - é grátis!Entrar Inscrever-se"
+
+  utter_Entrada_do_usuário_Java:
+    - text: "A classe do scanner é usada para obter\nEntrada do usuário e é encontrada no pacote java.util. Para usar a classe Scanner, crie um objeto da classe e use qualquer um dos métodos disponíveis encontrados na documentação da classe Scanner.\nEm nosso exemplo, usaremos o método NextLine (), que é usado para ler Strings: Exemplo de importar java.util.scanner;// importar a classe do scanner\n\nclasse principal {\npublic static void main (string [] args) {\nScanner myobj = new scanner (system.in);// Crie um objeto de scanner\nSystem.out.println (\"Enter UserName\");\n\nString userName = myObj.NextLine ();// Leia a entrada do usuário\nSystem.out.println (\"Nome de usuário é:\" + nome de usuário);// entrada de saída do usuário\n}\n} Exemplo de execução »Se você não souber o que é um pacote, leia nosso tutorial de pacotes Java."
+
+  utter_Tipos_de_entrada:
+    - text: "No exemplo acima, usamos o método NextLine (), que é usado para ler strings.Para ler outros tipos, consulte a tabela abaixo: Método Descrição NextBoolean () lê um valor booleano do usuário nextByte () lê um valor de byte do usuário nextDouble () lê um valor duplo do usuário nextfloat () lê um valor floatDo usuário nextInt () lê um valor int do usuário nextline () lê um valor de string do usuário nextlong () lê um valor longo do usuário nextShort () lê um valor curto do usuário no exemplo abaixo, usamos diferentes diferentesMétodos para ler dados de vários tipos: Exemplo de importação java.util.scanner;\n\nclasse principal {\npublic static void main (string [] args) {\nScanner myobj = new scanner (system.in);\n\nSystem.out.println (\"Digite o nome, idade e salário:\");\n\n// entrada de string\nNome da string = myObj.NextLine ();\n\n// entrada numérica\nint age = myObj.NextInt ();\nsalário duplo = myobj.nextDouble ();\n\n// entrada de saída pelo usuário\nSystem.out.println (\"nome:\" + nome);\nSystem.out.println (\"idade:\" + idade);\nSystem.out.println (\"Salário:\" + Salário);\n}\n} Exemplo de execução »Nota: Se você inserir a entrada errada (por exemplo, texto em uma entrada numérica), receberá uma mensagem de exceção/erro (como\" InputMismatchException \").Você pode ler mais sobre exceções e como lidar com erros no capítulo Exceções .❮ Anterior Próximo ❯ ★ +1 W3Schools Pathfinder Rastrear seu progresso - é grátis!Entrar Inscrever-se"
+
+  utter_Java_Hashmap:
+    - text: "No capítulo Arraylist, você aprendeu que as matrizes armazenam itens como uma coleção ordenada e precisa acessá -los com um número de índice (Int Type).\nUm hashmap, no entanto, armazenar itens em pares de \"chave / valor\" e você pode acessá -los por um índice de outro tipo (por exemplo, uma string). Um objeto é usado como uma chave (índice) para outro\nobjeto (valor).Ele pode armazenar diferentes tipos: teclas de string e valores inteiros, ou o\nO mesmo tipo, como: teclas de string e valores de string: Exemplo Crie um objeto de hashmap chamado CapitalCities que armazenarão as teclas de string e os valores da string: importar java.util.hashmap;// importe a classe Hashmap\n\nHashmap <string, string> capitalcidades = new hashmap <string, string> ();"
+
+  utter_Adicionar_itens_2:
+    - text: "A classe Hashmap possui muitos métodos úteis.Por exemplo, para\nAdicione itens a ele, use o método put (): Exemplo // importe a classe HashMap\nimportar java.util.hashmap;\n\nclasse pública principal {\npublic static void main (string [] args) {\n// Crie um objeto de hashmap chamado Capitalcities\nHashmap <string, string> capitalcidades = new hashmap <string, string> ();\n\n// Adicione chaves e valores (país, cidade)\nCapitalcities.put (\"Inglaterra\", \"Londres\");\nCapitalcities.put (\"Alemanha\", \"Berlim\");\nCapitalCities.put (\"Noruega\", \"Oslo\");\nCapitalCities.put (\"EUA\", \"Washington DC\");\nSystem.out.println (capitalCities);\n}\n} Tente você mesmo \""
+
+  utter_Acesse_um_item_2:
+    - text: "Para acessar um valor no hashmap, use o método get () e consulte\nsua chave: exemplo capitalcidades.get (\"Inglaterra\");Tente você mesmo \""
+
+  utter_Remova_um_item_2:
+    - text: "Para remover um item, use o método Remover ()\ne consulte a chave: exemplo capitalcidades.remove (\"Inglaterra\");Experimente você mesmo »Para remover todos os itens, use o método clear (): exemplo capitalcidades.clear ();Tente você mesmo \""
+
+  utter_Tamanho_de_hashmap:
+    - text: "Para descobrir quantos itens existem, use o método size (): exemplo capitalcities.size ();Tente você mesmo \""
+
+  utter_Percorrer_um_hashmap:
+    - text: "Faça um loop através dos itens de um hashmap com um loop fore-Each.note: use o método KeySet () se você deseja apenas as teclas e use o método valores () se você quiser apenas os valores: Exemplo // Imprima as teclas\npara (String I: CapitalCities.KeySet ()) {\nSystem.out.println (i);\n} Experimente você mesmo »Exemplo // Imprima valores\npara (String I: CapitalCities.Values ()) {\nSystem.out.println (i);\n} Experimente você mesmo »Exemplo // Imprima as teclas e valores\npara (String I: CapitalCities.KeySet ()) {\nSystem.out.println (\"chave:\" + i + \"valor:\" + capitalcities.get (i));\n} Tente você mesmo \""
+
+  utter_Outros_tipos_3:
+    - text: "Chaves e valores em um hashmap são realmente objetos.Nos exemplos acima, usamos objetos do tipo \"string\".Lembre -se de que uma string em Java é um objeto (não um tipo primitivo).Para usar outros tipos, como o INT, você deve especificar uma classe de wrapper equivalente: Inteiro.Para outros tipos primitivos,\nUso: booleano para booleano, personagem para char, duplo para o dobro,\netc: Exemplo Crie um objeto de hashmap chamado pessoas que armazenarão teclas de string e valores inteiros: // importar a classe HashMap\nimportar java.util.hashmap;\n\nclasse pública principal {\npublic static void main (string [] args) {\n\n// Crie um objeto de hashmap chamado pessoas\nHashmap <string, número inteiro> pessoas = new hashmap <string, inteiro> ();\n\n\n// Adicionar teclas e valores (nome, idade)\nPeople.put (\"John\", 32);\npessoas.put (\"Steve\", 30);\nPeople.put (\"Angie\", 33);\n\npara (String I: People.KeySet ()) {\nSystem.out.println (\"chave:\" + i + \"valor:\" + People.get (i));\n}\n}\n} Experimente você mesmo »❮ Anterior Próximo ❯ ★ +1 W3schools Pathfinder Rastreie seu progresso - é grátis!Entrar Inscrever-se"
+
+  utter_Exceções_de_Java:
+    - text: "Ao executar o código Java, diferentes erros podem ocorrer: erros de codificação cometidos pelo programador, erros devido à entrada errada,\nou outras coisas imprevisíveis. Quando ocorre um erro, o Java normalmente interrompe e gera uma mensagem de erro.O termo técnico para isso é: Java lançará uma exceção (lançar um erro)."
+
+  utter_Java_Tente_e_pegue:
+    - text: "A declaração de tentativa permite definir um bloco de código para ser\ntestado quanto a erros enquanto estiver sendo executado. A declaração de captura permite definir um bloco de código para\nser executado, se ocorrer um erro no bloco de tentativa. A tentativa de capturar palavras -chave\nVenha em pares: sintaxe tente {\n// bloco de código para tentar}\nCatch (Exceção e) {\n// bloco de código para lidar com erros} Considere o seguinte exemplo: Isso gerará um erro, porque o MyNumbers [10] não existe.classe pública principal {\npublic static void main (string [] args) {\nint [] mynumbers = {1, 2, 3};\nSystem.out.println (mynumbers [10]);// Erro!\n}\n} A saída será algo assim: Exceção no thread \"Main\" java.lang.arrayIndexoutOfBoundSexception: 10 em main.main (main.java:4) Experimente você mesmo »Se ocorrer um erro, podemos usar tente ... capturar ... CatchPara pegar o erro e executar algum código para lidar com isso: exemplo da classe pública principal {\npublic static void main (string [] args) {\ntentar {\nint [] mynumbers = {1, 2, 3};\nSystem.out.println (mynumbers [10]);\n} catch (Exceção e) {\nSystem.out.println (\"Algo deu errado\");\n}\n}\n} A saída será: algo deu errado.Tente você mesmo \""
+
+  utter_Finalmente:
+    - text: "A declaração finalmente permite executar o código, depois de tentar ... pegar, independentemente do resultado: exemplo da classe pública principal {\npublic static void main (string [] args) {\ntentar {\nint [] mynumbers = {1, 2, 3};\nSystem.out.println (mynumbers [10]);\n} catch (Exceção e) {\nSystem.out.println (\"Algo deu errado\");\n} finalmente {\nSystem.out.println (\"The 'Try Catch' está concluído.\");\n}\n}\n} A saída será: algo deu errado.O 'Tente Catch' está terminado.Tente você mesmo \""
+
+  utter_A_palavra_-chave_de_arremesso:
+    - text: "A instrução de arremesso permite criar um erro personalizado. A instrução THON é usada em conjunto com um tipo de exceção.Existem muitos tipos de exceção disponíveis em Java: arithmeticexception, fileNotfoundException, ArrayIndexoutOfBoundSexception, SecurityException, etc: Exemplo de lançar uma exceção se a idade estiver abaixo de 18 (impressão \"Acesso\" Acesso\nnegado \"). Se a idade tiver 18 anos ou mais, imprimir\" acesso concedido \": a classe pública principal {\nVerificação de vazio estático (Int Age) {\nif (idade <18) {\nlançar uma nova aritmeticexception (\"Acesso negado - você deve ter pelo menos 18 anos.\");\n}\noutro {\nSystem.out.println (\"Acesso concedido - você tem idade suficiente!\");\n}\n}\n\npublic static void main (string [] args) {\nverificação (15);// Defina a idade para 15 (que está abaixo de 18 ...)\n}\n} A saída será: Exceção no thread \"Main\" java.lang.arithmeticexception: acesso negado - você deve ter pelo menos 18 anos de idade.em main.cecheckage (main.java:4) em main.main (main.java:12) experimente você mesmo »Se a idade tivesse 20 anos, você não teria uma exceção: exemplo de verificação (20);A saída será: Acesso concedido - você tem idade suficiente!Tente você mesmo \""
+
+  utter_Teste_-se_com_exercícios_22:
+    - text: "Exercício: Insira as peças ausentes para lidar com o erro no código abaixo.{\n  int [] mynumbers = {1, 2, 3};\n  System.out.println (mynumbers [10]);\n} (Exceção e) {\n  System.out.println (\"Algo deu errado\");\n} Enviar resposta »Inicie o exercício"
+
+  utter_Exercício__22:
+    - text: "Insira as partes ausentes para lidar com o erro no código abaixo. {\n  int [] mynumbers = {1, 2, 3};\n  System.out.println (mynumbers [10]);\n} (Exceção e) {\n  System.out.println (\"Algo deu errado\");\n} Enviar resposta »Inicie o exercício"
+
+session_config: 
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
