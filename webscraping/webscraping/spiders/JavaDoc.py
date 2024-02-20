@@ -21,7 +21,6 @@ class JavaDocSpider(scrapy.Spider):
         "https://www.w3schools.com/java/java_data_types_boolean.asp",
         "https://www.w3schools.com/java/java_data_types_characters.asp",
         "https://www.w3schools.com/java/java_data_types_non-prim.asp",
-        "https://www.w3schools.com/java/java_type_casting.asp",
         "https://www.w3schools.com/java/java_operators.asp",
         "https://www.w3schools.com/java/java_strings.asp",
         "https://www.w3schools.com/java/java_strings_concat.asp",

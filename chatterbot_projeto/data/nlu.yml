@@ -199,18 +199,18 @@ nlu:
 
   - intent: Texto_de_impressão
     examples: | 
-      - 
-      - 
+      - O que é texto de impressão?
+      - Para que server texto de impressão?
 
   - intent: Aspas_duplas
     examples: | 
-      - 
-      - 
+      - Como usar aspas duplas?
+      - Onde utilizar aspas duplas?
 
   - intent: O_método_print_()
     examples: | 
-      - 
-      - 
+      - Como usar o print?
+      - Qual a diferença do print?
 
   - intent: Sintaxe_Java
     examples: | 
@@ -219,13 +219,13 @@ nlu:
 
   - intent: O_método_principal
     examples: | 
-      - 
-      - 
+      - Como funciona o método main?
+      - Para que serve o main?
 
   - intent: System.out.println_()
     examples: | 
-      - 
-      - 
+      - O que é o System.out.println()?
+      - Como usar o System.out.println()?
 
   - intent: Teste_-se_com_exercícios_5
     examples: | 
@@ -239,68 +239,68 @@ nlu:
 
   - intent: Números_de_impressão
     examples: | 
-      - 
-      - 
+      - Como usar números de impressão?
+      - O que são números de impressão?
 
   - intent: Tipos_booleanos
     examples: | 
-      - 
-      - 
+      - O que são booleanos?
+      - Como usar booleanos?
 
   - intent: Personagens
     examples: | 
-      - 
-      - 
+      - O que é o tipo char?
+      - Onde usar char?
 
   - intent: Cordas
     examples: | 
-      - 
-      - 
+      - Como usar string?
+      - O que são strings?
 
   - intent: Tipos_de_dados_não_primitivos
     examples: | 
-      - 
-      - 
+      - O que são dados não primitivos?
+      - Como usar dados não primitivos?
 
   - intent: Java_tipo_fundição
     examples: | 
-      - 
-      - 
+      - casting?
+      - type casting?
 
   - intent: Ampliação_de_fundição
     examples: | 
-      - 
-      - 
+      - ampliação casting?
+      - ampliação tipo casting?
 
   - intent: Estreitando_elenco
     examples: | 
-      - 
-      - 
+      - estreitando casting
+      - estreitando casting
 
   - intent: Operadores_Java
     examples: | 
-      - 
-      - 
+      - Quais operadores existem?
+      - Como usar os operadores?
 
   - intent: Operadores_aritméticos
     examples: | 
-      - 
-      - 
+      - O que são operadores aritméticos?
+      - Como usar operadores aritméticos?
 
   - intent: Operadores_de_atribuição_Java
     examples: | 
-      - 
-      - 
+      - Quais são os operadores de atribuição?
+      - O que são operadores de atribuição?
 
   - intent: Operadores_de_comparação_de_Java
     examples: | 
-      - 
-      - 
+      - Quais são os operadores de comparação?
+      - O que são operadores de comparação?
 
   - intent: Operadores_lógicos_Java
     examples: | 
-      - 
-      - 
+      - Quais são os operadores lógicos?
+      - O que são operadores lógicos?
 
   - intent: Teste_-se_com_exercícios_6
     examples: | 
@@ -314,33 +314,33 @@ nlu:
 
   - intent: Concatenação_de_string
     examples: | 
-      - 
-      - 
+      - Como fazer concatenação de string?
+      - Como concatenar strings?
 
   - intent: Strings_Java
     examples: | 
-      - 
-      - 
+      - O que são strings?
+      - Como usar strings?
 
   - intent: Comprimento_da_corda
     examples: | 
-      - 
-      - 
+      - Qual o tamanho de strings?
+      - Qual o tamanho de uma string?
 
   - intent: Mais_métodos_de_string
     examples: | 
-      - 
-      - 
+      - Quais métodos podem usar string?
+      - Onde string pode ser usada?
 
   - intent: Encontrar_um_personagem_em_uma_corda
     examples: | 
-      - 
-      - 
+      - Como encontrar um char em uma string?
+      - Como buscar um char em uma string?
 
   - intent: Referência_completa_da_string
     examples: | 
-      - 
-      - 
+      - Como fazer referencia de string?
+      - Como referenciar uma string?
 
   - intent: Teste_-se_com_exercícios_7
     examples: | 
@@ -354,38 +354,38 @@ nlu:
 
   - intent: Adicionando_números_e_cordas
     examples: | 
-      - 
-      - 
+      - Como somar números e char?
+      - Como concatenar número e char?
 
   - intent: Math.max_(x,_y)
     examples: | 
-      - 
-      - 
+      - Método máximo entre dois números
+      - Função máximo entre dois números
 
   - intent: Math.min_(x,_y)
     examples: | 
-      - 
-      - 
+      - Método mínimo entre dois números
+      - Função mínimo entre dois números
 
   - intent: Math.sqrt_(x)
     examples: | 
-      - 
-      - 
+      - Função raíz quadrada
+      - Como fazer raís quadrada?
 
   - intent: Math.abs_(x)
     examples: | 
-      - 
-      - 
+      - Função do valor absoluto
+      - Como usar a função do valor absoluto?
 
   - intent: Números_aleatórios
     examples: | 
-      - 
-      - 
+      - Como gerar números aleatórios?
+      - Como fazer números aleatórios?
 
   - intent: Referência_de_matemática_completa
     examples: | 
-      - 
-      - 
+      - Referencia matematica
+      - Referencia matematicas
 
   - intent: Teste_-se_com_exercícios_8
     examples: | 
@@ -399,23 +399,23 @@ nlu:
 
   - intent: Condições_de_Java_e_declarações_se
     examples: | 
-      - 
-      - 
+      - Como usar condicionais?
+      - O que são condicionais?
 
   - intent: A_declaração_if
     examples: | 
-      - 
-      - 
+      - O que é if?
+      - Como usar if?
 
   - intent: A_declaração_else
     examples: | 
-      - 
-      - 
+      - O que é else?
+      - Como usar else?
 
   - intent: O_else_if_declaração
     examples: | 
-      - 
-      - 
+      - Como usar else e if?
+      - Como utilizar else e if juntos?
 
   - intent: Teste_-se_com_exercícios_9
     examples: | 
@@ -429,18 +429,18 @@ nlu:
 
   - intent: Java_booleanos
     examples: | 
-      - 
-      - 
+      - O que é são booleanos?
+      - Como usar booleanos?
 
   - intent: Valores_booleanos
     examples: | 
-      - 
-      - 
+      - Como usar valores com booleanos?
+      - Valores com bool
 
   - intent: Expressão_booleana
     examples: | 
-      - 
-      - 
+      - O que é expressão booleana?
+      - Como usar uma expressão com booleano?
 
   - intent: Exemplo_da_vida_real
     examples: | 
@@ -459,8 +459,8 @@ nlu:
 
   - intent: Mão_curta_se_..._else
     examples: | 
-      - 
-      - 
+      - short hand if e else
+      - short hand ifs e elses
 
   - intent: Teste_-se_com_exercícios_11
     examples: | 
@@ -474,8 +474,8 @@ nlu:
 
   - intent: Java_para_loop
     examples: | 
-      - 
-      - 
+      - O que é for?
+      - Como usar o for?
 
   - intent: Outro_exemplo
     examples: | 
@@ -484,8 +484,8 @@ nlu:
 
   - intent: Loops_aninhados
     examples: | 
-      - 
-      - 
+      - Como usar loops aninhados?
+      - O que são loops aninhados?
 
   - intent: Teste_-se_com_exercícios_12
     examples: | 
@@ -499,18 +499,18 @@ nlu:
 
   - intent: rotações
     examples: | 
-      - 
-      - 
+      - O que são loops?
+      - Como usar loops?
 
   - intent: Java_enquanto_loop
     examples: | 
-      - 
-      - 
+      - O que é while?
+      - Como usar o while?
 
   - intent: O_loop_do_Do/While
     examples: | 
-      - 
-      - 
+      - O que é do while?
+      - Como usar o do while?
 
   - intent: Teste_-se_com_exercícios_13
     examples: | 
@@ -524,18 +524,18 @@ nlu:
 
   - intent: Declarações_de_interruptor_Java
     examples: | 
-      - 
-      - 
+      - Como usar o switch?
+      - O que é o switch?
 
   - intent: A_palavra_-chave_quebrada
     examples: | 
-      - 
-      - 
+      - palavra break
+      - palavra chave break
 
   - intent: A_palavra_-chave_padrão
     examples: | 
-      - 
-      - 
+      - palavra default
+      - palavra chave default
 
   - intent: Teste_-se_com_exercícios_14
     examples: | 
@@ -549,23 +549,23 @@ nlu:
 
   - intent: Para_cada_um_loop
     examples: | 
-      - 
-      - 
+      - o que for-each?
+      - Como usar o for-each?
 
   - intent: Java_Break
     examples: | 
-      - 
-      - 
+      - O que é o break?
+      - Como usar o break?
 
   - intent: Java_continua
     examples: | 
-      - 
-      - 
+      - O que é o continue?
+      - Como usar o continue?
 
   - intent: Quebre_e_continue_enquanto_loop
     examples: | 
-      - 
-      - 
+      - Como usar break e continue juntos
+      - Como usar break e continue junto
 
   - intent: Teste_-se_com_exercícios_15
     examples: | 
@@ -579,8 +579,8 @@ nlu:
 
   - intent: Loop_através_de_uma_matriz
     examples: | 
-      - 
-      - 
+      - Como usar loop em uma matriz?
+      - Tem como usar loop em uma matriz?
 
   - intent: Faça_um_loop_através_de_uma_matriz_com_o_for-ECH
     examples: | 
@@ -599,23 +599,23 @@ nlu:
 
   - intent: Matrizes_multidimensionais
     examples: | 
-      - 
-      - 
+      - O que são matrizes multidimensionais?
+      - Como usar matrizes multidimensionais?
 
   - intent: Elementos_de_acesso
     examples: | 
-      - 
-      - 
+      - Como acessar dois específicos elementos da matriz?
+      - Como buscar dois elementos específicos de uma matriz?
 
   - intent: Alterar_valores_do_elemento
     examples: | 
-      - 
-      - 
+      - Como alterar dois valores específicos de elementos de uma matriz?
+      - Como mudar valores de dois elementos de dentro da matriz?
 
   - intent: Loop_através_de_uma_matriz_multidimensional
     examples: | 
-      - 
-      - 
+      - Como utilizar loop em uma matriz?
+      - Como usar loops numa matriz?
 
   - intent: Teste_-se_com_exercícios_17
     examples: | 
@@ -629,23 +629,24 @@ nlu:
 
   - intent: Matrizes_Java
     examples: | 
-      - 
-      - 
+      - O que é uma matriz?
+      - Como usar matriz?
+      - O que é um array?
 
   - intent: Acesse_os_elementos_de_uma_matriz
     examples: | 
-      - 
-      - 
+      - Como acessar elementos de uma matriz?
+      - Como acessar elementos de um array?
 
   - intent: Alterar_um_elemento_de_matriz
     examples: | 
-      - 
-      - 
+      - Como alterar elementos de uma matriz?
+      - Como mudar elementos de um array?
 
   - intent: Comprimento_da_matriz
     examples: | 
-      - 
-      - 
+      - Qual tamanho de uma matriz?
+      - Como saber quantos elementos tem uma matriz?
 
   - intent: Teste_-se_com_exercícios_18
     examples: | 
@@ -659,28 +660,28 @@ nlu:
 
   - intent: Recursão_Java
     examples: | 
-      - 
-      - 
+      - O que é recursão?
+      - Como usar recursão?
 
   - intent: Exemplo_de_recursão
     examples: | 
-      - 
-      - 
+      - Exemplo de recursão
+      - Exemplo de recursão
 
   - intent: Condição_de_parada
     examples: | 
-      - 
-      - 
+      - O que é uma condição de parada?
+      - Problema com loop infinito
 
   - intent: Java_-_O_que_é_OOP?
     examples: | 
-      - 
-      - 
+      - O que é Programação Orientada a Objetos?
+      - O que é POO?
 
   - intent: Java_-_O_que_são_classes_e_objetos?
     examples: | 
-      - 
-      - 
+      -
+      -
 
   - intent: aula
     examples: | 
@@ -704,23 +705,23 @@ nlu:
 
   - intent: Java_Classes/Objetos
     examples: | 
-      - 
-      - 
+      - O que são classes?
+      - O que são objetos?
 
   - intent: Criar_uma_classe
     examples: | 
-      - 
-      - 
+      - Como criar uma classe?
+      - Como cria uma classe?
 
   - intent: Criar_um_objeto
     examples: | 
-      - 
-      - 
+      - Como criar um objeto?
+      - Como cria um objeto?
 
   - intent: Múltiplos_objetos
     examples: | 
-      - 
-      - 
+      - Como criar vários objetos?
+      - Como criar multiplos objetos?
 
   - intent: Usando_várias_classes
     examples: | 
