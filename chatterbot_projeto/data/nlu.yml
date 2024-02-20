@@ -725,8 +725,8 @@ nlu:
 
   - intent: Usando_várias_classes
     examples: | 
-      - 
-      - 
+      - Como usar várias classes?
+      - Como utilizar muitas classes?
 
   - intent: Teste_-se_com_exercícios_19
     examples: | 
@@ -740,38 +740,40 @@ nlu:
 
   - intent: Atributos_da_classe_Java
     examples: | 
-      - 
-      - 
+      - O que são os atributos da classe?
+      - Como usar os atributos da classe?
 
   - intent: Acessando_atributos
     examples: | 
-      - 
-      - 
+      - Como acessar os atributos?
+      - Como buscar os atributos?
 
   - intent: Modificar_atributos
     examples: | 
-      - 
-      - 
+      - Como modificar os atributos?
+      - Como alterar os atributos?
 
   - intent: Múltiplos_objetos_2
     examples: | 
-      - 
-      - 
+      - Como usar múltiplos objetos?
+      - Como acessar mais de um objeto?
+      - Como acessar muitos objetos ao mesmo tempo?
 
   - intent: Atributos_múltiplos
     examples: | 
-      - 
-      - 
+      - Como usar múltiplos atributos?
+      - Como acessar mais de um atributo?
+      - Como acessar muitos atributos ao mesmo tempo?
 
   - intent: Criar_um_método
     examples: | 
-      - 
-      - 
+      - Como criar um método?
+      - Como cria um método?
 
   - intent: Chame_um_método
     examples: | 
-      - 
-      - 
+      - Como chamar um método?
+      - Como fazer a chamada de um método?
 
   - intent: Teste_-se_com_exercícios_20
     examples: | 
@@ -785,28 +787,28 @@ nlu:
 
   - intent: Sobrecarga_de_método
     examples: | 
-      - 
-      - 
+      - O que é a sobrecarga de método?
+      - Os métodos podem ter o mesmo nome com diferentes parâmetros?
 
   - intent: Parâmetros_e_argumentos
     examples: | 
-      - 
-      - 
+      - O que são parâmetros?
+      - O que são argumentos?
 
   - intent: Vários_parâmetros
     examples: | 
-      - 
-      - 
+      - Quantos parâmetros posso ter?
+      - Posso ter vários parâmetros?
 
   - intent: Valores_de_retorno
     examples: | 
-      - 
-      - 
+      - Como usar o return?
+      - Como retornar valores?
 
   - intent: Um_método_com_se_..._else
     examples: | 
-      - 
-      - 
+      - Pode usar if e else dentro de métodos?
+      - É possível utilizar if e else dentro de métodos?
 
   - intent: Teste_-se_com_exercícios_21
     examples: | 
@@ -820,28 +822,28 @@ nlu:
 
   - intent: Escopo_Java
     examples: | 
-      - 
-      - 
+      - O que é escopo?
+      - Até onde posso acessar uma variável?
 
   - intent: Escopo_do_método
     examples: | 
-      - 
-      - 
+      - Como é o escopo de um método?
+      - Variáveis dentro de um método
 
   - intent: Bloquear_o_escopo
     examples: | 
-      - 
-      - 
+      - Como bloquear o escopo?
+      - É possível bloquear o escopo?
 
   - intent: Métodos_de_classe_Java
     examples: | 
-      - 
-      - 
+      - Como são os métodos de classe?
+      - Como usar os métodos de classe?
 
   - intent: Estático_vs._público
     examples: | 
-      - 
-      - 
+      - Qual a diferença entre static e public?
+      - Qual a diferença entre os métodos estáticos e públicos?
 
   - intent: Métodos_de_acesso_com_um_objeto
     examples: | 
@@ -850,238 +852,247 @@ nlu:
 
   - intent: Usando_várias_classes_2
     examples: | 
-      - 
-      - 
+      - Como usar várias classes?
+      - Como usar muitas classes?
 
   - intent: Construtores_Java
     examples: | 
-      - 
-      - 
+      - O que é o método construtor?
+      - Como inicializar objetos?
 
   - intent: Parâmetros_do_construtor
     examples: | 
-      - 
-      - 
+      - Os construtores podem levar parâmetros?
+      - Como usar parâmetros do construtor?
 
   - intent: Encapsulamento
     examples: | 
-      - 
-      - 
+      - O que é encapsulamento?
+      - Como garantir que dados estejam ocultos?
 
   - intent: Obtenha_e_defina
     examples: | 
-      - 
-      - 
+      - Como usar o get e set?
+      - O que são o getter e setter?
 
   - intent: Por_que_encapsulamento?
     examples: | 
-      - 
-      - 
+      - Por que encapsulamento?
+      - Para o que serve o encapsulamento?
 
   - intent: Pacotes_Java_e_API
     examples: | 
-      - 
-      - 
+      - O que são pacotes?
+      - O que é pacote?
 
   - intent: Pacotes_embutidos
     examples: | 
-      - 
-      - 
+      - O que é API?
+      - O que são pacotes embutidos?
 
   - intent: Importar_uma_classe
     examples: | 
-      - 
-      - 
+      - Como importar uma classe?
+      - Posso importar uma classe?
+      - Como usar a classe do scanner?
 
   - intent: Importar_um_pacote
     examples: | 
-      - 
-      - 
+      - Como importar pacote?
+      - Posso importar pacotes?
 
   - intent: Pacotes_definidos_pelo_usuário
     examples: | 
-      - 
-      - 
+      - É possível criar um pacote?
+      - Posso criar um pacote?
 
   - intent: HERIDAÇÃO_DE_JAVA_(SUBCLASSE_E_SUPERCLASSE)
     examples: | 
-      - 
-      - 
+      - O que é herança?
+      - Quem pode herdar atributos e métodos?
 
   - intent: A_palavra_-chave_final
     examples: | 
-      - 
-      - 
+      - Como não deixar outras classes herdem de uma classe?
+      - Como acessar uma classe final?
 
   - intent: Classes_internas_de_Java
     examples: | 
-      - 
-      - 
+      - O que são classes internas?
+      - Como aninhar classes?
 
   - intent: Classe_interna_privada
     examples: | 
-      - 
-      - 
+      - O que é uma classe interna privada?
+      - Posso ter uma classe interna?
 
   - intent: Classe_interna_estática
     examples: | 
-      - 
-      - 
+      - Como faço uma classe interna estática?
+      - Posso fazer uma classe interna estática?
 
   - intent: Acesse_a_classe_externa_da_classe_interna
     examples: | 
-      - 
-      - 
+      - Como acessar a classe interna?
+      - É possível acessar uma classe interna?
 
   - intent: Java_Polimorfismo
     examples: | 
-      - 
-      - 
+      - O que é polimorfismo?
+      - O que significa polimorfismo?
 
   - intent: Classes_e_métodos_abstratos
     examples: | 
-      - 
-      - 
+      - O que são classes abstratas?
+      - O que são métodos abstratos?
+      - Como usar o abstract?
 
   - intent: Interfaces
     examples: | 
-      - 
-      - 
+      - O que é interface?
+      - Outro modo de abstração em java?
 
   - intent: Várias_interfaces
     examples: | 
-      - 
-      - 
+      - Como implementar várias interfaces?
+      - É possível criar mais de uma interface?
 
   - intent: Enums
     examples: | 
-      - 
-      - 
+      - O que é enum?
+      - Como usar enum?
 
   - intent: Enumera_dentro_de_uma_aula
     examples: | 
-      - 
-      - 
+      - É possível usar enum numa classe?
+      - Como utilizar enum numa classe?
 
   - intent: Enum_em_uma_declaração_de_interruptor
     examples: | 
-      - 
-      - 
+      - Como usar enum no switch?
+      - É possível utilizar enum no switch?
 
   - intent: Loop_através_de_uma_enumeração
     examples: | 
-      - 
-      - 
+      - Como usar enum no loop?
+      - Como usar enum com while?
 
   - intent: Java_Arraylist
     examples: | 
-      - 
-      - 
+      - O que é arraylist?
+      - Existe matriz redimensível?
 
   - intent: Adicionar_itens
     examples: | 
-      - 
-      - 
+      - Como adicionar itens em um arraylist?
+      - Como adicionar elementos em um arraylist?
 
   - intent: Acesse_um_item
     examples: | 
-      - 
-      - 
+      - Como acessar um item de um arraylist?
+      - Como acessar um elemento de um arraylist?
 
   - intent: Mude_um_item
     examples: | 
-      - 
-      - 
+      - Como mudar um item de um arraylist?
+      - Como alterar um elemento de um arraylist?
 
   - intent: Remova_um_item
     examples: | 
-      - 
-      - 
+      - Como remover um item de um arraylist?
+      - Como excluir um elemento de um arraylist?
+      - Como deletar um valor de um arraylist?
 
   - intent: Tamanho_da_Arraylist
     examples: | 
-      - 
-      - 
+      - Como saber o tamanho do arraylist?
+      - Quantos elementos tem no arraylist?
 
   - intent: Loop_através_de_um_Arraylist
     examples: | 
-      - 
-      - 
+      - Como usar loop no arraylist?
+      - Como usar for no arraylist?
 
   - intent: Outros_tipos_2
     examples: | 
-      - 
-      - 
+      - Como fazer outro tipo de arraylist?
+      - Como fazer arraylist de números?
+      - Como fazer arraylist de inteiros?
+      - Como fazer arraylist de int?
 
   - intent: Classifique_uma_Arraylist
     examples: | 
-      - 
-      - 
+      - Como classificar um arraylist?
+      - Como classificar as listas?
+      - Como usar o Sort?
+      - Como usar o método Sort()?
 
   - intent: Entrada_do_usuário_Java
     examples: | 
-      - 
-      - 
+      - Como ler a entrada do usuário?
+      - Como o usuário pode dar entrada?
 
   - intent: Tipos_de_entrada
     examples: | 
-      - 
-      - 
+      - Como ler entradas?
+      - Quais são os tipos de entrada?
 
   - intent: Java_Hashmap
     examples: | 
-      - 
-      - 
+      - O que é hashmap?
+      - Como usar índices de uma matriz?
 
   - intent: Adicionar_itens_2
     examples: | 
-      - 
-      - 
+      - Como adicionar com hashmap?
+      - Quais métodos o hashmap pode fazer?
 
   - intent: Acesse_um_item_2
     examples: | 
-      - 
-      - 
+      - Como acessar um elemento com hashmap?
+      - Como consultar um elemento com hashmap?
 
   - intent: Remova_um_item_2
     examples: | 
-      - 
-      - 
+      - Como remover um elemento com hashmap?
+      - Como excluir um elemento com hashmap?
+      - Como deletar um item com hashmap?
 
   - intent: Tamanho_de_hashmap
     examples: | 
-      - 
-      - 
+      - Como saber o tamanho com hashmap?
+      - Como saber quantos elementos existem?
 
   - intent: Percorrer_um_hashmap
     examples: | 
-      - 
-      - 
+      - Como percorrer um hashmap?
+      - Como usar loop em um hashmap?
 
   - intent: Outros_tipos_3
     examples: | 
-      - 
-      - 
+      - Quais tipos podem ir em hashmap?
+      - Hashmap aceita quais tipos de dados?
 
   - intent: Exceções_de_Java
     examples: | 
-      - 
-      - 
+      - O que são exceções?
+      - O que são exceptions?
+      - Quais são os tipos de erros?
 
   - intent: Java_Tente_e_pegue
     examples: | 
-      - 
-      - 
+      - O que é try e catch?
+      - Como usar try e catch?
 
   - intent: Finalmente
     examples: | 
-      - 
-      - 
+      - O que finally faz?
+      - Como usar o finally?
 
   - intent: A_palavra_-chave_de_arremesso
     examples: | 
-      - 
-      - 
+      - O que throw faz?
+      - Como usar o throw?
 
   - intent: Teste_-se_com_exercícios_22
     examples: | 
