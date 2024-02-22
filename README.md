@@ -32,18 +32,18 @@ Comandos úteis com Makefile:
 Comandos úteis sem Makefile:
 ==========================
 
-Comando que executa o web crawler:
+    * Comando que executa o web crawler:
+        scapy runspider ./webscraping/webscraping/spiders/JavaDoc.py -o ./webscraping/webscraping/spiders/output.json
+
+    * Comando que executa o arquivo action do Rasa:
+        rasa run action
+
+    * Comando que executa o arquivo que cria a base do nlu.yml:
+        O comando substitui o arquivo, sem adicionar as perguntas.
 
 
-Comando que executa o arquivo action do Rasa:
-rasa run action
+    * Comando que treina o bot:
+        rasa train
 
-Comando que executa o arquivo que cria a base do nlu.yml:
-O comando substitui o arquivo, sem adicionar as perguntas.
-
-
-Comando que treina o bot:
-rasa train
-
-Comando que executa o bot e inicia sua conversação pelo terminal:
-rasa shell
+    * Comando que executa o bot e inicia sua conversação pelo terminal:
+        rasa shell
