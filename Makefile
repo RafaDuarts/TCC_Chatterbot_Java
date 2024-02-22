@@ -1,14 +1,14 @@
 scrapy:
-	scapy runspider ./webscraping/webscraping/spiders/JavaDoc.py -o ./webscraping/webscraping/spiders/output.json
+	cd webscraping\webscraping\spiders && scrapy runspider JavaDoc.py -o output.json
 
 action:
-	./chatterbot_projeto/rasa run action
+	cd chatterbot_projeto && rasa run action
 
 nlu:
-	./chatterbot_projeto/
+	cd chatterbot_projeto\actions && python nlu_creator.py
 
 train:
-	./chatterbot_projeto/rasa train
+	cd chatterbot_projeto && rasa train
 
 shell:
-	./chatterbot_projeto/rasa shell
+	cd chatterbot_projeto && rasa shell

@@ -14,12 +14,16 @@
 ⚙️ Comandos úteis com Makefile:
 ==========================
 
-* [Comando que executa o web crawler:](#Comando-crawler-make)
+* [Comando que executa o web scraping:](#Comando-scraping-make)
+    O Comando tem como saída o arquivo output.json, localizado na pasta spider, dentro da parte de webscraping. Quando executado, o arquivo é criado, mas não subescreve, caso haja um já existente. Recomendado deletar o arquivo antes de executar o comando.
+
     ```
     make scrapy
     ```
 
 * [Comando que executa o arquivo action do Rasa:](#Comando-action-make)
+    O arquivo output.json(extraído pelo webscraping) deve estar na pasta action para que seja executado corretamente.
+
     ```
     make action
     ```
@@ -42,27 +46,32 @@
 ⚙️ Comandos úteis sem Makefile:
 ==========================
 
-- [Comando que executa o web crawler:](#Comando-crawler)
+- [Comando que executa o web scraping:](#Comando-scraping)
+    O Comando tem como saída o arquivo output.json, localizado na pasta spider, dentro da parte de webscraping. Quando executado, o arquivo é criado, mas não subescreve, caso haja um já existente. Recomendado deletar o arquivo antes de executar o comando.
+
     ```
-    scapy runspider ./webscraping/webscraping/spiders/JavaDoc.py -o ./webscraping/webscraping/spiders/output.json
+    cd webscraping\webscraping\spiders && scapy runspider JavaDoc.py -o output.json
     ```
 
 * [Comando que executa o arquivo action do Rasa:](#Comando-action)
+    O arquivo output.json(extraído pelo webscraping) deve estar na pasta action para que seja executado corretamente.
+
     ```
-    rasa run action
+    cd chatterbot_projeto && rasa run action
     ```
     
 * [Comando que executa o arquivo que cria a base do nlu.yml:](#Comando-nlu)
-        O comando substitui o arquivo, sem adicionar as perguntas.
+    O comando substitui o arquivo, sem adicionar as perguntas.
+
     ```
-    
+    cd chatterbot_projeto\actions && python nlu_creator.py
     ```
 * [Comando que treina o bot:](#Comando-treino-bot)
     ```
-    rasa train
+    cd chatterbot_projeto && rasa train
     ```
     
 * [Comando que executa o bot e inicia sua conversação pelo terminal:](#Comando-terminal)
     ```
-    rasa shell
+    cd chatterbot_projeto && rasa shell
     ```

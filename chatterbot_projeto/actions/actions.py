@@ -152,19 +152,3 @@ with open('data/rules.yml', 'w', encoding='utf-8') as f:
         response = """{}""".format(responses[i].replace('"', '\\"'))  # adiciona aspas triplas e substitui aspas duplas por suas sequências de escape correspondentes
         response = response.replace('\n', '\\n')  # adiciona barra invertida antes de cada quebra de linha
         f.write('  - action: 'f'utter_{intent_name}\n')
-
-
-
-# Usar apenas uma vez para criar o nlu.yml
-
-# with open('data/nlu.yml', 'w', encoding='utf-8') as f:
-#     f.write('version: "3.1"\n\n')
-#     f.write('nlu:\n\n')
-
-
-#     for intent in intents:
-#         intent_name = intent.replace(" ", "_")
-#         f.write('  - intent: 'f'{intent_name}\n')
-#         f.write('    examples: | \n')
-#         f.write('      - \n')
-#         f.write('      - \n\n')
