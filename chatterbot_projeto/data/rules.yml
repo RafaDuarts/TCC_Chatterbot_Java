@@ -47,6 +47,8 @@ rules:
   steps:
   - intent: Exercício_
   - action: utter_Exercício_
+  - intent: Exercício_Resp
+  - action: utter_Exercício_Resp
 
 - rule: Identificadores
   steps:
@@ -82,6 +84,8 @@ rules:
   steps:
   - intent: Exercício__2
   - action: utter_Exercício__2
+  - intent: Exercício__2_Resp
+  - action: utter_Exercício__2_Resp
 
 - rule: Exibir variáveis
   steps:
@@ -112,6 +116,8 @@ rules:
   steps:
   - intent: Exercício__3
   - action: utter_Exercício__3
+  - intent: Exercício__3_Resp
+  - action: utter_Exercício__3_Resp
 
 - rule: Tipos de dados Java
   steps:
@@ -132,6 +138,8 @@ rules:
   steps:
   - intent: Exercício__4
   - action: utter_Exercício__4
+  - intent: Exercício__4_Resp
+  - action: utter_Exercício__4_Resp
 
 - rule: Texto de impressão
   steps:
@@ -172,6 +180,8 @@ rules:
   steps:
   - intent: Exercício__5
   - action: utter_Exercício__5
+  - intent: Exercício__5_Resp
+  - action: utter_Exercício__5_Resp
 
 - rule: Números de impressão
   steps:
@@ -247,6 +257,8 @@ rules:
   steps:
   - intent: Exercício__6
   - action: utter_Exercício__6
+  - intent: Exercício__6_Resp
+  - action: utter_Exercício__6_Resp
 
 - rule: Concatenação de string
   steps:
@@ -287,6 +299,8 @@ rules:
   steps:
   - intent: Exercício__7
   - action: utter_Exercício__7
+  - intent: Exercício__7_Resp
+  - action: utter_Exercício__7_Resp
 
 - rule: Adicionando números e cordas
   steps:
@@ -332,6 +346,8 @@ rules:
   steps:
   - intent: Exercício__8
   - action: utter_Exercício__8
+  - intent: Exercício__8_Resp
+  - action: utter_Exercício__8_Resp
 
 - rule: Condições de Java e declarações se
   steps:
@@ -362,6 +378,8 @@ rules:
   steps:
   - intent: Exercício__9
   - action: utter_Exercício__9
+  - intent: Exercício__9_Resp
+  - action: utter_Exercício__9_Resp
 
 - rule: Java booleanos
   steps:
@@ -392,6 +410,8 @@ rules:
   steps:
   - intent: Exercício__10
   - action: utter_Exercício__10
+  - intent: Exercício__10_Resp
+  - action: utter_Exercício__10_Resp
 
 - rule: Mão curta se ... else
   steps:
@@ -407,6 +427,8 @@ rules:
   steps:
   - intent: Exercício__11
   - action: utter_Exercício__11
+  - intent: Exercício__11_Resp
+  - action: utter_Exercício__11_Resp
 
 - rule: Java para loop
   steps:
@@ -432,6 +454,8 @@ rules:
   steps:
   - intent: Exercício__12
   - action: utter_Exercício__12
+  - intent: Exercício__12_Resp
+  - action: utter_Exercício__12_Resp
 
 - rule: rotações
   steps:
@@ -457,6 +481,8 @@ rules:
   steps:
   - intent: Exercício__13
   - action: utter_Exercício__13
+  - intent: Exercício__13_Resp
+  - action: utter_Exercício__13_Resp
 
 - rule: Declarações de interruptor Java
   steps:
@@ -482,6 +508,8 @@ rules:
   steps:
   - intent: Exercício__14
   - action: utter_Exercício__14
+  - intent: Exercício__14_Resp
+  - action: utter_Exercício__14_Resp
 
 - rule: Para cada um loop
   steps:
@@ -512,6 +540,8 @@ rules:
   steps:
   - intent: Exercício__15
   - action: utter_Exercício__15
+  - intent: Exercício__15_Resp
+  - action: utter_Exercício__15_Resp
 
 - rule: Loop através de uma matriz
   steps:
@@ -532,6 +562,8 @@ rules:
   steps:
   - intent: Exercício__16
   - action: utter_Exercício__16
+  - intent: Exercício__16_Resp
+  - action: utter_Exercício__16_Resp
 
 - rule: Matrizes multidimensionais
   steps:
@@ -562,6 +594,8 @@ rules:
   steps:
   - intent: Exercício__17
   - action: utter_Exercício__17
+  - intent: Exercício__17_Resp
+  - action: utter_Exercício__17_Resp
 
 - rule: Matrizes Java
   steps:
@@ -592,6 +626,8 @@ rules:
   steps:
   - intent: Exercício__18
   - action: utter_Exercício__18
+  - intent: Exercício__18_Resp
+  - action: utter_Exercício__18_Resp
 
 - rule: Recursão Java
   steps:
@@ -672,6 +708,8 @@ rules:
   steps:
   - intent: Exercício__19
   - action: utter_Exercício__19
+  - intent: Exercício__19_Resp
+  - action: utter_Exercício__19_Resp
 
 - rule: Atributos da classe Java
   steps:
@@ -717,6 +755,8 @@ rules:
   steps:
   - intent: Exercício__20
   - action: utter_Exercício__20
+  - intent: Exercício__20_Resp
+  - action: utter_Exercício__20_Resp
 
 - rule: Sobrecarga de método
   steps:
@@ -747,11 +787,6 @@ rules:
   steps:
   - intent: Teste_-se_com_exercícios_21
   - action: utter_Teste_-se_com_exercícios_21
-
-- rule: Exercício__21
-  steps:
-  - intent: Exercício__21
-  - action: utter_Exercício__21
 
 - rule: Escopo Java
   steps:
@@ -1022,8 +1057,3 @@ rules:
   steps:
   - intent: Teste_-se_com_exercícios_22
   - action: utter_Teste_-se_com_exercícios_22
-
-- rule: Exercício__22
-  steps:
-  - intent: Exercício__22
-  - action: utter_Exercício__22
