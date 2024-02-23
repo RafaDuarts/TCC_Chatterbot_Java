@@ -303,7 +303,7 @@ responses:
     - text: "Uma demonstração de como declarar variáveis de outros tipos: exemplo int mynum = 5;\nflutuar myfloatnum = 5,99f;\nchar myletter = 'd';\nboolean mybool = true;\nString myText = \"Hello\"; você aprenderá mais sobre os tipos de dados na próxima seção."
 
   utter_Teste_-se_com_exercícios_2:
-    - text: "Exercício: Crie uma variável chamada Carname e atribua o valor a Volvo a ele.=;Envie Resposta »Comece o exercício"
+    - text: ""
 
   utter_Exibir_variáveis:
     - text: "O método println () é frequentemente usado para exibir variáveis.\nSystem.out.println (\"hello\" + nome);Experimente você mesmo »Você também pode usar o caractere + para adicionar uma variável a outra variável: exemplo string primeironame =\" John \";\nString lastName = \"doe\";\nString fullName = primeironame + lastName;\nSystem.out.println (FullName);Experimente você mesmo »Para valores numéricos, o caractere + funciona como um operador matemático (observe que usamos variáveis int (inteiras) aqui): exemplo int x = 5;\nint y = 6;\nSystem.out.println (x + y);// Imprima o valor de x + y Experimente você mesmo »A partir do exemplo acima, você pode esperar: x armazena o valor 5 y armazena o valor 6, então usamos o método println () para exibir o valor de x + y,\n que é 11"
@@ -318,7 +318,7 @@ responses:
     - text: "Os comentários de várias linhas começam com /* e termina com* /. Qualquer texto entre /* e* /será ignorado por java.Código abaixo imprimirá as palavras Hello World\npara a tela, e é incrível */\nSystem.out.println (\"Hello World\");Experimente você mesmo »Comentários solteiros ou multides?Cabe a você que você deseja usar.Normalmente, usamos // para comentários curtos e / * * / por mais tempo."
 
   utter_Teste_-se_com_exercícios_3:
-    - text: "Exercício: Insira a parte que faltava para criar dois tipos de comentários.Este é um comentário de linha única."
+    - text: ""
 
   utter_Tipos_de_dados_Java:
     - text: "Conforme explicado no capítulo anterior, uma variável no Java deve ser um tipo de dados especificado: exemplo int mynum = 5;// Inteiro (número inteiro)\nflutuar myfloatnum = 5,99f;// Número do ponto flutuante\nchar myletter = 'd';// Personagem\nboolean mybool = true;// Boleano\nString myText = \"Hello\";// String Try It Yourself »Tipos de dados são divididos em dois grupos: tipos de dados primitivos - inclui byte, curto, int, longa, flutuante, dupla, booleana e char tipos de dados não primitivos - como string, matrizes e classes (vocêaprenderá mais sobre isso em um capítulo posterior)"
@@ -390,7 +390,7 @@ responses:
     - text: "Você também pode testar valores verdadeiros ou falsos com operadores lógicos. Os operadores lógicos são usados para determinar a lógica entre variáveis ou\nValores: Nome do operador Descrição Exemplo Experimente && Lógico e retorna true se ambas as instruções forem verdadeiras x <5 && x <10 tente »||Lógico ou retorna true se uma das declarações for verdadeira x <5 ||x <4 tente »!Lógico não reverter o resultado, retorna false se o resultado for verdadeiro! (X <5 && x <10) Experimente »"
 
   utter_Teste_-se_com_exercícios_6:
-    - text: "Exercício: Multiplique 10 com 5 e imprima o resultado.System.out.println (10 5);"
+    - text: ""
 
   utter_Concatenação_de_string:
     - text: "O operador + pode ser usado entre strings para\nCombine -os.Isso é chamado de concatenação: exemplo string primeironame = \"John\";\nString lastName = \"doe\";\nSystem.out.println (primeironame + \"\" + lastName);Experimente você mesmo »Observe que adicionamos um texto vazio (\" \") para criar um espaço entre o nome FirstName e o LastName no Print.Você também pode usar o método concat () para concatenar duas strings: exemplo string primeironame =\" John \";\nString lastName = \"doe\";\nSystem.out.println (FirstName.Concat (LastName));"
@@ -411,7 +411,7 @@ responses:
     - text: "Para uma referência completa dos métodos de string, vá para a referência de métodos de string java .A referência contém descrições e exemplos de todos os métodos de string."
 
   utter_Teste_-se_com_exercícios_7:
-    - text: "Exercício: Preencha a parte que faltava para criar uma variável de saudação da string do tipo e atribua -lhe o valor olá.Saudação =;Envie Resposta »Comece o exercício"
+    - text: ""
 
   utter_Adicionando_números_e_cordas:
     - text: "AVISO!O Java usa o operador + para adição e concatenação.Os números são adicionados.Strings são concatenadas. Se você adicionar dois números, o resultado será um número: Exemplo int x = 10;\nint y = 20;\nint z = x + y;// z será 30 (um número inteiro/número) Experimente você mesmo »Se você adicionar duas strings, o resultado será uma concatenação de string: Exemplo de string x =\" 10 \";\nString y = \"20\";\nString z = x + y;// z será 1020 (uma string) Experimente você mesmo »Se você adicionar um número e uma string, o resultado será uma concatenação de string: Exemplo de string x =\" 10 \";\nint y = 20;\nString z = x + y;// z será 1020 (uma string) Experimente você mesmo »"
@@ -435,7 +435,7 @@ responses:
     - text: "Para uma referência completa dos métodos matemáticos, acesse nossa referência de métodos de matemática Java."
 
   utter_Teste_-se_com_exercícios_8:
-    - text: "Exercício: use o método correto para encontrar o valor mais alto de x e y.int x = 5;\nint y = 10;\nMatemática.(x, y);Envie Resposta »Comece o exercício"
+    - text: ""
 
   utter_Condições_de_Java_e_declarações_se:
     - text: "Você já sabe que o Java suporta as condições lógicas usuais da matemática: menor que: a <b menor ou igual a: a <= b maior que: a> b maior ou igual a: a> = b igual a a ==b não igual a: a! = byou pode usar essas condições para executar ações diferentes para diferentes decisões.Um bloco de código a ser executado, se a mesma condição for falsa uso se especificar uma nova condição a ser testada, se a primeira condição for falsa para uso para especificar muitos blocos alternativos de código a serem executados"
@@ -450,7 +450,7 @@ responses:
     - text: "Use a instrução IF para especificar uma nova condição se a primeira condição for falsa .syntax if (condition1) {// bloco de código a ser executado se condição1 for verdadeiro} else if (condition2) {// bloco de código a ser executadoSe a condição1 for falsa e a condição2 for verdadeira} else {// bloco de código a ser executado se a condição1 for falsa e condição2 for false} exemplo int time = 22;\nif (tempo <10) {\nSystem.out.println (\"Bom dia\");\n} else if (tempo <18) {\nSystem.out.println (\"Bom dia\");\n} outro {\nSystem.out.println (\"Boa noite\");\n}\n// Os resultados \"Boa noite\".Experimente você mesmo »Exemplo explicado no exemplo acima, o tempo (22) é maior que 10; portanto, a primeira condição é falsa.A próxima condição, na declaração se também é falsa, por isso passamos para a condição else, já que a condição1 e a condição2 é falsa - e imprimir na tela \"bom\nà noite \"."
 
   utter_Teste_-se_com_exercícios_9:
-    - text: "Exercício: Imprima \"Hello World\" se X for maior que Y.int x = 50;\nint y = 10;(x y) {\n  System.out.println (\"Hello World\");\n} Enviar resposta »Inicie o exercício"
+    - text: ""
 
   utter_Java_booleanos:
     - text: "Muitas vezes, na programação, você precisará de um tipo de dados que possa ter apenas um dos dois valores, como: sim / não ON / OFF TRUE / FALSO Para isso, o Java possui um tipo de dados booleano, que pode armazenar valores verdadeiros ou falsos."
@@ -465,13 +465,13 @@ responses:
     - text: "Vamos pensar em um \"real\nExemplo de vida \"onde precisamos descobrir se uma pessoa tem idade suficiente para votar. No exemplo abaixo, usamos o operador de comparação> = para descobrir se a idade (25) é maior ou igual ao limite de idade de votação,que está definido\na 18: exemplo int myage = 25;\nint voto = 18;\nSystem.out.println (myage> = voto);Experimente você mesmo »Legal, certo?Uma abordagem ainda melhor (já que estamos em um rolo agora), seria embrulhar o código acima em uma declaração se ... caso contrário, para que possamos executar\nAções diferentes, dependendo do resultado: Exemplo de saída \"O suficiente para votar!\"Se Myage for maior ou igual a 18.Caso contrário, a saída \"não tem idade suficiente para votar\".: Int myage = 25;\nint voto = 18;\n\nif (myage> = votação) {\n  System.out.println (\"Ante idade para votar!\");\n} outro {\n  System.out.println (\"Não tem idade suficiente para votar\");\n} Experimente você mesmo »Booleanos são a base para todas as comparações e condições de Java.Você aprenderá mais sobre as condições (se ... else) no próximo capítulo."
 
   utter_Teste_-se_com_exercícios_10:
-    - text: "Exercício: preencha as partes ausentes para imprimir os valores verdadeiros e falsos: isjavafun = true;isfishtasty = false;\nSystem.out.println (isjavafun);\nSystem.out.println (isfishtasty);Envie Resposta »Comece o exercício"
+    - text: ""
 
   utter_Mão_curta_se_..._else:
     - text: "Há também uma mão curta, que é conhecida como ternário\noperador porque consiste em três operands. pode ser usado para\nsubstitua várias linhas de código por uma única linha e é mais frequentemente usado para substituir\nDeclarações simples se else: sintaxe variável = (condição)?Expressiontrue: ExpressionFalse; em vez de escrever: exemplo int time = 20;\nif (tempo <18) {\nSystem.out.println (\"Bom dia\");\n} outro {\nSystem.out.println (\"Boa noite\");\n} Experimente você mesmo »Você pode simplesmente escrever: exemplo int time = 20;\nResultado da string = (tempo <18)?\"Bom dia.\": \"Boa noite.\";\nSystem.out.println (resultado);"
 
   utter_Teste_-se_com_exercícios_11:
-    - text: "Exercício: Insira as peças ausentes para completar a seguinte instrução \"Hand Short se ... else\": int time = 20;\nResultado da string = tempo <18 \"Bom dia\".\"Boa noite.\";\nSystem.out.println (resultado);Envie Resposta »Comece o exercício"
+    - text: ""
 
   utter_Java_para_loop:
     - text: "Quando você sabe exatamente quantas vezes você deseja percorrer um bloco de\nCódigo, use o loop for em vez de um loop de tempo: sintaxe para (declaração 1; declaração 2; declaração 3) {// bloco de código a ser executado} A declaração 1 é executada (uma vez) antes da execução do código.2 Define a condição para executar o bloco de código.Statement 3 é executado (toda vez) após a execução do bloco de código. O exemplo abaixo imprimirá os números 0 a 4: Exemplo para (int i = 0; i <5; i ++) {\nSystem.out.println (i);\n} Experimente você mesmo »Exemplo explicado da estatição 1 define uma variável antes do início do loop (int i = 0). A estatura 2 define a condição para a execução do loop (devo ser menor que\n5).Se a condição for verdadeira, o loop começará de novo, se for falso,\no loop acabará.\nfoi executado."
@@ -483,7 +483,7 @@ responses:
     - text: "Também é possível colocar um loop dentro de outro loop.Isso é chamado de loop aninhado. O \"loop interno\" será executado uma vez para cada iteração do \"loop externo\": exemplo // loop externo\nfor (int i = 1; i <= 2; i ++) {\n  System.out.println (\"externo:\" + i);// executa 2 vezes\n  \n  // Laço interno\n  for (int j = 1; j <= 3; j ++) {\n    System.out.println (\"Inner:\" + J);// executa 6 vezes (2 * 3)\n  }\n} Experimente você mesmo »Teste -se com exercícios Exercício: use um loop para imprimir\" sim \"5 vezes.(int i = 0; i <5;) {\n  System.out.println ();\n} Enviar resposta »Inicie o exercício"
 
   utter_Teste_-se_com_exercícios_12:
-    - text: "Exercício: use um loop para imprimir \"sim\" 5 vezes.(int i = 0; i <5;) {\n  System.out.println ();\n} Enviar resposta »Inicie o exercício"
+    - text: ""
 
   utter_rotações:
     - text: "Os loops podem executar um bloco de código enquanto uma condição especificada for alcançada. Os loops são úteis porque economizam tempo, reduzem erros e cometem código\nmais legível."
@@ -495,7 +495,7 @@ responses:
     - text: "O loop DO/While é uma variante do loop while.Este loop vai\nexecutar o bloco de código uma vez, antes de verificar se a condição for verdadeira, então será\nRepita o loop, desde que a condição seja verdadeira.Syntax Do {// Bloco de código a ser executado}\nenquanto (condição); o exemplo abaixo usa um loop DO/while.O loop sempre será\nexecutado pelo menos uma vez, mesmo que a condição seja falsa, porque o bloco de código\né executado antes que a condição seja testada: exemplo int i = 0;fazer {\nSystem.out.println (i);\ni ++;\n}\nenquanto (i <5);Experimente você mesmo »Não se esqueça de aumentar a variável usada na condição, caso contrário\nO loop nunca vai acabar!"
 
   utter_Teste_-se_com_exercícios_13:
-    - text: "Exercício: Impressão i Enquanto eu for menor que 6. int i = 1;(i <6) {\n  System.out.println (i);;\n} Enviar resposta »Inicie o exercício"
+    - text: ""
 
   utter_Declarações_de_interruptor_Java:
     - text: "Em vez de escrever muitas declarações IF..Else, você pode usar a instrução SWITCH. A instrução SWITCH SELECTE UM DE MUITOS BLOCOS DE CÓDIGOS A SE AO\ncaso x: // interrupção do bloco de código;\ncaso y: // interrupção do bloco de código;\npadrão: // bloco de código} é assim que funciona: a expressão do switch é avaliada uma vez.O valor da expressão é comparado com os valores de cada caso.Se houver uma correspondência, o bloco associado do código será executado.As palavras -chave de quebra e padrão são opcionais e serão descritas posteriormente neste capítulo O exemplo abaixo usa o número do dia da semana para calcular o nome do dia da semana: exemplo int dia = 4;\nSwitch (dia) {\ncaso 1:\nSystem.out.println (\"Segunda -feira\");\nquebrar;\nCaso 2:\nSystem.out.println (\"Terça -feira\");\nquebrar;\nCaso 3:\nSystem.out.println (\"quarta -feira\");\nquebrar;\nCaso 4:\nSystem.out.println (\"Quinta -feira\");\nquebrar;\nCaso 5:\nSystem.out.println (\"Friday\");\nquebrar;\nCaso 6:\nSystem.out.println (\"Sábado\");\nquebrar;\nCaso 7:\nSystem.out.println (\"Sunday\");\nquebrar;\n}\n// Saídas \"Quinta -feira\" (dia 4) Experimente você mesmo »"
@@ -507,7 +507,7 @@ responses:
     - text: "A palavra -chave padrão especifica algum código a ser executado se não houver\nCaso correspondente: exemplo int dia = 4;\nSwitch (dia) {\nCaso 6:\nSystem.out.println (\"Hoje é sábado\");\nquebrar;\nCaso 7:\nSystem.out.println (\"Hoje é domingo\");\nquebrar;\npadrão:\nSystem.out.println (\"Ansioso pelo fim de semana\");\n}\n// Os resultados \"ansiosos pelo fim de semana\" experimente você mesmo »Observe que se a instrução padrão for usada\nComo a última declaração em um bloco de comutador, ele não precisa de uma pausa."
 
   utter_Teste_-se_com_exercícios_14:
-    - text: "Exercício: Insira as peças ausentes para concluir a seguinte instrução Switch.int dia = 2;\nswitch () {1:\n    System.out.println (\"Sábado\");\n    quebrar;2:\n    System.out.println (\"Sunday\");;\n} Enviar resposta »Inicie o exercício"
+    - text: ""
 
   utter_Para_cada_um_loop:
     - text: "Há também um loop \"for-Eacha\", que é usado exclusivamente para dar um loop através dos elementos em uma matriz: sintaxe para (Tipo VariableName: ArrayName) {// Bloco de código a ser executado} O exemplo a seguir produz todos os elementos na matriz de carros, usando um loop \"for-Each\": Exemplo de String [] cars = {\"Volvo\", \"BMW\", \"Ford\", \"Mazda\"};\npara (String I: Cars) {\nSystem.out.println (i);\n} Experimente você mesmo »NOTA: Não se preocupe se você não entender o exemplo acima.Você aprenderá mais sobre as matrizes no capítulo Java Matriz."
@@ -522,7 +522,7 @@ responses:
     - text: "Você também pode usar o intervalo e continuar enquanto loops: break Exemplo int i = 0;\nenquanto (i <10) {\nSystem.out.println (i);\ni ++;\nif (i == 4) {\nquebrar;\n}\n} Experimente você mesmo »Continue exemplo int i = 0;\nenquanto (i <10) {\nif (i == 4) {\ni ++;\ncontinuar;\n}\nSystem.out.println (i);\ni ++;\n} "
 
   utter_Teste_-se_com_exercícios_15:
-    - text: "Exercício: pare o loop se eu for 5. para (int i = 0; i <10; i ++) {\n  if (i == 5) {;\n  }\n  System.out.println (i);\n} Enviar resposta »Inicie o exercício"
+    - text: ""
 
   utter_Loop_através_de_uma_matriz:
     - text: "Você pode percorrer os elementos da matriz com o loop for e usar a propriedade Length para especificar quantas vezes o loop deve ser executado.BMW \",\" Ford \",\" Mazda \"};\nfor (int i = 0; i <cars.length; i ++) {\nSystem.out.println (carros [i]);\n} "
@@ -531,7 +531,7 @@ responses:
     - text: "Há também um loop \"for-Eacha\", que é usado exclusivamente para dar um loop através de elementos nas matrizes: Sintaxe para (Tipo Variável: ArrayName) {\n...\n} O exemplo a seguir gera todos os elementos da matriz de carros, usando um loop \"for-Each\": Exemplo de String [] cars = {\"Volvo\", \"BMW\", \"Ford\", \"Mazda\"};\npara (String I: Cars) {\nSystem.out.println (i);\n} Experimente você mesmo »O exemplo acima pode ser lido assim: para cada elemento da string (chamado i - como em i ndex) em carros, imprima o valor de i. Se você comparar o loop for e for -cada, vocêverá que o método for-ECH é mais fácil de escrever, ele\nnão requer um contador (usando a propriedade Length) e é mais legível."
 
   utter_Teste_-se_com_exercícios_16:
-    - text: "Exercício: Vá através dos itens na matriz de carros.String [] cars = {\"Volvo\", \"BMW\", \"Ford\"};(String i :) {\n  System.out.println (i);\n} Enviar resposta »Inicie o exercício"
+    - text: ""
 
   utter_Matrizes_multidimensionais:
     - text: "Uma matriz multidimensional é uma variedade de matrizes. Matrizes multidimensionais são úteis quando você deseja armazenar dados como uma forma tabular, como uma tabela com linhas e colunas.: Exemplo int [] [] mynumbers = {{1, 2, 3, 4}, {5, 6, 7}}; mynumbers agora é uma matriz com duas matrizes como seus elementos."
@@ -546,7 +546,7 @@ responses:
     - text: "Também podemos usar um loop para outro para o loop para obter os elementos de uma matriz bidimensional (ainda precisamos apontar para os dois índices): exemplo da classe pública principal {\npublic static void main (string [] args) {\nint [] [] mynumbers = {{1, 2, 3, 4}, {5, 6, 7}};\nfor (int i = 0; i <mynumbers.length; ++ i) {\nfor (int j = 0; j <mynumbers [i] .Length; ++ j) {\nSystem.out.println (mynumbers [i] [j]);\n}}\n}\n} "
 
   utter_Teste_-se_com_exercícios_17:
-    - text: "Exercício: Insira a parte que faltava para criar uma matriz bidimensional.mynumbers = {{1, 2, 3, 4}, {5, 6, 7}};Envie Resposta »Comece o exercício"
+    - text: ""
 
   utter_Matrizes_Java:
     - text: "Matrizes são usadas para armazenar vários valores em uma única variável, em vez de declarar variáveis separadas para cada\nvalue.Para declarar uma matriz, defina o tipo de variável com colchetes: String [] cars; agora declaramos uma variável que contém uma matriz de strings.Inserir\nvalores para ele, você pode colocar os valores em um\nLista separada por vírgula, Inside Curly Braces: String [] cars = {\"Volvo\", \"BMW\", \"Ford\", \"Mazda\"}; para criar uma matriz de números inteiros, você pode escrever: int [] mynum = {10, 20, 30, 40};"
@@ -561,7 +561,7 @@ responses:
     - text: "Para descobrir quantos elementos uma matriz possui, use a propriedade Length: exemplo string [] cars = {\"Volvo\", \"BMW\", \"Ford\", \"Mazda\"};\nSystem.out.println (card.length);\n// saídas 4 Experimente você mesmo »"
 
   utter_Teste_-se_com_exercícios_18:
-    - text: "Exercício: Crie uma variedade de string de tipo chamada carros.= {\"Volvo\", \"BMW\", \"Ford\"};Envie Resposta »Comece o exercício"
+    - text: ""
 
   utter_Recursão_Java:
     - text: "Recursão é a técnica de fazer uma função chamada em si.Esta técnica fornece uma maneira\nPara divulgar problemas complicados em problemas simples, mais fáceis de resolver. A recursão pode ser um pouco difícil de entender.O\nA melhor maneira de descobrir como funciona é experimentar."
@@ -606,7 +606,7 @@ responses:
     - text: "Você também pode criar um objeto de uma classe e acessá -lo em outra classe.Esse\né frequentemente usado para uma melhor organização de classes (uma classe tem todo o\natributos e métodos, enquanto a outra classe possui o método principal () (código para\nser executado)). Lembre -se de que o nome do arquivo java deve corresponder ao nome da classe.Nisso\nPor exemplo, criamos dois arquivos no mesmo diretório/pasta: main.java segundo.javamain.java public class Main {\nint x = 5;\n} Second.java classe Second {\npublic static void main (string [] args) {\nPrincipal myobj = new main ();\nSystem.out.println (myobj.x);\n}\n} Quando os dois arquivos foram compilados: C: \ Usuários \ seu nome> javac main.java c: \ usuários \ seu nome> javac segundo.javarun the Second.java Arquivo: c: \ users \ seu nome> java segundo e a saídaSerá: 5 Experimente você mesmo »Você aprenderá muito mais sobre aulas e objetos nos próximos capítulos."
 
   utter_Teste_-se_com_exercícios_19:
-    - text: "Exercício: Crie um objeto de myclass chamado myobj.= new ();Envie Resposta »Comece o exercício"
+    - text: ""
 
   utter_Atributos_da_classe_Java:
     - text: "No capítulo anterior, usamos o termo \"variável\" para x no exemplo (como mostrado abaixo).Na verdade, é um atributo da classe.Ou você poderia dizer que os atributos de classe são variáveis dentro de uma classe: Exemplo Crie uma classe chamada \"Main\" com dois atributos: X e Y: Public Class Main {\nint x = 5;\nint y = 3;\n} Outro termo para atributos de classe são os campos."
@@ -630,7 +630,7 @@ responses:
     - text: "Para chamar um método em Java, escreva o nome do método seguido por dois\nParênteses () e um ponto de vírgula; No exemplo a seguir, o MyMethod () é usado para imprimir um texto (a ação), quando é chamado: Exemplo dentro do principal, chame o método myMethod (): public class Main {\nestático vazio myMethod () {\nSystem.out.println (\"Acabei de ser executado!\");\n}\n\npublic static void main (string [] args) {\nmyMethod ();\n}\n}\n\n// Saídas \"Acabei de ser executado!\"Experimente você mesmo »Um método também pode ser chamado várias vezes: exemplo da classe pública principal {\nestático vazio myMethod () {\nSystem.out.println (\"Acabei de ser executado!\");\n}\n\npublic static void main (string [] args) {\nmyMethod ();\nmyMethod ();\nmyMethod ();\n}\n}\n\n// Acabei de ser executado!\n// Acabei de ser executado!\n// Acabei de ser executado!Experimente você mesmo »No próximo capítulo, parâmetros do método, você aprenderá como passar dados (parâmetros) para um método."
 
   utter_Teste_-se_com_exercícios_20:
-    - text: "Exercício: Insira a parte que faltava para chamar MyMethod de Main.estático vazio myMethod () {\n  System.out.println (\"Acabei de ser executado!\");\n}\n\npublic static void main (string [] args) {;\n} Enviar resposta »Inicie o exercício"
+    - text: ""
 
   utter_Sobrecarga_de_método:
     - text: "Com a sobrecarga de métodos, vários métodos podem ter o mesmo nome com diferente\nParâmetros: exemplo int mymethod (int x)\nFloat mymethod (flutuação x)\nDouble myMethod (duplo x, duplo y) Considere o exemplo a seguir, que possui dois métodos que adicionam números de tipo diferente: exemplo estático int plusmethodint (int x, int y) {\n  retornar x + y;\n}\n\nestático duplo plusmethoddouble (duplo x, duplo y) {\n  retornar x + y;\n}\n\npublic static void main (string [] args) {\n  int mynum1 = plusmethodint (8, 5);\n  duplo mynum2 = plusmethodDouble (4.3, 6.26);\n  System.out.println (\"int:\" + mynum1);\n  System.out.println (\"Double:\" + Mynum2);\n} Experimente você mesmo »Em vez de definir dois métodos que devem fazer a mesma coisa, é melhor sobrecarregar um. No exemplo abaixo, sobrecarregamos o método PlusMethod para funcionar para INT e Double: Exemplo estático int plusmethod (int x,int y) {\n  retornar x + y;\n}\n\nestático duplo plusmethod (duplo x, duplo y) {\n  retornar x + y;\n}\n\npublic static void main (string [] args) {\n  int mynum1 = plusmethod (8, 5);\n  duplo mynum2 = plusmethod (4.3, 6.26);\n  System.out.println (\"int:\" + mynum1);\n  System.out.println (\"Double:\" + Mynum2);\n} Experimente você mesmo »Nota: Vários métodos podem ter o mesmo nome\n  Enquanto o número e/ou o tipo de parâmetros forem diferentes."
@@ -648,7 +648,7 @@ responses:
     - text: "É comum usar se ... else declarações dentro dos métodos: exemplo da classe pública principal {\n\n// Crie um método de verificação () com uma variável inteira chamada Age estática vazio de verificação (int Age) {\n\n// Se a idade for menor que 18, impressão \"Acesso negado\"\nif (idade <18) {\nSystem.out.println (\"Acesso negado - você não tem idade suficiente!\");\n\n// Se a idade for maior que ou igual a 18 anos, imprimir \"acesso concedido\"\n} outro {\nSystem.out.println (\"Acesso concedido - você tem idade suficiente!\");\n}\n\n}\n\npublic static void main (string [] args) {\nverificação (20);// Ligue para o método de verificação e passe ao longo de uma idade de 20\n}\n}\n\n// Saídas \"Acesso concedido - você tem idade suficiente!\""
 
   utter_Teste_-se_com_exercícios_21:
-    - text: "Exercício: Adicione um parâmetro fname da string do tipo ao mymethod e saída \"John Doe\": estático void myMethod () {\n  System.out.println ( + \"Doe\");\n}\n\npublic static void main (string [] args) {\n  MyMethod (\"John\");\n} Enviar resposta »Inicie o exercício"
+    - text: ""
 
   utter_Escopo_Java:
     - text: "Em Java, as variáveis são acessíveis apenas dentro da região em que são criadas.Isso é chamado de escopo."
@@ -810,7 +810,7 @@ responses:
     - text: "A instrução de arremesso permite criar um erro personalizado. A instrução THON é usada em conjunto com um tipo de exceção.Existem muitos tipos de exceção disponíveis em Java: arithmeticexception, fileNotfoundException, ArrayIndexoutOfBoundSexception, SecurityException, etc: Exemplo de lançar uma exceção se a idade estiver abaixo de 18 (impressão \"Acesso\" Acesso\nnegado \"). Se a idade tiver 18 anos ou mais, imprimir\" acesso concedido \": a classe pública principal {\nVerificação de vazio estático (Int Age) {\nif (idade <18) {\nlançar uma nova aritmeticexception (\"Acesso negado - você deve ter pelo menos 18 anos.\");\n}\noutro {\nSystem.out.println (\"Acesso concedido - você tem idade suficiente!\");\n}\n}\n\npublic static void main (string [] args) {\nverificação (15);// Defina a idade para 15 (que está abaixo de 18 ...)\n}\n} A saída será: Exceção no thread \"Main\" java.lang.arithmeticexception: acesso negado - você deve ter pelo menos 18 anos de idade.em main.cecheckage (main.java:4) em main.main (main.java:12) experimente você mesmo »Se a idade tivesse 20 anos, você não teria uma exceção: exemplo de verificação (20);A saída será: Acesso concedido - você tem idade suficiente!"
 
   utter_Teste_-se_com_exercícios_22:
-    - text: "Exercício: Insira as peças ausentes para lidar com o erro no código abaixo.{\n  int [] mynumbers = {1, 2, 3};\n  System.out.println (mynumbers [10]);\n} (Exceção e) {\n  System.out.println (\"Algo deu errado\");\n} Enviar resposta »Inicie o exercício"
+    - text: ""
 
   utter_Exercício_:
     - text: "O que é uma exceção em Java?\n a) Um erro de compilação\n b) Um erro de lógica no código\n c) Uma condição anormal que ocorre durante a execução\n d) Um aviso sobre práticas de programação ruins\n"
