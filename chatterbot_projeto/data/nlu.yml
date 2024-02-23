@@ -815,11 +815,6 @@ nlu:
       - 
       - 
 
-  - intent: Exercício__21
-    examples: | 
-      - 
-      - 
-
   - intent: Escopo_Java
     examples: | 
       - O que é escopo?
@@ -1099,8 +1094,102 @@ nlu:
       - 
       - 
 
-  - intent: Exercício__22
+  - intent: Exercício__Resp
+    examples: | 
+      - 
+      - 
+    
+  - intent: Exercício__2_Resp
     examples: | 
       - 
       - 
 
+  - intent: Exercício__3_Resp
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__4_Resp
+    examples: | 
+      - 
+      - 
+    
+  - intent: Exercício__5_Resp
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__6_Resp
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__7_Resp
+    examples: | 
+      - 
+      - 
+    
+  - intent: Exercício__8_Resp
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__9_Resp
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__10_Resp
+    examples: | 
+      - 
+      - 
+    
+  - intent: Exercício__11_Resp
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__12_Resp
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__13_Resp
+    examples: | 
+      - 
+      - 
+    
+  - intent: Exercício__14_Resp
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__15_Resp
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__16_Resp
+    examples: | 
+      - 
+      - 
+    
+  - intent: Exercício__17_Resp
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__18_Resp
+    examples: | 
+      - 
+      - 
+
+  - intent: Exercício__19_Resp
+    examples: | 
+      - 
+      - 
+    
+  - intent: Exercício__20_Resp
+    examples: | 
+      - 
+      - 

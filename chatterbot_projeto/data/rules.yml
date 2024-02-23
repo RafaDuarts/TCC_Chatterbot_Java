@@ -47,6 +47,9 @@ rules:
   steps:
   - intent: Exercício_
   - action: utter_Exercício_
+
+- rule: Exercício_Resp
+  steps:
   - intent: Exercício_Resp
   - action: utter_Exercício_Resp
 
@@ -84,6 +87,9 @@ rules:
   steps:
   - intent: Exercício__2
   - action: utter_Exercício__2
+
+- rule: Exercício__2_Resp
+  steps:
   - intent: Exercício__2_Resp
   - action: utter_Exercício__2_Resp
 
@@ -116,6 +122,9 @@ rules:
   steps:
   - intent: Exercício__3
   - action: utter_Exercício__3
+
+- rule: Exercício__3_Resp
+  steps:
   - intent: Exercício__3_Resp
   - action: utter_Exercício__3_Resp
 
@@ -138,6 +147,9 @@ rules:
   steps:
   - intent: Exercício__4
   - action: utter_Exercício__4
+
+- rule: Exercício__4_Resp
+  steps:
   - intent: Exercício__4_Resp
   - action: utter_Exercício__4_Resp
 
@@ -180,6 +192,9 @@ rules:
   steps:
   - intent: Exercício__5
   - action: utter_Exercício__5
+  
+- rule: Exercício__5_Resp
+  steps:
   - intent: Exercício__5_Resp
   - action: utter_Exercício__5_Resp
 
@@ -257,6 +272,9 @@ rules:
   steps:
   - intent: Exercício__6
   - action: utter_Exercício__6
+
+- rule: Exercício__6_Resp
+  steps:
   - intent: Exercício__6_Resp
   - action: utter_Exercício__6_Resp
 
@@ -299,6 +317,9 @@ rules:
   steps:
   - intent: Exercício__7
   - action: utter_Exercício__7
+
+- rule: Exercício__7_Resp
+  steps:
   - intent: Exercício__7_Resp
   - action: utter_Exercício__7_Resp
 
@@ -346,6 +367,9 @@ rules:
   steps:
   - intent: Exercício__8
   - action: utter_Exercício__8
+
+- rule: Exercício__8_Resp
+  steps:
   - intent: Exercício__8_Resp
   - action: utter_Exercício__8_Resp
 
@@ -378,6 +402,9 @@ rules:
   steps:
   - intent: Exercício__9
   - action: utter_Exercício__9
+
+- rule: Exercício__9_Resp
+  steps:
   - intent: Exercício__9_Resp
   - action: utter_Exercício__9_Resp
 
@@ -410,6 +437,9 @@ rules:
   steps:
   - intent: Exercício__10
   - action: utter_Exercício__10
+
+- rule: Exercício__10_Resp
+  steps:
   - intent: Exercício__10_Resp
   - action: utter_Exercício__10_Resp
 
@@ -427,6 +457,9 @@ rules:
   steps:
   - intent: Exercício__11
   - action: utter_Exercício__11
+
+- rule: Exercício__11_Resp
+  steps:
   - intent: Exercício__11_Resp
   - action: utter_Exercício__11_Resp
 
@@ -454,6 +487,9 @@ rules:
   steps:
   - intent: Exercício__12
   - action: utter_Exercício__12
+
+- rule: Exercício__12_Resp
+  steps:
   - intent: Exercício__12_Resp
   - action: utter_Exercício__12_Resp
 
@@ -481,6 +517,9 @@ rules:
   steps:
   - intent: Exercício__13
   - action: utter_Exercício__13
+
+- rule: Exercício__13_Resp
+  steps:
   - intent: Exercício__13_Resp
   - action: utter_Exercício__13_Resp
 
@@ -508,6 +547,9 @@ rules:
   steps:
   - intent: Exercício__14
   - action: utter_Exercício__14
+
+- rule: Exercício__14_Resp
+  steps:
   - intent: Exercício__14_Resp
   - action: utter_Exercício__14_Resp
 
@@ -540,6 +582,9 @@ rules:
   steps:
   - intent: Exercício__15
   - action: utter_Exercício__15
+
+- rule: Exercício__15_Resp
+  steps:
   - intent: Exercício__15_Resp
   - action: utter_Exercício__15_Resp
 
@@ -562,6 +607,9 @@ rules:
   steps:
   - intent: Exercício__16
   - action: utter_Exercício__16
+
+- rule: Exercício__16_Resp
+  steps:
   - intent: Exercício__16_Resp
   - action: utter_Exercício__16_Resp
 
@@ -594,6 +642,9 @@ rules:
   steps:
   - intent: Exercício__17
   - action: utter_Exercício__17
+
+- rule: Exercício__17_Resp
+  steps:
   - intent: Exercício__17_Resp
   - action: utter_Exercício__17_Resp
 
@@ -626,6 +677,9 @@ rules:
   steps:
   - intent: Exercício__18
   - action: utter_Exercício__18
+
+- rule: Exercício__18_Resp
+  steps:
   - intent: Exercício__18_Resp
   - action: utter_Exercício__18_Resp
 
@@ -708,6 +762,9 @@ rules:
   steps:
   - intent: Exercício__19
   - action: utter_Exercício__19
+
+- rule: Exercício__19_Resp
+  steps:
   - intent: Exercício__19_Resp
   - action: utter_Exercício__19_Resp
 
@@ -755,6 +812,9 @@ rules:
   steps:
   - intent: Exercício__20
   - action: utter_Exercício__20
+
+- rule: Exercício__20_Resp
+  steps:
   - intent: Exercício__20_Resp
   - action: utter_Exercício__20_Resp
 
