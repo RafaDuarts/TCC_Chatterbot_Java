@@ -29,6 +29,7 @@
     ```
     
 * [Comando que executa o arquivo que cria a base do nlu.yml:](#Comando-nlu-make)
+    O comando substitui o arquivo, sem adicionar as perguntas.
     ```
     make nlu
     ```
