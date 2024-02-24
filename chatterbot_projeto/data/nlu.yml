@@ -5,15 +5,20 @@ nlu:
     examples: |
       - ei
       - olá
+      - ola
       - oi
       - bom dia
       - boa noite
       - boa tarde
 
+  - intent: cheer_up
+    examples: |
+      - Me anime
+      - Faça eu me sentir melhor
+
   - intent: goodbye
     examples: |
       - te vejo mais tarde
-      - boa noite
       - tchau
       - adeus
       - tenha um bom dia
@@ -101,16 +106,12 @@ nlu:
       - Como coloco um valor para várias variáveis?
       - Como atribuir um valor para muitas variáveis?
 
-
-  - intent: Teste_-se_com_exercícios
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício_
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de exceção
+      - Exercício sobre exceção
 
   - intent: Identificadores
     examples: | 
@@ -137,15 +138,12 @@ nlu:
       - Há outros tipos de variáveis?
       - Como são outros tipos de variáveis?
 
-  - intent: Teste_-se_com_exercícios_2
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício__2
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de polimorfismo
+      - Exercício sobre polimorfismo
 
   - intent: Exibir_variáveis
     examples: | 
@@ -167,15 +165,12 @@ nlu:
       - Como comentar várias linhas?
       - Como usar comentário em mais de uma linha?
 
-  - intent: Teste_-se_com_exercícios_3
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício__3
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de construtor
+      - Exercício sobre construtor
 
   - intent: Tipos_de_dados_Java
     examples: | 
@@ -187,15 +182,12 @@ nlu:
       - O que são dados primitivos?
       - Como usar dados primitivos?
 
-  - intent: Teste_-se_com_exercícios_4
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício__4
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de herança
+      - Exercício sobre herança
 
   - intent: Texto_de_impressão
     examples: | 
@@ -212,11 +204,6 @@ nlu:
       - Como usar o print?
       - Qual a diferença do print?
 
-  - intent: Sintaxe_Java
-    examples: | 
-      - 
-      - 
-
   - intent: O_método_principal
     examples: | 
       - Como funciona o método main?
@@ -227,15 +214,12 @@ nlu:
       - O que é o System.out.println()?
       - Como usar o System.out.println()?
 
-  - intent: Teste_-se_com_exercícios_5
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício__5
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de pacote
+      - Exercício sobre pacote
 
   - intent: Números_de_impressão
     examples: | 
@@ -275,7 +259,7 @@ nlu:
   - intent: Estreitando_elenco
     examples: | 
       - estreitando casting
-      - estreitando casting
+      - estreitando castings
 
   - intent: Operadores_Java
     examples: | 
@@ -302,15 +286,12 @@ nlu:
       - Quais são os operadores lógicos?
       - O que são operadores lógicos?
 
-  - intent: Teste_-se_com_exercícios_6
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício__6
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de classes
+      - Exercício sobre classes
 
   - intent: Concatenação_de_string
     examples: | 
@@ -342,15 +323,12 @@ nlu:
       - Como fazer referencia de string?
       - Como referenciar uma string?
 
-  - intent: Teste_-se_com_exercícios_7
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício__7
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de operadores
+      - Exercício sobre operadores
 
   - intent: Adicionando_números_e_cordas
     examples: | 
@@ -387,15 +365,12 @@ nlu:
       - Referencia matematica
       - Referencia matematicas
 
-  - intent: Teste_-se_com_exercícios_8
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício__8
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de encapsulamento
+      - Exercício sobre encapsulamento
 
   - intent: Condições_de_Java_e_declarações_se
     examples: | 
@@ -417,15 +392,12 @@ nlu:
       - Como usar else e if?
       - Como utilizar else e if juntos?
 
-  - intent: Teste_-se_com_exercícios_9
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício__9
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de modificadores
+      - Exercício sobre modificadores
 
   - intent: Java_booleanos
     examples: | 
@@ -442,60 +414,41 @@ nlu:
       - O que é expressão booleana?
       - Como usar uma expressão com booleano?
 
-  - intent: Exemplo_da_vida_real
-    examples: | 
-      - 
-      - 
-
-  - intent: Teste_-se_com_exercícios_10
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício__10
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de método
+      - Exercício sobre método
 
   - intent: Mão_curta_se_..._else
     examples: | 
       - short hand if e else
       - short hand ifs e elses
 
-  - intent: Teste_-se_com_exercícios_11
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício__11
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de arraylist
+      - Exercício sobre arraylist
 
   - intent: Java_para_loop
     examples: | 
       - O que é for?
       - Como usar o for?
 
-  - intent: Outro_exemplo
-    examples: | 
-      - 
-      - 
-
   - intent: Loops_aninhados
     examples: | 
       - Como usar loops aninhados?
       - O que são loops aninhados?
 
-  - intent: Teste_-se_com_exercícios_12
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício__12
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de herança múltipla
+      - Exercício sobre herança
 
   - intent: rotações
     examples: | 
@@ -507,20 +460,17 @@ nlu:
       - O que é while?
       - Como usar o while?
 
-  - intent: O_loop_do_Do/While
+  - intent: O_loop_do_Do_While
     examples: | 
       - O que é do while?
       - Como usar o do while?
 
-  - intent: Teste_-se_com_exercícios_13
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício__13
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de operadores
+      - Exercício sobre operador
 
   - intent: Declarações_de_interruptor_Java
     examples: | 
@@ -537,15 +487,12 @@ nlu:
       - palavra default
       - palavra chave default
 
-  - intent: Teste_-se_com_exercícios_14
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício__14
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de classes
+      - Exercício sobre classe
 
   - intent: Para_cada_um_loop
     examples: | 
@@ -567,35 +514,24 @@ nlu:
       - Como usar break e continue juntos
       - Como usar break e continue junto
 
-  - intent: Teste_-se_com_exercícios_15
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício__15
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de exceção
+      - Exercício sobre exceção
 
   - intent: Loop_através_de_uma_matriz
     examples: | 
       - Como usar loop em uma matriz?
       - Tem como usar loop em uma matriz?
 
-  - intent: Faça_um_loop_através_de_uma_matriz_com_o_for-ECH
-    examples: | 
-      - 
-      - 
-
-  - intent: Teste_-se_com_exercícios_16
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício__16
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de palavra-chave
+      - Exercício sobre palavra-chave
 
   - intent: Matrizes_multidimensionais
     examples: | 
@@ -617,15 +553,12 @@ nlu:
       - Como utilizar loop em uma matriz?
       - Como usar loops numa matriz?
 
-  - intent: Teste_-se_com_exercícios_17
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício__17
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de operador
+      - Exercício sobre operador
 
   - intent: Matrizes_Java
     examples: | 
@@ -648,15 +581,12 @@ nlu:
       - Qual tamanho de uma matriz?
       - Como saber quantos elementos tem uma matriz?
 
-  - intent: Teste_-se_com_exercícios_18
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício__18
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de bloco
+      - Exercício sobre bloco
 
   - intent: Recursão_Java
     examples: | 
@@ -666,7 +596,7 @@ nlu:
   - intent: Exemplo_de_recursão
     examples: | 
       - Exemplo de recursão
-      - Exemplo de recursão
+      - Exemplo de recursões
 
   - intent: Condição_de_parada
     examples: | 
@@ -678,32 +608,7 @@ nlu:
       - O que é Programação Orientada a Objetos?
       - O que é POO?
 
-  - intent: Java_-_O_que_são_classes_e_objetos?
-    examples: | 
-      -
-      -
-
-  - intent: aula
-    examples: | 
-      - 
-      - 
-
-  - intent: objetos
-    examples: | 
-      - 
-      - 
-
-  - intent: aula_2
-    examples: | 
-      - 
-      - 
-
-  - intent: objetos_2
-    examples: | 
-      - 
-      - 
-
-  - intent: Java_Classes/Objetos
+  - intent: Java_Classes_Objetos
     examples: | 
       - O que são classes?
       - O que são objetos?
@@ -728,15 +633,12 @@ nlu:
       - Como usar várias classes?
       - Como utilizar muitas classes?
 
-  - intent: Teste_-se_com_exercícios_19
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício__19
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de variável
+      - Exercício sobre variável
 
   - intent: Atributos_da_classe_Java
     examples: | 
@@ -775,15 +677,12 @@ nlu:
       - Como chamar um método?
       - Como fazer a chamada de um método?
 
-  - intent: Teste_-se_com_exercícios_20
-    examples: | 
-      - 
-      - 
-
   - intent: Exercício__20
     examples: | 
-      - 
-      - 
+      - Exercício
+      - Exercícios
+      - Exercício de dependência
+      - Exercício sobre dependência
 
   - intent: Sobrecarga_de_método
     examples: | 
@@ -810,11 +709,6 @@ nlu:
       - Pode usar if e else dentro de métodos?
       - É possível utilizar if e else dentro de métodos?
 
-  - intent: Teste_-se_com_exercícios_21
-    examples: | 
-      - 
-      - 
-
   - intent: Escopo_Java
     examples: | 
       - O que é escopo?
@@ -840,20 +734,16 @@ nlu:
       - Qual a diferença entre static e public?
       - Qual a diferença entre os métodos estáticos e públicos?
 
-  - intent: Métodos_de_acesso_com_um_objeto
-    examples: | 
-      - 
-      - 
-
   - intent: Usando_várias_classes_2
     examples: | 
-      - Como usar várias classes?
+      - Como usar diferentes classes?
       - Como usar muitas classes?
 
   - intent: Construtores_Java
     examples: | 
       - O que é o método construtor?
       - Como inicializar objetos?
+      - O que é construtor?
 
   - intent: Parâmetros_do_construtor
     examples: | 
@@ -1089,107 +979,143 @@ nlu:
       - O que throw faz?
       - Como usar o throw?
 
-  - intent: Teste_-se_com_exercícios_22
+  - intent: Exercício_Resp
     examples: | 
-      - 
-      - 
-
-  - intent: Exercício__Resp
-    examples: | 
-      - 
-      - 
+      - Um erro de compilação
+      - Um erro de lógica no código
+      - Uma condição anormal que ocorre durante a execução
+      - Um aviso sobre práticas de programação ruins
     
   - intent: Exercício__2_Resp
     examples: | 
-      - 
-      - 
+      - A capacidade de uma classe ter várias instâncias
+      - A capacidade de uma classe ser estendida por várias outras classes
+      - A capacidade de uma classe realizar múltiplas tarefas simultaneamente
+      - A capacidade de objetos de classes diferentes serem tratados como objetos de uma mesma classe base
 
   - intent: Exercício__3_Resp
     examples: | 
-      - 
-      - 
+      - Um método que destroi objetos
+      - Um método que cria objetos
+      - Um método que realiza operações matemáticas
+      - Um método que acessa atributos privados de uma classe
+
 
   - intent: Exercício__4_Resp
     examples: | 
-      - 
-      - 
+      - A capacidade de uma classe implementar várias interfaces
+      - A capacidade de uma classe herdar atributos e métodos de outra classe
+      - A capacidade de uma classe ser estendida por várias outras classes
+      - A capacidade de uma classe ter várias instâncias
     
   - intent: Exercício__5_Resp
     examples: | 
-      - 
-      - 
+      - Uma pasta no sistema de arquivos
+      - Um arquivo contendo código-fonte
+      - Um grupo de classes relacionadas
+      - Um tipo de variável
 
   - intent: Exercício__6_Resp
     examples: | 
-      - 
-      - 
+      - Uma classe abstrata pode ter métodos concretos, enquanto uma interface não pode.
+      - Uma interface pode ter variáveis de instância, enquanto uma classe abstrata não pode.
+      - Uma classe abstrata pode ser instanciada, enquanto uma interface não pode.
+      - Uma interface pode ter construtores, enquanto uma classe abstrata não pode.
 
   - intent: Exercício__7_Resp
     examples: | 
-      - 
-      - 
+      - ++i incrementa a variável antes de sua utilização, enquanto i++ incrementa a variável após sua utilização.
+      - ++i é usado para incrementar variáveis booleanas, enquanto i++ é usado para incrementar variáveis numéricas.
+      - ++i e i++ são equivalentes em Java, não há diferença.
+      - ++i e i++ são utilizados apenas em loops e não têm outras aplicações.
     
   - intent: Exercício__8_Resp
     examples: | 
-      - 
-      - 
+      - A capacidade de uma classe ser estendida por várias outras classes.
+      - A capacidade de ocultar os detalhes internos de uma classe e expor apenas o necessário por meio de métodos públicos.
+      - A capacidade de uma classe ter várias instâncias.
+      - A capacidade de uma classe implementar várias interfaces.
 
   - intent: Exercício__9_Resp
     examples: | 
-      - 
-      - 
+      - public permite acesso a membros apenas na mesma classe, private permite acesso a membros em qualquer classe, e protected permite acesso apenas dentro do mesmo pacote.
+      - public permite acesso a membros em qualquer classe, private permite acesso apenas na mesma classe, e protected permite acesso em qualquer classe e pacote.
+      - public permite acesso a membros em qualquer classe, private permite acesso apenas dentro do mesmo pacote, e protected permite acesso em qualquer classe.
+      - public, private e protected são todos equivalentes em Java.
 
   - intent: Exercício__10_Resp
     examples: | 
-      - 
-      - 
+      - Um método que pode ser acessado apenas por objetos da mesma classe.
+      - Um método que não pode ser chamado diretamente, mas apenas por outros métodos.
+      - Um método que pertence à classe, e não a uma instância específica da classe.
+      - Um método que pode ser substituído por uma subclasse.
     
   - intent: Exercício__11_Resp
     examples: | 
-      - 
-      - 
+      - ArrayList é mais eficiente para operações de inserção e remoção, enquanto LinkedList é mais eficiente para acesso aleatório.
+      - ArrayList é uma implementação de uma lista ligada, enquanto LinkedList é uma implementação de uma lista dinâmica.
+      - ArrayList é mais eficiente para acesso aleatório, enquanto LinkedList é mais eficiente para operações de inserção e remoção.
+      - Não há diferença significativa entre ArrayList e LinkedList.
 
   - intent: Exercício__12_Resp
     examples: | 
-      - 
-      - 
+      - A capacidade de uma classe ter várias instâncias.
+      - A capacidade de uma classe herdar atributos e métodos de várias classes pai.
+      - A capacidade de uma classe ser estendida por várias outras classes.
+      - A capacidade de uma classe implementar várias interfaces.
 
   - intent: Exercício__13_Resp
     examples: | 
-      - 
-      - 
+      - == compara as referências de memória, enquanto .equals() compara os conteúdos das Strings.
+      - == compara os conteúdos das Strings, enquanto .equals() compara as referências de memória.
+      - Ambos == e .equals() comparam as referências de memória das Strings.
+      - Ambos == e .equals() comparam os conteúdos das Strings.
     
   - intent: Exercício__14_Resp
     examples: | 
-      - 
-      - 
+      - instanceof
+      - new
+      - create
+      - instantiate
 
   - intent: Exercício__15_Resp
     examples: | 
-      - 
-      - 
+      - fluxo
+      - loop
+      - método
+      - operador
 
   - intent: Exercício__16_Resp
     examples: | 
-      - 
-      - 
+      - Chamar o construtor da classe pai
+      - Acessar métodos estáticos
+      - Referenciar a instância atual da classe
+      - Modificar variáveis de instância
     
   - intent: Exercício__17_Resp
     examples: | 
-      - 
-      - 
+      - ++
+      - --
+      - +=
+      - *=
 
   - intent: Exercício__18_Resp
     examples: | 
-      - 
-      - 
+      - Um bloco de código que é executado antes de um bloco try.
+      - Um bloco de código que é executado mesmo se uma exceção for lançada ou não.
+      - Um bloco de código que é executado apenas se uma exceção for lançada.
+      - Um bloco de código que é executado após um bloco catch.
 
   - intent: Exercício__19_Resp
     examples: | 
-      - 
-      - 
+      - constant
+      - readonly
+      - final
+      - immutable
     
   - intent: Exercício__20_Resp
     examples: | 
-      - 
-      - 
+      - Classes de alto nível não devem depender de classes de baixo nível.
+      - Módulos específicos não devem depender de abstrações.
+      - Abstrações devem depender de detalhes de implementação.
+      - Depender de interfaces em vez de implementações concretas.

@@ -2,20 +2,6 @@ version: "3.1"
 
 stories:
 
-- story: path duvida
-  steps:
-  - intent: greet
-  - action: utter_greet
-  # - intent: duvida
-  # - action: utter_duvida
-
-- story: path exercicio
-  steps:
-  - intent: greet
-  - action: utter_greet
-  # - intent: exercicio
-  # - action: utter_exercicio
-
 - story: path curto
   steps:
   - intent: greet
@@ -23,3 +9,191 @@ stories:
   - intent: goodbye
   - action: utter_goodbye
 
+- story: Exercício_
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício_
+  - action: utter_Exercício_
+  - intent: Exercício_Resp
+  - action: utter_Exercício_Resp
+
+- story: Exercício__2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__2
+  - action: utter_Exercício__2
+  - intent: Exercício__2_Resp
+  - action: utter_Exercício__2_Resp
+
+- story: Exercício__3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__3
+  - action: utter_Exercício__3
+  - intent: Exercício__3_Resp
+  - action: utter_Exercício__3_Resp
+
+- story: Exercício__4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__4
+  - action: utter_Exercício__4
+  - intent: Exercício__4_Resp
+  - action: utter_Exercício__4_Resp
+
+- story: Exercício__5
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__5
+  - action: utter_Exercício__5
+  - intent: Exercício__5_Resp
+  - action: utter_Exercício__5_Resp
+
+- story: Exercício__6
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__6
+  - action: utter_Exercício__6
+  - intent: Exercício__6_Resp
+  - action: utter_Exercício__6_Resp
+
+- story: Exercício__7
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__7
+  - action: utter_Exercício__7
+  - intent: Exercício__7_Resp
+  - action: utter_Exercício__7_Resp
+
+- story: Exercício__8
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__8
+  - action: utter_Exercício__8
+  - intent: Exercício__8_Resp
+  - action: utter_Exercício__8_Resp
+
+- story: Exercício__8
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__8
+  - action: utter_Exercício__8
+  - intent: Exercício__8_Resp
+  - action: utter_Exercício__8_Resp
+
+- story: Exercício__9
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__9
+  - action: utter_Exercício__9
+  - intent: Exercício__9_Resp
+  - action: utter_Exercício__9_Resp
+
+- story: Exercício__10
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__10
+  - action: utter_Exercício__10
+  - intent: Exercício__10_Resp
+  - action: utter_Exercício__10_Resp
+
+- story: Exercício__11
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__11
+  - action: utter_Exercício__11
+  - intent: Exercício__11_Resp
+  - action: utter_Exercício__11_Resp
+
+- story: Exercício__12
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__12
+  - action: utter_Exercício__12
+  - intent: Exercício__12_Resp
+  - action: utter_Exercício__12_Resp
+
+- story: Exercício__13
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__13
+  - action: utter_Exercício__13
+  - intent: Exercício__13_Resp
+  - action: utter_Exercício__13_Resp
+
+- story: Exercício__14
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__14
+  - action: utter_Exercício__14
+  - intent: Exercício__14_Resp
+  - action: utter_Exercício__14_Resp
+
+- story: Exercício__15
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__15
+  - action: utter_Exercício__15
+  - intent: Exercício__15_Resp
+  - action: utter_Exercício__15_Resp
+
+- story: Exercício__16
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__16
+  - action: utter_Exercício__16
+  - intent: Exercício__16_Resp
+  - action: utter_Exercício__16_Resp
+
+- story: Exercício__17
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__17
+  - action: utter_Exercício__17
+  - intent: Exercício__17_Resp
+  - action: utter_Exercício__17_Resp
+
+- story: Exercício__18
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__18
+  - action: utter_Exercício__18
+  - intent: Exercício__18_Resp
+  - action: utter_Exercício__18_Resp
+
+- story: Exercício__19
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__19
+  - action: utter_Exercício__19
+  - intent: Exercício__19_Resp
+  - action: utter_Exercício__19_Resp
+
+- story: Exercício__20
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Exercício__20
+  - action: utter_Exercício__20
+  - intent: Exercício__20_Resp
+  - action: utter_Exercício__20_Resp

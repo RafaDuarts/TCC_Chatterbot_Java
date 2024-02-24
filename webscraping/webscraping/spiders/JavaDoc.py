@@ -82,13 +82,6 @@ class JavaDocSpider(scrapy.Spider):
             if translated_title.startswith("Exercício:"):
                 translated_title = translated_title.replace("Exercício:", "Exercício_")
 
-            # Verifica se a seção contém a condição desejada
-            # if (
-            #     tag.find_next("div", class_="exercisewindow")
-            #     or tag.find_next("h2", string="Test Yourself With Exercises")
-            # ):
-            #     continue  # Pula esta seção
-
             current_dict = {"title": translated_title, "content": ""}
             next_tag = tag.find_next_sibling()
 

@@ -2,6 +2,36 @@ version: "3.1"
 
 rules:
 
+- rule: cheer_up
+  steps:
+  - intent: cheer_up
+  - action: utter_cheer_up
+
+- rule: greet
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: affirm
+  steps:
+  - intent: affirm
+  - action: utter_affirm
+
+- rule: deny
+  steps:
+  - intent: deny
+  - action: utter_deny
+
+- rule: mood_great
+  steps:
+  - intent: mood_great
+  - action: utter_mood_great
+
+- rule: mood_unhappy
+  steps:
+  - intent: mood_unhappy
+  - action: utter_mood_unhappy
+
 - rule: Say goodbye anytime the user says goodbye
   steps:
   - intent: goodbye
@@ -11,7 +41,6 @@ rules:
   steps:
   - intent: bot_challenge
   - action: utter_iamabot
-
 
 - rule: O que é Java?
   steps:
@@ -37,11 +66,6 @@ rules:
   steps:
   - intent: Um_valor_para_várias_variáveis
   - action: utter_Um_valor_para_várias_variáveis
-
-- rule: Teste -se com exercícios
-  steps:
-  - intent: Teste_-se_com_exercícios
-  - action: utter_Teste_-se_com_exercícios
 
 - rule: Exercício_
   steps:
@@ -78,11 +102,6 @@ rules:
   - intent: Outros_tipos
   - action: utter_Outros_tipos
 
-- rule: Teste -se com exercícios_2
-  steps:
-  - intent: Teste_-se_com_exercícios_2
-  - action: utter_Teste_-se_com_exercícios_2
-
 - rule: Exercício__2
   steps:
   - intent: Exercício__2
@@ -113,11 +132,6 @@ rules:
   - intent: Comentários_de_várias_linhas_Java
   - action: utter_Comentários_de_várias_linhas_Java
 
-- rule: Teste -se com exercícios_3
-  steps:
-  - intent: Teste_-se_com_exercícios_3
-  - action: utter_Teste_-se_com_exercícios_3
-
 - rule: Exercício__3
   steps:
   - intent: Exercício__3
@@ -137,11 +151,6 @@ rules:
   steps:
   - intent: Tipos_de_dados_primitivos
   - action: utter_Tipos_de_dados_primitivos
-
-- rule: Teste -se com exercícios_4
-  steps:
-  - intent: Teste_-se_com_exercícios_4
-  - action: utter_Teste_-se_com_exercícios_4
 
 - rule: Exercício__4
   steps:
@@ -168,11 +177,6 @@ rules:
   - intent: O_método_print_()
   - action: utter_O_método_print_()
 
-- rule: Sintaxe Java
-  steps:
-  - intent: Sintaxe_Java
-  - action: utter_Sintaxe_Java
-
 - rule: O método principal
   steps:
   - intent: O_método_principal
@@ -182,11 +186,6 @@ rules:
   steps:
   - intent: System.out.println_()
   - action: utter_System.out.println_()
-
-- rule: Teste -se com exercícios_5
-  steps:
-  - intent: Teste_-se_com_exercícios_5
-  - action: utter_Teste_-se_com_exercícios_5
 
 - rule: Exercício__5
   steps:
@@ -263,11 +262,6 @@ rules:
   - intent: Operadores_lógicos_Java
   - action: utter_Operadores_lógicos_Java
 
-- rule: Teste -se com exercícios_6
-  steps:
-  - intent: Teste_-se_com_exercícios_6
-  - action: utter_Teste_-se_com_exercícios_6
-
 - rule: Exercício__6
   steps:
   - intent: Exercício__6
@@ -307,11 +301,6 @@ rules:
   steps:
   - intent: Referência_completa_da_string
   - action: utter_Referência_completa_da_string
-
-- rule: Teste -se com exercícios_7
-  steps:
-  - intent: Teste_-se_com_exercícios_7
-  - action: utter_Teste_-se_com_exercícios_7
 
 - rule: Exercício__7
   steps:
@@ -358,11 +347,6 @@ rules:
   - intent: Referência_de_matemática_completa
   - action: utter_Referência_de_matemática_completa
 
-- rule: Teste -se com exercícios_8
-  steps:
-  - intent: Teste_-se_com_exercícios_8
-  - action: utter_Teste_-se_com_exercícios_8
-
 - rule: Exercício__8
   steps:
   - intent: Exercício__8
@@ -393,11 +377,6 @@ rules:
   - intent: O_else_if_declaração
   - action: utter_O_else_if_declaração
 
-- rule: Teste -se com exercícios_9
-  steps:
-  - intent: Teste_-se_com_exercícios_9
-  - action: utter_Teste_-se_com_exercícios_9
-
 - rule: Exercício__9
   steps:
   - intent: Exercício__9
@@ -423,16 +402,6 @@ rules:
   - intent: Expressão_booleana
   - action: utter_Expressão_booleana
 
-- rule: Exemplo da vida real
-  steps:
-  - intent: Exemplo_da_vida_real
-  - action: utter_Exemplo_da_vida_real
-
-- rule: Teste -se com exercícios_10
-  steps:
-  - intent: Teste_-se_com_exercícios_10
-  - action: utter_Teste_-se_com_exercícios_10
-
 - rule: Exercício__10
   steps:
   - intent: Exercício__10
@@ -447,11 +416,6 @@ rules:
   steps:
   - intent: Mão_curta_se_..._else
   - action: utter_Mão_curta_se_..._else
-
-- rule: Teste -se com exercícios_11
-  steps:
-  - intent: Teste_-se_com_exercícios_11
-  - action: utter_Teste_-se_com_exercícios_11
 
 - rule: Exercício__11
   steps:
@@ -468,20 +432,10 @@ rules:
   - intent: Java_para_loop
   - action: utter_Java_para_loop
 
-- rule: Outro exemplo
-  steps:
-  - intent: Outro_exemplo
-  - action: utter_Outro_exemplo
-
 - rule: Loops aninhados
   steps:
   - intent: Loops_aninhados
   - action: utter_Loops_aninhados
-
-- rule: Teste -se com exercícios_12
-  steps:
-  - intent: Teste_-se_com_exercícios_12
-  - action: utter_Teste_-se_com_exercícios_12
 
 - rule: Exercício__12
   steps:
@@ -503,15 +457,10 @@ rules:
   - intent: Java_enquanto_loop
   - action: utter_Java_enquanto_loop
 
-- rule: O loop do Do/While
+- rule: O loop do Do_While
   steps:
-  - intent: O_loop_do_Do/While
-  - action: utter_O_loop_do_Do/While
-
-- rule: Teste -se com exercícios_13
-  steps:
-  - intent: Teste_-se_com_exercícios_13
-  - action: utter_Teste_-se_com_exercícios_13
+  - intent: O_loop_do_Do_While
+  - action: utter_O_loop_do_Do_While
 
 - rule: Exercício__13
   steps:
@@ -537,11 +486,6 @@ rules:
   steps:
   - intent: A_palavra_-chave_padrão
   - action: utter_A_palavra_-chave_padrão
-
-- rule: Teste -se com exercícios_14
-  steps:
-  - intent: Teste_-se_com_exercícios_14
-  - action: utter_Teste_-se_com_exercícios_14
 
 - rule: Exercício__14
   steps:
@@ -573,11 +517,6 @@ rules:
   - intent: Quebre_e_continue_enquanto_loop
   - action: utter_Quebre_e_continue_enquanto_loop
 
-- rule: Teste -se com exercícios_15
-  steps:
-  - intent: Teste_-se_com_exercícios_15
-  - action: utter_Teste_-se_com_exercícios_15
-
 - rule: Exercício__15
   steps:
   - intent: Exercício__15
@@ -592,16 +531,6 @@ rules:
   steps:
   - intent: Loop_através_de_uma_matriz
   - action: utter_Loop_através_de_uma_matriz
-
-- rule: Faça um loop através de uma matriz com o for-ECH
-  steps:
-  - intent: Faça_um_loop_através_de_uma_matriz_com_o_for-ECH
-  - action: utter_Faça_um_loop_através_de_uma_matriz_com_o_for-ECH
-
-- rule: Teste -se com exercícios_16
-  steps:
-  - intent: Teste_-se_com_exercícios_16
-  - action: utter_Teste_-se_com_exercícios_16
 
 - rule: Exercício__16
   steps:
@@ -633,11 +562,6 @@ rules:
   - intent: Loop_através_de_uma_matriz_multidimensional
   - action: utter_Loop_através_de_uma_matriz_multidimensional
 
-- rule: Teste -se com exercícios_17
-  steps:
-  - intent: Teste_-se_com_exercícios_17
-  - action: utter_Teste_-se_com_exercícios_17
-
 - rule: Exercício__17
   steps:
   - intent: Exercício__17
@@ -667,11 +591,6 @@ rules:
   steps:
   - intent: Comprimento_da_matriz
   - action: utter_Comprimento_da_matriz
-
-- rule: Teste -se com exercícios_18
-  steps:
-  - intent: Teste_-se_com_exercícios_18
-  - action: utter_Teste_-se_com_exercícios_18
 
 - rule: Exercício__18
   steps:
@@ -703,35 +622,10 @@ rules:
   - intent: Java_-_O_que_é_OOP?
   - action: utter_Java_-_O_que_é_OOP?
 
-- rule: Java - O que são classes e objetos?
+- rule: Java Classes_Objetos
   steps:
-  - intent: Java_-_O_que_são_classes_e_objetos?
-  - action: utter_Java_-_O_que_são_classes_e_objetos?
-
-- rule: aula
-  steps:
-  - intent: aula
-  - action: utter_aula
-
-- rule: objetos
-  steps:
-  - intent: objetos
-  - action: utter_objetos
-
-- rule: aula_2
-  steps:
-  - intent: aula_2
-  - action: utter_aula_2
-
-- rule: objetos_2
-  steps:
-  - intent: objetos_2
-  - action: utter_objetos_2
-
-- rule: Java Classes/Objetos
-  steps:
-  - intent: Java_Classes/Objetos
-  - action: utter_Java_Classes/Objetos
+  - intent: Java_Classes_Objetos
+  - action: utter_Java_Classes_Objetos
 
 - rule: Criar uma classe
   steps:
@@ -752,11 +646,6 @@ rules:
   steps:
   - intent: Usando_várias_classes
   - action: utter_Usando_várias_classes
-
-- rule: Teste -se com exercícios_19
-  steps:
-  - intent: Teste_-se_com_exercícios_19
-  - action: utter_Teste_-se_com_exercícios_19
 
 - rule: Exercício__19
   steps:
@@ -803,11 +692,6 @@ rules:
   - intent: Chame_um_método
   - action: utter_Chame_um_método
 
-- rule: Teste -se com exercícios_20
-  steps:
-  - intent: Teste_-se_com_exercícios_20
-  - action: utter_Teste_-se_com_exercícios_20
-
 - rule: Exercício__20
   steps:
   - intent: Exercício__20
@@ -843,11 +727,6 @@ rules:
   - intent: Um_método_com_se_..._else
   - action: utter_Um_método_com_se_..._else
 
-- rule: Teste -se com exercícios_21
-  steps:
-  - intent: Teste_-se_com_exercícios_21
-  - action: utter_Teste_-se_com_exercícios_21
-
 - rule: Escopo Java
   steps:
   - intent: Escopo_Java
@@ -872,11 +751,6 @@ rules:
   steps:
   - intent: Estático_vs._público
   - action: utter_Estático_vs._público
-
-- rule: Métodos de acesso com um objeto
-  steps:
-  - intent: Métodos_de_acesso_com_um_objeto
-  - action: utter_Métodos_de_acesso_com_um_objeto
 
 - rule: Usando várias classes_2
   steps:
@@ -1112,8 +986,3 @@ rules:
   steps:
   - intent: A_palavra_-chave_de_arremesso
   - action: utter_A_palavra_-chave_de_arremesso
-
-- rule: Teste -se com exercícios_22
-  steps:
-  - intent: Teste_-se_com_exercícios_22
-  - action: utter_Teste_-se_com_exercícios_22
