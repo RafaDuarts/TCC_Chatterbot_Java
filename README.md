@@ -2,7 +2,7 @@
 ##### Nome: Rafael Duarte dos Santos
 ##### Universidade Federal de Pelotas - Engenharia de Computação
 
-## 🚀 Chatterbot de Aprendizagem em Java
+## 🚀 Desenvolvimento de um chatterbot que ensina conceitos de Orientação a Objetos na Linguagem de Programação Java
 
 ### 📋 Requisitos:
 ##### [Python](https://www.python.org/) versão: 3.10.7
