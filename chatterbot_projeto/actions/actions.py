@@ -25,23 +25,6 @@ for obj in data:
         intents.append(intent_name)
         responses.append(section['content'])
 
-
-# Cria o arquivo de intents
-with open('data/intents.yml', 'w', encoding='utf-8') as f:
-    f.write('intents:\n')  # adiciona a linha "intents:"
-    for intent in intents:
-        intent_name = intent.replace(" ", "_") # substitui espaços por underline
-        f.write(f'  - {intent_name}\n')  # adiciona os intents com a formatação desejada
-
-
-with open('data/responses.yml', 'w', encoding='utf-8') as f:
-    for i, intent in enumerate(intents):
-        intent_name = intent.replace(" ", "_") # substitui espaços por underline
-        response = """{}""".format(responses[i].replace('"', '\\"'))  # adiciona aspas triplas e substitui aspas duplas por suas sequências de escape correspondentes
-        response = response.replace('\n', '\\n')  # adiciona barra invertida antes de cada quebra de linha
-        f.write(f'utter_{intent_name}:\n')
-        f.write(f'  - text: "{response}"\n\n')
-
 with open('domain.yml', 'w', encoding='utf-8') as f:
     f.write('version: "3.1"\n\n')  # adiciona a linha:
     f.write('intents:\n')  # adiciona a linha "intents:"
@@ -106,17 +89,8 @@ with open('domain.yml', 'w', encoding='utf-8') as f:
     f.write('    - text: "Eu sou um bot, criado para lhe ajudar com Java"\n')
     f.write('    - text: "Sim, você está falando com um bot. Em que posso ajudar?"\n')
 
-    # f.write('  utter_creator:\n')
-    # f.write('    - text: "ok"\n')
-    # f.write('    - text: "ok"\n')
-
-    # f.write('  utter_what_i_do:\n')
-    # f.write('    - text: "ok"\n')
-    # f.write('    - text: "ok"\n')
-
     f.write('  utter_did_that_help:\n')
     f.write('    - text: "Como posso ajudar você?"\n')
-
 
 
     for i, intent in enumerate(intents):
